@@ -1,0 +1,214 @@
+{
+  "source": "U.S. Census Bureau \u2014 American Community Survey 1-Year Estimates",
+  "tables": "B25003B (Black housing tenure), B25003H (White non-Hispanic housing tenure), B19013B/H (median household income)",
+  "pulled_date": "2026-04-18",
+  "pillar": "1 \u2014 Economic Justice + 5 \u2014 Housing",
+  "homeownership_series": [
+    {
+      "year": 2005,
+      "black_homeownership_pct": 45.8,
+      "white_homeownership_pct": 73.7,
+      "gap_percentage_points": 27.9
+    },
+    {
+      "year": 2006,
+      "black_homeownership_pct": 46.3,
+      "white_homeownership_pct": 74.0,
+      "gap_percentage_points": 27.7
+    },
+    {
+      "year": 2007,
+      "black_homeownership_pct": 46.5,
+      "white_homeownership_pct": 73.8,
+      "gap_percentage_points": 27.3
+    },
+    {
+      "year": 2008,
+      "black_homeownership_pct": 45.6,
+      "white_homeownership_pct": 73.4,
+      "gap_percentage_points": 27.8
+    },
+    {
+      "year": 2009,
+      "black_homeownership_pct": 44.5,
+      "white_homeownership_pct": 72.8,
+      "gap_percentage_points": 28.3
+    },
+    {
+      "year": 2010,
+      "black_homeownership_pct": 44.2,
+      "white_homeownership_pct": 72.6,
+      "gap_percentage_points": 28.4
+    },
+    {
+      "year": 2011,
+      "black_homeownership_pct": 43.4,
+      "white_homeownership_pct": 72.0,
+      "gap_percentage_points": 28.6
+    },
+    {
+      "year": 2012,
+      "black_homeownership_pct": 42.5,
+      "white_homeownership_pct": 71.5,
+      "gap_percentage_points": 29.0
+    },
+    {
+      "year": 2013,
+      "black_homeownership_pct": 41.9,
+      "white_homeownership_pct": 71.1,
+      "gap_percentage_points": 29.2
+    },
+    {
+      "year": 2014,
+      "black_homeownership_pct": 41.2,
+      "white_homeownership_pct": 71.0,
+      "gap_percentage_points": 29.8
+    },
+    {
+      "year": 2015,
+      "black_homeownership_pct": 40.9,
+      "white_homeownership_pct": 71.0,
+      "gap_percentage_points": 30.1
+    },
+    {
+      "year": 2016,
+      "black_homeownership_pct": 40.7,
+      "white_homeownership_pct": 71.2,
+      "gap_percentage_points": 30.5
+    },
+    {
+      "year": 2017,
+      "black_homeownership_pct": 41.4,
+      "white_homeownership_pct": 71.9,
+      "gap_percentage_points": 30.5
+    },
+    {
+      "year": 2018,
+      "black_homeownership_pct": 41.4,
+      "white_homeownership_pct": 72.1,
+      "gap_percentage_points": 30.7
+    },
+    {
+      "year": 2019,
+      "black_homeownership_pct": 42.0,
+      "white_homeownership_pct": 72.1,
+      "gap_percentage_points": 30.1
+    },
+    {
+      "year": 2021,
+      "black_homeownership_pct": 44.0,
+      "white_homeownership_pct": 73.3,
+      "gap_percentage_points": 29.3
+    },
+    {
+      "year": 2022,
+      "black_homeownership_pct": 44.1,
+      "white_homeownership_pct": 73.0,
+      "gap_percentage_points": 28.9
+    }
+  ],
+  "income_series": [
+    {
+      "year": 2005,
+      "black_median_household_income": 30939,
+      "white_median_household_income": 50622,
+      "ratio": 0.611
+    },
+    {
+      "year": 2006,
+      "black_median_household_income": 32372,
+      "white_median_household_income": 52375,
+      "ratio": 0.618
+    },
+    {
+      "year": 2007,
+      "black_median_household_income": 34001,
+      "white_median_household_income": 55096,
+      "ratio": 0.617
+    },
+    {
+      "year": 2008,
+      "black_median_household_income": 35425,
+      "white_median_household_income": 56826,
+      "ratio": 0.623
+    },
+    {
+      "year": 2009,
+      "black_median_household_income": 33463,
+      "white_median_household_income": 54671,
+      "ratio": 0.612
+    },
+    {
+      "year": 2010,
+      "black_median_household_income": 33578,
+      "white_median_household_income": 54168,
+      "ratio": 0.62
+    },
+    {
+      "year": 2011,
+      "black_median_household_income": 33223,
+      "white_median_household_income": 55305,
+      "ratio": 0.601
+    },
+    {
+      "year": 2012,
+      "black_median_household_income": 33764,
+      "white_median_household_income": 56565,
+      "ratio": 0.597
+    },
+    {
+      "year": 2013,
+      "black_median_household_income": 34815,
+      "white_median_household_income": 57684,
+      "ratio": 0.604
+    },
+    {
+      "year": 2014,
+      "black_median_household_income": 35481,
+      "white_median_household_income": 59622,
+      "ratio": 0.595
+    },
+    {
+      "year": 2015,
+      "black_median_household_income": 36544,
+      "white_median_household_income": 61394,
+      "ratio": 0.595
+    },
+    {
+      "year": 2016,
+      "black_median_household_income": 38555,
+      "white_median_household_income": 63155,
+      "ratio": 0.61
+    },
+    {
+      "year": 2017,
+      "black_median_household_income": 40232,
+      "white_median_household_income": 65845,
+      "ratio": 0.611
+    },
+    {
+      "year": 2018,
+      "black_median_household_income": 41511,
+      "white_median_household_income": 67937,
+      "ratio": 0.611
+    },
+    {
+      "year": 2019,
+      "black_median_household_income": 43862,
+      "white_median_household_income": 71664,
+      "ratio": 0.612
+    },
+    {
+      "year": 2021,
+      "black_median_household_income": 46774,
+      "white_median_household_income": 75412,
+      "ratio": 0.62
+    },
+    {
+      "year": 2022,
+      "black_median_household_income": 51374,
+      "white_median_household_income": 80404,
+      "ratio": 0.639
+    }
+  ]
+}

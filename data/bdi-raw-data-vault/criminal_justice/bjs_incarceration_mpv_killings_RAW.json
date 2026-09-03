@@ -1,0 +1,218 @@
+{
+  "source": "BJS Historical Corrections Statistics (Cahalan 1986) + BJS Prisoners Annual Publications + Mapping Police Violence",
+  "pulled_date": "2026-04-18",
+  "pillar": "3 \u2014 Criminal Justice",
+  "incarceration_rate_per_100k_1925_2022": [
+    {
+      "year": 1925,
+      "black_incarceration_rate_per100k": 142,
+      "white_rate": 22,
+      "ratio": 6.45,
+      "note": "Beginning of BJS historical series",
+      "source": "BJS Historical Corrections Statistics, Cahalan 1986"
+    },
+    {
+      "year": 1930,
+      "black_incarceration_rate_per100k": 163,
+      "white_rate": 28,
+      "ratio": 5.82,
+      "source": "BJS Historical Corrections Statistics"
+    },
+    {
+      "year": 1940,
+      "black_incarceration_rate_per100k": 272,
+      "white_rate": 50,
+      "ratio": 5.44,
+      "source": "BJS Historical Corrections Statistics"
+    },
+    {
+      "year": 1950,
+      "black_incarceration_rate_per100k": 297,
+      "white_rate": 49,
+      "ratio": 6.06,
+      "source": "BJS Historical Corrections Statistics"
+    },
+    {
+      "year": 1960,
+      "black_incarceration_rate_per100k": 661,
+      "white_rate": 96,
+      "ratio": 6.89,
+      "source": "BJS Historical Corrections Statistics"
+    },
+    {
+      "year": 1970,
+      "black_incarceration_rate_per100k": 604,
+      "white_rate": 97,
+      "ratio": 6.23,
+      "source": "BJS Historical Corrections Statistics"
+    },
+    {
+      "year": 1980,
+      "black_incarceration_rate_per100k": 1111,
+      "white_rate": 168,
+      "ratio": 6.61,
+      "source": "BJS Prisoners 1980 NCJ-79676"
+    },
+    {
+      "year": 1990,
+      "black_incarceration_rate_per100k": 2376,
+      "white_rate": 339,
+      "ratio": 7.01,
+      "source": "BJS Prisoners 1990 NCJ-129198"
+    },
+    {
+      "year": 2000,
+      "black_incarceration_rate_per100k": 3457,
+      "white_rate": 449,
+      "ratio": 7.7,
+      "source": "BJS Prisoners 2000 NCJ-188207 \u2014 PEAK"
+    },
+    {
+      "year": 2008,
+      "black_incarceration_rate_per100k": 3161,
+      "white_rate": 487,
+      "ratio": 6.49,
+      "source": "BJS Prisoners 2008 NCJ-228417"
+    },
+    {
+      "year": 2010,
+      "black_incarceration_rate_per100k": 3074,
+      "white_rate": 459,
+      "ratio": 6.7,
+      "source": "BJS Prisoners 2010 NCJ-236096"
+    },
+    {
+      "year": 2012,
+      "black_incarceration_rate_per100k": 2841,
+      "white_rate": 463,
+      "ratio": 6.14,
+      "source": "BJS Prisoners 2012 NCJ-243920"
+    },
+    {
+      "year": 2014,
+      "black_incarceration_rate_per100k": 2724,
+      "white_rate": 466,
+      "ratio": 5.85,
+      "source": "BJS Prisoners 2014 NCJ-248955"
+    },
+    {
+      "year": 2016,
+      "black_incarceration_rate_per100k": 2417,
+      "white_rate": 401,
+      "ratio": 6.03,
+      "source": "BJS Prisoners 2016 NCJ-251149"
+    },
+    {
+      "year": 2018,
+      "black_incarceration_rate_per100k": 2272,
+      "white_rate": 392,
+      "ratio": 5.8,
+      "source": "BJS Prisoners 2018 NCJ-253516"
+    },
+    {
+      "year": 2020,
+      "black_incarceration_rate_per100k": 1882,
+      "white_rate": 296,
+      "ratio": 6.36,
+      "source": "BJS Prisoners 2020 NCJ-303593 \u2014 COVID releases"
+    },
+    {
+      "year": 2022,
+      "black_incarceration_rate_per100k": 1862,
+      "white_rate": 295,
+      "ratio": 6.31,
+      "source": "BJS Prisoners 2022 NCJ-307149"
+    }
+  ],
+  "police_killings_mpv_2013_2023": [
+    {
+      "year": 2013,
+      "black_killed": 312,
+      "total_killed": 1108,
+      "black_pct": 28.2,
+      "black_unarmed": 35,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2014,
+      "black_killed": 307,
+      "total_killed": 1111,
+      "black_pct": 27.6,
+      "black_unarmed": 60,
+      "source": "Mapping Police Violence \u2014 Michael Brown, Eric Garner"
+    },
+    {
+      "year": 2015,
+      "black_killed": 346,
+      "total_killed": 1307,
+      "black_pct": 26.5,
+      "black_unarmed": 57,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2016,
+      "black_killed": 309,
+      "total_killed": 1164,
+      "black_pct": 26.5,
+      "black_unarmed": 38,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2017,
+      "black_killed": 302,
+      "total_killed": 1147,
+      "black_pct": 26.3,
+      "black_unarmed": 36,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2018,
+      "black_killed": 282,
+      "total_killed": 1166,
+      "black_pct": 24.2,
+      "black_unarmed": 27,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2019,
+      "black_killed": 349,
+      "total_killed": 1325,
+      "black_pct": 26.3,
+      "black_unarmed": 36,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2020,
+      "black_killed": 312,
+      "total_killed": 1145,
+      "black_pct": 27.2,
+      "black_unarmed": 28,
+      "note": "George Floyd \u2014 Breonna Taylor",
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2021,
+      "black_killed": 328,
+      "total_killed": 1136,
+      "black_pct": 28.9,
+      "black_unarmed": 29,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2022,
+      "black_killed": 312,
+      "total_killed": 1201,
+      "black_pct": 26.0,
+      "black_unarmed": 25,
+      "source": "Mapping Police Violence"
+    },
+    {
+      "year": 2023,
+      "black_killed": 337,
+      "total_killed": 1286,
+      "black_pct": 26.2,
+      "black_unarmed": 26,
+      "source": "Mapping Police Violence"
+    }
+  ]
+}

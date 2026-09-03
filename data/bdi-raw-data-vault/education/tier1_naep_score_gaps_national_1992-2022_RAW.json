@@ -1,0 +1,139 @@
+{
+  "source": "National Assessment of Educational Progress (NAEP) \u2014 Nation's Report Card",
+  "publisher": "U.S. Department of Education, National Center for Education Statistics",
+  "description": "Black-white score gap, Grade 4 reading and Grade 8 mathematics, national level",
+  "note": "Scores on NAEP scale 0-500. Data from published NAEP reports.",
+  "pulled_date": "2026-04-18",
+  "pillar": "4 \u2014 Education",
+  "tier": "Tier 1 \u2014 National",
+  "records": 14,
+  "key_finding": "Grade 8 math gap: 40 points in 1992. Still 32 points in 2022. COVID reversed decade of slow progress.",
+  "data": [
+    {
+      "year": 1992,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 192,
+      "white_score": 224,
+      "gap": 32,
+      "source": "NAEP 1992 published"
+    },
+    {
+      "year": 2000,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 198,
+      "white_score": 226,
+      "gap": 28,
+      "source": "NAEP 2000 published"
+    },
+    {
+      "year": 2003,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 198,
+      "white_score": 229,
+      "gap": 31,
+      "source": "NAEP 2003 published"
+    },
+    {
+      "year": 2007,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 203,
+      "white_score": 231,
+      "gap": 28,
+      "source": "NAEP 2007 published"
+    },
+    {
+      "year": 2011,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 206,
+      "white_score": 232,
+      "gap": 26,
+      "source": "NAEP 2011 published"
+    },
+    {
+      "year": 2015,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 206,
+      "white_score": 232,
+      "gap": 26,
+      "source": "NAEP 2015 published"
+    },
+    {
+      "year": 2019,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 204,
+      "white_score": 230,
+      "gap": 26,
+      "source": "NAEP 2019 published"
+    },
+    {
+      "year": 2022,
+      "grade": 4,
+      "subject": "reading",
+      "black_score": 197,
+      "white_score": 225,
+      "gap": 28,
+      "source": "NAEP 2022 published"
+    },
+    {
+      "year": 1992,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 237,
+      "white_score": 277,
+      "gap": 40,
+      "source": "NAEP 1992 published"
+    },
+    {
+      "year": 2000,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 244,
+      "white_score": 284,
+      "gap": 40,
+      "source": "NAEP 2000 published"
+    },
+    {
+      "year": 2007,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 264,
+      "white_score": 291,
+      "gap": 27,
+      "source": "NAEP 2007 published"
+    },
+    {
+      "year": 2015,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 263,
+      "white_score": 292,
+      "gap": 29,
+      "source": "NAEP 2015 published"
+    },
+    {
+      "year": 2019,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 262,
+      "white_score": 292,
+      "gap": 30,
+      "source": "NAEP 2019 published"
+    },
+    {
+      "year": 2022,
+      "grade": 8,
+      "subject": "mathematics",
+      "black_score": 253,
+      "white_score": 285,
+      "gap": 32,
+      "source": "NAEP 2022 published \u2014 COVID regression"
+    }
+  ]
+}

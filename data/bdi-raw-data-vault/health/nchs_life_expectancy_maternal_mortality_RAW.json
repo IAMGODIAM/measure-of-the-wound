@@ -1,0 +1,227 @@
+{
+  "source": "NCHS \u2014 National Vital Statistics Reports (NVSR), Health United States (annual), CDC Pregnancy Mortality Surveillance System",
+  "pulled_date": "2026-04-18",
+  "pillar": "2 \u2014 Health",
+  "verification_note": "All figures from NCHS published government reports. Secondary source: CDC WONDER cause-of-death data confirms NVSR figures for 1999+.",
+  "life_expectancy_by_race_1900_2022": [
+    {
+      "year": 1900,
+      "black_life_exp": 33.0,
+      "white_life_exp": 47.6,
+      "gap": 14.6,
+      "source": "NCHS, Health US 2019, Table 15; Arias et al. 2010"
+    },
+    {
+      "year": 1910,
+      "black_life_exp": 35.6,
+      "white_life_exp": 50.3,
+      "gap": 14.7,
+      "source": "NCHS Historical Life Tables"
+    },
+    {
+      "year": 1920,
+      "black_life_exp": 45.3,
+      "white_life_exp": 54.9,
+      "gap": 9.6,
+      "source": "NCHS Historical Life Tables"
+    },
+    {
+      "year": 1930,
+      "black_life_exp": 48.1,
+      "white_life_exp": 59.7,
+      "gap": 11.6,
+      "source": "NCHS Historical Life Tables"
+    },
+    {
+      "year": 1940,
+      "black_life_exp": 53.1,
+      "white_life_exp": 64.2,
+      "gap": 11.1,
+      "source": "NCHS Historical Life Tables"
+    },
+    {
+      "year": 1950,
+      "black_life_exp": 60.8,
+      "white_life_exp": 69.1,
+      "gap": 8.3,
+      "source": "NCHS Historical Life Tables"
+    },
+    {
+      "year": 1960,
+      "black_life_exp": 63.6,
+      "white_life_exp": 70.6,
+      "gap": 7.0,
+      "source": "NCHS, Health US 1976"
+    },
+    {
+      "year": 1970,
+      "black_life_exp": 64.1,
+      "white_life_exp": 71.7,
+      "gap": 7.6,
+      "source": "NCHS, Health US 1980"
+    },
+    {
+      "year": 1980,
+      "black_life_exp": 68.1,
+      "white_life_exp": 74.4,
+      "gap": 6.3,
+      "source": "NCHS, Health US 1990"
+    },
+    {
+      "year": 1990,
+      "black_life_exp": 69.1,
+      "white_life_exp": 76.1,
+      "gap": 7.0,
+      "source": "NCHS, Health US 2000"
+    },
+    {
+      "year": 2000,
+      "black_life_exp": 71.8,
+      "white_life_exp": 77.3,
+      "gap": 5.5,
+      "source": "NCHS, Health US 2010"
+    },
+    {
+      "year": 2010,
+      "black_life_exp": 74.7,
+      "white_life_exp": 78.8,
+      "gap": 4.1,
+      "source": "NCHS, Health US 2016"
+    },
+    {
+      "year": 2019,
+      "black_life_exp": 74.8,
+      "white_life_exp": 78.8,
+      "gap": 4.0,
+      "source": "NCHS, National Vital Statistics Reports Vol 70, No 19"
+    },
+    {
+      "year": 2020,
+      "black_life_exp": 71.8,
+      "white_life_exp": 77.6,
+      "gap": 5.8,
+      "source": "NCHS, NVSR Vol 71 No 1 \u2014 COVID impact year"
+    },
+    {
+      "year": 2021,
+      "black_life_exp": 70.8,
+      "white_life_exp": 76.4,
+      "gap": 5.6,
+      "source": "NCHS, NVSR Vol 72 No 14 \u2014 COVID impact year 2"
+    },
+    {
+      "year": 2022,
+      "black_life_exp": 72.8,
+      "white_life_exp": 76.5,
+      "gap": 3.7,
+      "source": "NCHS, NVSR Vol 73 No 5 (preliminary 2022)"
+    }
+  ],
+  "maternal_mortality_rate_per_100k_live_births_1915_2022": [
+    {
+      "year": 1915,
+      "black_mmr": 1050.0,
+      "white_mmr": 600.0,
+      "ratio": 1.75,
+      "source": "NCHS Historical, Maternal Mortality 1915-1960; birth registration states"
+    },
+    {
+      "year": 1930,
+      "black_mmr": 900.0,
+      "white_mmr": 609.0,
+      "ratio": 1.48,
+      "source": "NCHS Historical"
+    },
+    {
+      "year": 1940,
+      "black_mmr": 773.5,
+      "white_mmr": 319.8,
+      "ratio": 2.42,
+      "source": "NCHS Historical, Vital Statistics of US 1940"
+    },
+    {
+      "year": 1950,
+      "black_mmr": 221.6,
+      "white_mmr": 61.1,
+      "ratio": 3.63,
+      "source": "NCHS Historical, Vital Statistics of US 1950"
+    },
+    {
+      "year": 1960,
+      "black_mmr": 97.9,
+      "white_mmr": 22.4,
+      "ratio": 4.37,
+      "source": "NCHS Historical"
+    },
+    {
+      "year": 1970,
+      "black_mmr": 59.8,
+      "white_mmr": 14.4,
+      "ratio": 4.15,
+      "source": "NCHS Historical"
+    },
+    {
+      "year": 1980,
+      "black_mmr": 21.5,
+      "white_mmr": 6.7,
+      "ratio": 3.21,
+      "source": "NCHS, NVSR"
+    },
+    {
+      "year": 1990,
+      "black_mmr": 22.4,
+      "white_mmr": 5.1,
+      "ratio": 4.39,
+      "source": "NCHS, NVSR"
+    },
+    {
+      "year": 2000,
+      "black_mmr": 22.6,
+      "white_mmr": 7.5,
+      "ratio": 3.01,
+      "source": "NCHS, NVSR Vol 53 No 15"
+    },
+    {
+      "year": 2010,
+      "black_mmr": 28.4,
+      "white_mmr": 12.7,
+      "ratio": 2.24,
+      "source": "CDC, Pregnancy Mortality Surveillance System"
+    },
+    {
+      "year": 2018,
+      "black_mmr": 37.3,
+      "white_mmr": 14.9,
+      "ratio": 2.5,
+      "source": "NCHS, NVSR Vol 69 No 2"
+    },
+    {
+      "year": 2019,
+      "black_mmr": 44.0,
+      "white_mmr": 17.9,
+      "ratio": 2.46,
+      "source": "NCHS, NVSR Vol 70 No 2"
+    },
+    {
+      "year": 2020,
+      "black_mmr": 55.3,
+      "white_mmr": 19.1,
+      "ratio": 2.9,
+      "source": "NCHS, NVSR Vol 70 No 8"
+    },
+    {
+      "year": 2021,
+      "black_mmr": 69.9,
+      "white_mmr": 26.6,
+      "ratio": 2.63,
+      "source": "NCHS, NVSR Vol 72 No 8 \u2014 PEAK YEAR"
+    },
+    {
+      "year": 2022,
+      "black_mmr": 49.5,
+      "white_mmr": 19.0,
+      "ratio": 2.61,
+      "source": "NCHS, NVSR Vol 73 No 4"
+    }
+  ]
+}

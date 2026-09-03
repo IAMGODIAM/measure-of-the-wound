@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. CC0 — attribution appreciated, not required."
+type: report
+title: "The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024"
+version: "1.3"
+date-released: 2026-09-02
+license: CC0-1.0
+repository-code: "https://github.com/IAMGODIAM/measure-of-the-wound"
+url: "https://github.com/IAMGODIAM/measure-of-the-wound"
+abstract: >-
+  An eight-pillar empirical record of Black American structural disparity across the era of
+  formal legal equality, 1991–2024, nested within federal series reaching to 1900 (health),
+  1925 (criminal justice), 1940 (housing), 1964 (political participation), 1972 (labor) and
+  1514 (historical architecture). Approximately 14,811 raw federal observations synthesized
+  into 1,574 verified observations and applied to 15,507 census tracts in 49 cities. Documents
+  a consistent pattern: absolute conditions improve while the Black/white ratio holds or widens.
+  Publishes its full corrections ledger and an independent verification review as appendices.
+keywords:
+  - racial inequality
+  - wealth gap
+  - structural racism
+  - Black Americans
+  - longitudinal federal data
+  - composite index
+  - maternal mortality
+  - incarceration
+  - homeownership
+  - open data
+authors:
+  - family-names: Armstead
+    given-names: Israel Lee
+    affiliation: "E5 Enclave Incorporated"
+    email: israel@e5enclave.com
+identifiers:
+  - type: url
+    value: "https://github.com/IAMGODIAM/bdi-black-paper"
+    description: "Working manuscript repository (Layer 4 of the BDI stack)"
+references:
+  - type: data
+    title: "BDI Raw Data Vault v3.1"
+    url: "https://github.com/IAMGODIAM/bdi-raw-data-vault"
+    license: CC0-1.0
+  - type: data
+    title: "BDI Sovereign Dataset v1.0"
+    url: "https://github.com/IAMGODIAM/bdi-sovereign-dataset"
+    license: CC0-1.0
+  - type: data
+    title: "FarmBlock Distress Index — tract layer v2.0"
+    url: "https://github.com/IAMGODIAM/farmblock-data"
+    license: CC0-1.0
+  - type: data
+    title: "FarmBlock Distress Index — county pilot Phase 2"
+    url: "https://github.com/IAMGODIAM/farmblock-dataset"
+    license: CC0-1.0

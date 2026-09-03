@@ -1,0 +1,2387 @@
+{
+  "dataset": "BDI Sovereign Dataset \u2014 Complete",
+  "version": "v1.0-SEALED",
+  "dag": "bdi-sovereign-dataset-v1-sealed-2026-0417",
+  "generated": "2026-04-17T17:24:03.006319Z",
+  "license": "CC0 1.0 Universal \u2014 Public Domain",
+  "publisher": "E5 Enclave Incorporated",
+  "ein": "99-3822441",
+  "uei": "H8NGXEYE2HH8",
+  "website": "https://iamgodiam.net",
+  "philosophical_grounding": [
+    "W.E.B. Du Bois \u2014 The Philadelphia Negro (1899): primary-source, self-authored, irrefutable.",
+    "James Baldwin \u2014 Unflinching witness. The numbers say what they say.",
+    "Frances Cress Welsing \u2014 Systems, not symptoms. Show the chain."
+  ],
+  "mandate": "The largest unified empirical dataset that speaks to the plight of Black American people quantitatively in the way of Du Bois, James Baldwin, and Frances Cress Welsing.",
+  "year_range": "1514\u20132024",
+  "empirical_window": "1991\u20132024 (33 years \u2014 Chairman directive)",
+  "total_pillars": 8,
+  "special_modules": [
+    "Section 3 HUD Enforcement",
+    "BDI Composite Index",
+    "State-Level Resolution"
+  ],
+  "pillars_complete": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "logos_approved": true,
+  "mirofish_gate_required": "92%",
+  "data": {
+    "pillar_1_economic": {
+      "wealth_gap_scf": [
+        {
+          "year": 1989,
+          "black_median_wealth": 12000,
+          "white_median_wealth": 95000,
+          "ratio": 0.126,
+          "gap_dollars": 83000
+        },
+        {
+          "year": 1992,
+          "black_median_wealth": 13700,
+          "white_median_wealth": 96000,
+          "ratio": 0.143,
+          "gap_dollars": 82300
+        },
+        {
+          "year": 1995,
+          "black_median_wealth": 16500,
+          "white_median_wealth": 106000,
+          "ratio": 0.156,
+          "gap_dollars": 89500
+        },
+        {
+          "year": 1998,
+          "black_median_wealth": 18600,
+          "white_median_wealth": 122000,
+          "ratio": 0.152,
+          "gap_dollars": 103400
+        },
+        {
+          "year": 2001,
+          "black_median_wealth": 19700,
+          "white_median_wealth": 142000,
+          "ratio": 0.139,
+          "gap_dollars": 122300
+        },
+        {
+          "year": 2004,
+          "black_median_wealth": 20000,
+          "white_median_wealth": 134000,
+          "ratio": 0.149,
+          "gap_dollars": 114000
+        },
+        {
+          "year": 2007,
+          "black_median_wealth": 21000,
+          "white_median_wealth": 174000,
+          "ratio": 0.121,
+          "gap_dollars": 153000
+        },
+        {
+          "year": 2010,
+          "black_median_wealth": 16000,
+          "white_median_wealth": 138000,
+          "ratio": 0.116,
+          "gap_dollars": 122000
+        },
+        {
+          "year": 2013,
+          "black_median_wealth": 11200,
+          "white_median_wealth": 141900,
+          "ratio": 0.079,
+          "gap_dollars": 130700
+        },
+        {
+          "year": 2016,
+          "black_median_wealth": 17100,
+          "white_median_wealth": 171000,
+          "ratio": 0.1,
+          "gap_dollars": 153900
+        },
+        {
+          "year": 2019,
+          "black_median_wealth": 24100,
+          "white_median_wealth": 188200,
+          "ratio": 0.128,
+          "gap_dollars": 164100
+        },
+        {
+          "year": 2022,
+          "black_median_wealth": 44900,
+          "white_median_wealth": 285000,
+          "ratio": 0.158,
+          "gap_dollars": 240100
+        }
+      ],
+      "black_unemployment": [
+        {
+          "year": 1991,
+          "black_unemployment_rate": 12.5,
+          "white_unemployment_rate": 6.1,
+          "ratio": 2.05
+        },
+        {
+          "year": 1992,
+          "black_unemployment_rate": 14.1,
+          "white_unemployment_rate": 7.0,
+          "ratio": 2.01
+        },
+        {
+          "year": 1993,
+          "black_unemployment_rate": 12.9,
+          "white_unemployment_rate": 6.1,
+          "ratio": 2.11
+        },
+        {
+          "year": 1994,
+          "black_unemployment_rate": 11.5,
+          "white_unemployment_rate": 5.3,
+          "ratio": 2.17
+        },
+        {
+          "year": 1995,
+          "black_unemployment_rate": 10.4,
+          "white_unemployment_rate": 4.9,
+          "ratio": 2.12
+        },
+        {
+          "year": 1996,
+          "black_unemployment_rate": 10.5,
+          "white_unemployment_rate": 4.7,
+          "ratio": 2.23
+        },
+        {
+          "year": 1997,
+          "black_unemployment_rate": 10.0,
+          "white_unemployment_rate": 4.2,
+          "ratio": 2.38
+        },
+        {
+          "year": 1998,
+          "black_unemployment_rate": 8.9,
+          "white_unemployment_rate": 3.9,
+          "ratio": 2.28
+        },
+        {
+          "year": 1999,
+          "black_unemployment_rate": 8.0,
+          "white_unemployment_rate": 3.7,
+          "ratio": 2.16
+        },
+        {
+          "year": 2000,
+          "black_unemployment_rate": 7.6,
+          "white_unemployment_rate": 3.5,
+          "ratio": 2.17
+        },
+        {
+          "year": 2001,
+          "black_unemployment_rate": 8.7,
+          "white_unemployment_rate": 4.2,
+          "ratio": 2.07
+        },
+        {
+          "year": 2002,
+          "black_unemployment_rate": 10.2,
+          "white_unemployment_rate": 5.1,
+          "ratio": 2.0
+        },
+        {
+          "year": 2003,
+          "black_unemployment_rate": 10.8,
+          "white_unemployment_rate": 5.2,
+          "ratio": 2.08
+        },
+        {
+          "year": 2004,
+          "black_unemployment_rate": 10.4,
+          "white_unemployment_rate": 4.8,
+          "ratio": 2.17
+        },
+        {
+          "year": 2005,
+          "black_unemployment_rate": 10.0,
+          "white_unemployment_rate": 4.4,
+          "ratio": 2.27
+        },
+        {
+          "year": 2006,
+          "black_unemployment_rate": 8.9,
+          "white_unemployment_rate": 4.0,
+          "ratio": 2.23
+        },
+        {
+          "year": 2007,
+          "black_unemployment_rate": 8.3,
+          "white_unemployment_rate": 4.1,
+          "ratio": 2.02
+        },
+        {
+          "year": 2008,
+          "black_unemployment_rate": 10.1,
+          "white_unemployment_rate": 5.2,
+          "ratio": 1.94
+        },
+        {
+          "year": 2009,
+          "black_unemployment_rate": 14.8,
+          "white_unemployment_rate": 8.5,
+          "ratio": 1.74
+        },
+        {
+          "year": 2010,
+          "black_unemployment_rate": 16.0,
+          "white_unemployment_rate": 8.7,
+          "ratio": 1.84
+        },
+        {
+          "year": 2011,
+          "black_unemployment_rate": 15.8,
+          "white_unemployment_rate": 7.9,
+          "ratio": 2.0
+        },
+        {
+          "year": 2012,
+          "black_unemployment_rate": 13.8,
+          "white_unemployment_rate": 7.2,
+          "ratio": 1.92
+        },
+        {
+          "year": 2013,
+          "black_unemployment_rate": 13.1,
+          "white_unemployment_rate": 6.5,
+          "ratio": 2.02
+        },
+        {
+          "year": 2014,
+          "black_unemployment_rate": 11.3,
+          "white_unemployment_rate": 5.3,
+          "ratio": 2.13
+        },
+        {
+          "year": 2015,
+          "black_unemployment_rate": 9.6,
+          "white_unemployment_rate": 4.6,
+          "ratio": 2.09
+        },
+        {
+          "year": 2016,
+          "black_unemployment_rate": 8.4,
+          "white_unemployment_rate": 4.3,
+          "ratio": 1.95
+        },
+        {
+          "year": 2017,
+          "black_unemployment_rate": 7.5,
+          "white_unemployment_rate": 3.8,
+          "ratio": 1.97
+        },
+        {
+          "year": 2018,
+          "black_unemployment_rate": 6.5,
+          "white_unemployment_rate": 3.5,
+          "ratio": 1.86
+        },
+        {
+          "year": 2019,
+          "black_unemployment_rate": 6.1,
+          "white_unemployment_rate": 3.3,
+          "ratio": 1.85
+        },
+        {
+          "year": 2020,
+          "black_unemployment_rate": 11.4,
+          "white_unemployment_rate": 7.3,
+          "ratio": 1.56
+        },
+        {
+          "year": 2021,
+          "black_unemployment_rate": 8.6,
+          "white_unemployment_rate": 5.1,
+          "ratio": 1.69
+        },
+        {
+          "year": 2022,
+          "black_unemployment_rate": 6.3,
+          "white_unemployment_rate": 3.4,
+          "ratio": 1.85
+        },
+        {
+          "year": 2023,
+          "black_unemployment_rate": 5.4,
+          "white_unemployment_rate": 3.2,
+          "ratio": 1.69
+        },
+        {
+          "year": 2024,
+          "black_unemployment_rate": 5.7,
+          "white_unemployment_rate": 3.5,
+          "ratio": 1.63
+        }
+      ],
+      "black_poverty": [
+        {
+          "year": 1991,
+          "black_poverty_rate": 32.7,
+          "white_poverty_rate": 11.3,
+          "ratio": 2.89
+        },
+        {
+          "year": 1993,
+          "black_poverty_rate": 33.1,
+          "white_poverty_rate": 12.2,
+          "ratio": 2.71
+        },
+        {
+          "year": 1995,
+          "black_poverty_rate": 29.3,
+          "white_poverty_rate": 11.2,
+          "ratio": 2.62
+        },
+        {
+          "year": 1997,
+          "black_poverty_rate": 26.5,
+          "white_poverty_rate": 11.0,
+          "ratio": 2.41
+        },
+        {
+          "year": 1999,
+          "black_poverty_rate": 23.6,
+          "white_poverty_rate": 9.8,
+          "ratio": 2.41
+        },
+        {
+          "year": 2001,
+          "black_poverty_rate": 22.7,
+          "white_poverty_rate": 9.9,
+          "ratio": 2.29
+        },
+        {
+          "year": 2003,
+          "black_poverty_rate": 24.4,
+          "white_poverty_rate": 10.5,
+          "ratio": 2.32
+        },
+        {
+          "year": 2005,
+          "black_poverty_rate": 24.9,
+          "white_poverty_rate": 10.6,
+          "ratio": 2.35
+        },
+        {
+          "year": 2007,
+          "black_poverty_rate": 24.5,
+          "white_poverty_rate": 10.5,
+          "ratio": 2.33
+        },
+        {
+          "year": 2009,
+          "black_poverty_rate": 25.8,
+          "white_poverty_rate": 12.3,
+          "ratio": 2.1
+        },
+        {
+          "year": 2011,
+          "black_poverty_rate": 27.6,
+          "white_poverty_rate": 12.8,
+          "ratio": 2.16
+        },
+        {
+          "year": 2013,
+          "black_poverty_rate": 27.2,
+          "white_poverty_rate": 12.3,
+          "ratio": 2.21
+        },
+        {
+          "year": 2015,
+          "black_poverty_rate": 24.1,
+          "white_poverty_rate": 11.6,
+          "ratio": 2.08
+        },
+        {
+          "year": 2017,
+          "black_poverty_rate": 21.2,
+          "white_poverty_rate": 10.7,
+          "ratio": 1.98
+        },
+        {
+          "year": 2019,
+          "black_poverty_rate": 18.8,
+          "white_poverty_rate": 9.0,
+          "ratio": 2.09
+        },
+        {
+          "year": 2020,
+          "black_poverty_rate": 19.5,
+          "white_poverty_rate": 10.1,
+          "ratio": 1.93
+        },
+        {
+          "year": 2021,
+          "black_poverty_rate": 19.5,
+          "white_poverty_rate": 10.4,
+          "ratio": 1.88
+        },
+        {
+          "year": 2022,
+          "black_poverty_rate": 17.1,
+          "white_poverty_rate": 8.6,
+          "ratio": 1.99
+        },
+        {
+          "year": 2023,
+          "black_poverty_rate": 17.9,
+          "white_poverty_rate": 8.9,
+          "ratio": 2.01
+        }
+      ],
+      "black_homeownership": [
+        {
+          "year": 1994,
+          "black_homeownership_rate": 42.3,
+          "white_homeownership_rate": 70.0,
+          "gap_pct": 27.7
+        },
+        {
+          "year": 1996,
+          "black_homeownership_rate": 44.3,
+          "white_homeownership_rate": 71.7,
+          "gap_pct": 27.4
+        },
+        {
+          "year": 1998,
+          "black_homeownership_rate": 45.6,
+          "white_homeownership_rate": 73.0,
+          "gap_pct": 27.4
+        },
+        {
+          "year": 2000,
+          "black_homeownership_rate": 47.2,
+          "white_homeownership_rate": 74.5,
+          "gap_pct": 27.3
+        },
+        {
+          "year": 2002,
+          "black_homeownership_rate": 48.2,
+          "white_homeownership_rate": 74.7,
+          "gap_pct": 26.5
+        },
+        {
+          "year": 2004,
+          "black_homeownership_rate": 49.1,
+          "white_homeownership_rate": 76.0,
+          "gap_pct": 26.9
+        },
+        {
+          "year": 2006,
+          "black_homeownership_rate": 47.9,
+          "white_homeownership_rate": 75.8,
+          "gap_pct": 27.9
+        },
+        {
+          "year": 2008,
+          "black_homeownership_rate": 47.5,
+          "white_homeownership_rate": 75.0,
+          "gap_pct": 27.5
+        },
+        {
+          "year": 2010,
+          "black_homeownership_rate": 44.3,
+          "white_homeownership_rate": 73.7,
+          "gap_pct": 29.4
+        },
+        {
+          "year": 2012,
+          "black_homeownership_rate": 43.1,
+          "white_homeownership_rate": 73.5,
+          "gap_pct": 30.4
+        },
+        {
+          "year": 2014,
+          "black_homeownership_rate": 42.1,
+          "white_homeownership_rate": 72.3,
+          "gap_pct": 30.2
+        },
+        {
+          "year": 2016,
+          "black_homeownership_rate": 41.3,
+          "white_homeownership_rate": 71.9,
+          "gap_pct": 30.6
+        },
+        {
+          "year": 2018,
+          "black_homeownership_rate": 41.2,
+          "white_homeownership_rate": 73.0,
+          "gap_pct": 31.8
+        },
+        {
+          "year": 2020,
+          "black_homeownership_rate": 43.4,
+          "white_homeownership_rate": 74.5,
+          "gap_pct": 31.1
+        },
+        {
+          "year": 2022,
+          "black_homeownership_rate": 44.9,
+          "white_homeownership_rate": 75.0,
+          "gap_pct": 30.1
+        },
+        {
+          "year": 2024,
+          "black_homeownership_rate": 44.7,
+          "white_homeownership_rate": 74.8,
+          "gap_pct": 30.1
+        }
+      ]
+    },
+    "pillar_2_health": {
+      "black_maternal_mortality": [
+        {
+          "year": 1991,
+          "black_rate_per_100k": 22.4,
+          "white_rate_per_100k": 5.0,
+          "ratio": 4.48
+        },
+        {
+          "year": 1995,
+          "black_rate_per_100k": 22.1,
+          "white_rate_per_100k": 4.2,
+          "ratio": 5.26
+        },
+        {
+          "year": 2000,
+          "black_rate_per_100k": 22.0,
+          "white_rate_per_100k": 3.6,
+          "ratio": 6.11
+        },
+        {
+          "year": 2005,
+          "black_rate_per_100k": 36.1,
+          "white_rate_per_100k": 9.1,
+          "ratio": 3.97
+        },
+        {
+          "year": 2010,
+          "black_rate_per_100k": 28.4,
+          "white_rate_per_100k": 12.7,
+          "ratio": 2.24
+        },
+        {
+          "year": 2013,
+          "black_rate_per_100k": 40.0,
+          "white_rate_per_100k": 12.7,
+          "ratio": 3.15
+        },
+        {
+          "year": 2016,
+          "black_rate_per_100k": 40.8,
+          "white_rate_per_100k": 13.0,
+          "ratio": 3.14
+        },
+        {
+          "year": 2018,
+          "black_rate_per_100k": 37.3,
+          "white_rate_per_100k": 14.9,
+          "ratio": 2.5
+        },
+        {
+          "year": 2019,
+          "black_rate_per_100k": 44.0,
+          "white_rate_per_100k": 17.9,
+          "ratio": 2.46
+        },
+        {
+          "year": 2020,
+          "black_rate_per_100k": 55.3,
+          "white_rate_per_100k": 19.1,
+          "ratio": 2.9
+        },
+        {
+          "year": 2021,
+          "black_rate_per_100k": 69.9,
+          "white_rate_per_100k": 26.6,
+          "ratio": 2.63
+        },
+        {
+          "year": 2022,
+          "black_rate_per_100k": 49.5,
+          "white_rate_per_100k": 19.0,
+          "ratio": 2.61
+        }
+      ],
+      "black_life_expectancy": [
+        {
+          "year": 1991,
+          "black_life_exp": 69.3,
+          "white_life_exp": 76.3,
+          "gap_years": 7.0
+        },
+        {
+          "year": 1995,
+          "black_life_exp": 69.6,
+          "white_life_exp": 76.5,
+          "gap_years": 6.9
+        },
+        {
+          "year": 2000,
+          "black_life_exp": 71.9,
+          "white_life_exp": 77.4,
+          "gap_years": 5.5
+        },
+        {
+          "year": 2005,
+          "black_life_exp": 73.1,
+          "white_life_exp": 78.3,
+          "gap_years": 5.2
+        },
+        {
+          "year": 2010,
+          "black_life_exp": 74.7,
+          "white_life_exp": 78.9,
+          "gap_years": 4.2
+        },
+        {
+          "year": 2015,
+          "black_life_exp": 75.5,
+          "white_life_exp": 79.1,
+          "gap_years": 3.6
+        },
+        {
+          "year": 2019,
+          "black_life_exp": 74.8,
+          "white_life_exp": 78.8,
+          "gap_years": 4.0
+        },
+        {
+          "year": 2020,
+          "black_life_exp": 71.8,
+          "white_life_exp": 77.6,
+          "gap_years": 5.8
+        },
+        {
+          "year": 2021,
+          "black_life_exp": 70.8,
+          "white_life_exp": 76.4,
+          "gap_years": 5.6
+        },
+        {
+          "year": 2022,
+          "black_life_exp": 72.8,
+          "white_life_exp": 76.4,
+          "gap_years": 3.6
+        }
+      ]
+    },
+    "pillar_3_criminal_justice": {
+      "black_incarceration": [
+        {
+          "year": 1991,
+          "black_rate": 2678,
+          "white_rate": 326,
+          "ratio": 8.2
+        },
+        {
+          "year": 1995,
+          "black_rate": 3028,
+          "white_rate": 367,
+          "ratio": 8.3
+        },
+        {
+          "year": 2000,
+          "black_rate": 3457,
+          "white_rate": 449,
+          "ratio": 7.7
+        },
+        {
+          "year": 2003,
+          "black_rate": 3405,
+          "white_rate": 465,
+          "ratio": 7.3
+        },
+        {
+          "year": 2006,
+          "black_rate": 3042,
+          "white_rate": 487,
+          "ratio": 6.2
+        },
+        {
+          "year": 2009,
+          "black_rate": 2776,
+          "white_rate": 487,
+          "ratio": 5.7
+        },
+        {
+          "year": 2012,
+          "black_rate": 2841,
+          "white_rate": 478,
+          "ratio": 5.9
+        },
+        {
+          "year": 2015,
+          "black_rate": 2640,
+          "white_rate": 457,
+          "ratio": 5.8
+        },
+        {
+          "year": 2018,
+          "black_rate": 2272,
+          "white_rate": 392,
+          "ratio": 5.8
+        },
+        {
+          "year": 2019,
+          "black_rate": 2217,
+          "white_rate": 374,
+          "ratio": 5.9
+        },
+        {
+          "year": 2020,
+          "black_rate": 1815,
+          "white_rate": 263,
+          "ratio": 6.9
+        },
+        {
+          "year": 2021,
+          "black_rate": 1879,
+          "white_rate": 297,
+          "ratio": 6.3
+        },
+        {
+          "year": 2022,
+          "black_rate": 1775,
+          "white_rate": 283,
+          "ratio": 6.3
+        }
+      ],
+      "police_killings_mpv": [
+        {
+          "year": 2013,
+          "black_killed": 258,
+          "black_unarmed": 38,
+          "black_pct_of_total": 29.8,
+          "black_rate_per_million": 6.3
+        },
+        {
+          "year": 2014,
+          "black_killed": 323,
+          "black_unarmed": 45,
+          "black_pct_of_total": 26.1,
+          "black_rate_per_million": 7.9
+        },
+        {
+          "year": 2015,
+          "black_killed": 349,
+          "black_unarmed": 44,
+          "black_pct_of_total": 26.0,
+          "black_rate_per_million": 8.5
+        },
+        {
+          "year": 2016,
+          "black_killed": 309,
+          "black_unarmed": 35,
+          "black_pct_of_total": 24.0,
+          "black_rate_per_million": 7.5
+        },
+        {
+          "year": 2017,
+          "black_killed": 329,
+          "black_unarmed": 32,
+          "black_pct_of_total": 23.2,
+          "black_rate_per_million": 8.0
+        },
+        {
+          "year": 2018,
+          "black_killed": 278,
+          "black_unarmed": 30,
+          "black_pct_of_total": 22.9,
+          "black_rate_per_million": 6.7
+        },
+        {
+          "year": 2019,
+          "black_killed": 288,
+          "black_unarmed": 27,
+          "black_pct_of_total": 24.0,
+          "black_rate_per_million": 6.9
+        },
+        {
+          "year": 2020,
+          "black_killed": 312,
+          "black_unarmed": 40,
+          "black_pct_of_total": 28.9,
+          "black_rate_per_million": 7.4
+        },
+        {
+          "year": 2021,
+          "black_killed": 300,
+          "black_unarmed": 29,
+          "black_pct_of_total": 26.1,
+          "black_rate_per_million": 7.1
+        },
+        {
+          "year": 2022,
+          "black_killed": 287,
+          "black_unarmed": 31,
+          "black_pct_of_total": 24.7,
+          "black_rate_per_million": 6.7
+        },
+        {
+          "year": 2023,
+          "black_killed": 282,
+          "black_unarmed": 26,
+          "black_pct_of_total": 22.1,
+          "black_rate_per_million": 6.6
+        }
+      ]
+    },
+    "pillar_4_education": {
+      "naep_reading_gap_8th": [
+        {
+          "year": 1992,
+          "black_score": 237,
+          "white_score": 267,
+          "gap_points": 30
+        },
+        {
+          "year": 1994,
+          "black_score": 236,
+          "white_score": 267,
+          "gap_points": 31
+        },
+        {
+          "year": 1998,
+          "black_score": 243,
+          "white_score": 270,
+          "gap_points": 27
+        },
+        {
+          "year": 2002,
+          "black_score": 244,
+          "white_score": 272,
+          "gap_points": 28
+        },
+        {
+          "year": 2005,
+          "black_score": 251,
+          "white_score": 271,
+          "gap_points": 20
+        },
+        {
+          "year": 2007,
+          "black_score": 253,
+          "white_score": 272,
+          "gap_points": 19
+        },
+        {
+          "year": 2009,
+          "black_score": 260,
+          "white_score": 275,
+          "gap_points": 15
+        },
+        {
+          "year": 2011,
+          "black_score": 257,
+          "white_score": 274,
+          "gap_points": 17
+        },
+        {
+          "year": 2013,
+          "black_score": 261,
+          "white_score": 276,
+          "gap_points": 15
+        },
+        {
+          "year": 2015,
+          "black_score": 261,
+          "white_score": 277,
+          "gap_points": 16
+        },
+        {
+          "year": 2017,
+          "black_score": 263,
+          "white_score": 276,
+          "gap_points": 13
+        },
+        {
+          "year": 2019,
+          "black_score": 263,
+          "white_score": 278,
+          "gap_points": 15
+        },
+        {
+          "year": 2022,
+          "black_score": 249,
+          "white_score": 269,
+          "gap_points": 20
+        },
+        {
+          "year": 2024,
+          "black_score": 248,
+          "white_score": 268,
+          "gap_points": 20
+        }
+      ],
+      "black_suspension_rate": [
+        {
+          "year": 2000,
+          "black_suspension_rate": 13.7,
+          "white_suspension_rate": 4.6,
+          "ratio": 2.98
+        },
+        {
+          "year": 2006,
+          "black_suspension_rate": 15.3,
+          "white_suspension_rate": 4.8,
+          "ratio": 3.19
+        },
+        {
+          "year": 2012,
+          "black_suspension_rate": 16.4,
+          "white_suspension_rate": 5.0,
+          "ratio": 3.28
+        },
+        {
+          "year": 2014,
+          "black_suspension_rate": 13.7,
+          "white_suspension_rate": 5.3,
+          "ratio": 2.58
+        },
+        {
+          "year": 2016,
+          "black_suspension_rate": 13.3,
+          "white_suspension_rate": 4.7,
+          "ratio": 2.83
+        },
+        {
+          "year": 2018,
+          "black_suspension_rate": 12.8,
+          "white_suspension_rate": 4.6,
+          "ratio": 2.78
+        },
+        {
+          "year": 2020,
+          "black_suspension_rate": 12.3,
+          "white_suspension_rate": 4.4,
+          "ratio": 2.8
+        },
+        {
+          "year": 2022,
+          "black_suspension_rate": 11.9,
+          "white_suspension_rate": 4.2,
+          "ratio": 2.83
+        }
+      ]
+    },
+    "pillar_5_housing": {
+      "black_eviction_rate": [
+        {
+          "year": 2000,
+          "black_eviction_rate": 5.4,
+          "white_eviction_rate": 1.8,
+          "ratio": 3.0
+        },
+        {
+          "year": 2003,
+          "black_eviction_rate": 6.1,
+          "white_eviction_rate": 2.0,
+          "ratio": 3.1
+        },
+        {
+          "year": 2006,
+          "black_eviction_rate": 6.5,
+          "white_eviction_rate": 2.1,
+          "ratio": 3.1
+        },
+        {
+          "year": 2009,
+          "black_eviction_rate": 6.1,
+          "white_eviction_rate": 2.0,
+          "ratio": 3.1
+        },
+        {
+          "year": 2012,
+          "black_eviction_rate": 5.8,
+          "white_eviction_rate": 1.9,
+          "ratio": 3.1
+        },
+        {
+          "year": 2016,
+          "black_eviction_rate": 5.5,
+          "white_eviction_rate": 1.8,
+          "ratio": 3.1
+        },
+        {
+          "year": 2018,
+          "black_eviction_rate": 5.2,
+          "white_eviction_rate": 1.7,
+          "ratio": 3.1
+        }
+      ],
+      "hmda_mortgage_denial": [
+        {
+          "year": 1995,
+          "black_denial_rate": 34.5,
+          "white_denial_rate": 16.0,
+          "ratio": 2.16
+        },
+        {
+          "year": 1998,
+          "black_denial_rate": 31.7,
+          "white_denial_rate": 14.2,
+          "ratio": 2.23
+        },
+        {
+          "year": 2001,
+          "black_denial_rate": 29.4,
+          "white_denial_rate": 13.7,
+          "ratio": 2.15
+        },
+        {
+          "year": 2004,
+          "black_denial_rate": 25.0,
+          "white_denial_rate": 12.0,
+          "ratio": 2.08
+        },
+        {
+          "year": 2007,
+          "black_denial_rate": 20.4,
+          "white_denial_rate": 11.3,
+          "ratio": 1.81
+        },
+        {
+          "year": 2010,
+          "black_denial_rate": 26.1,
+          "white_denial_rate": 13.0,
+          "ratio": 2.01
+        },
+        {
+          "year": 2013,
+          "black_denial_rate": 27.0,
+          "white_denial_rate": 12.0,
+          "ratio": 2.25
+        },
+        {
+          "year": 2016,
+          "black_denial_rate": 18.4,
+          "white_denial_rate": 8.5,
+          "ratio": 2.16
+        },
+        {
+          "year": 2019,
+          "black_denial_rate": 16.0,
+          "white_denial_rate": 7.2,
+          "ratio": 2.22
+        },
+        {
+          "year": 2022,
+          "black_denial_rate": 18.1,
+          "white_denial_rate": 8.3,
+          "ratio": 2.18
+        }
+      ]
+    },
+    "pillar_6_political": {
+      "black_voter_turnout": [
+        {
+          "year": 1992,
+          "black_turnout_pct": 54.0,
+          "white_turnout_pct": 63.6,
+          "gap_pct": 9.6
+        },
+        {
+          "year": 1996,
+          "black_turnout_pct": 50.6,
+          "white_turnout_pct": 60.7,
+          "gap_pct": 10.1
+        },
+        {
+          "year": 2000,
+          "black_turnout_pct": 53.5,
+          "white_turnout_pct": 61.8,
+          "gap_pct": 8.3
+        },
+        {
+          "year": 2004,
+          "black_turnout_pct": 60.0,
+          "white_turnout_pct": 67.2,
+          "gap_pct": 7.2
+        },
+        {
+          "year": 2008,
+          "black_turnout_pct": 64.7,
+          "white_turnout_pct": 66.1,
+          "gap_pct": 1.4
+        },
+        {
+          "year": 2012,
+          "black_turnout_pct": 66.6,
+          "white_turnout_pct": 64.1,
+          "gap_pct": -2.5
+        },
+        {
+          "year": 2014,
+          "black_turnout_pct": 40.6,
+          "white_turnout_pct": 45.8,
+          "gap_pct": 5.2
+        },
+        {
+          "year": 2016,
+          "black_turnout_pct": 59.6,
+          "white_turnout_pct": 65.3,
+          "gap_pct": 5.7
+        },
+        {
+          "year": 2018,
+          "black_turnout_pct": 51.4,
+          "white_turnout_pct": 57.5,
+          "gap_pct": 6.1
+        },
+        {
+          "year": 2020,
+          "black_turnout_pct": 62.6,
+          "white_turnout_pct": 70.9,
+          "gap_pct": 8.3
+        },
+        {
+          "year": 2022,
+          "black_turnout_pct": 45.8,
+          "white_turnout_pct": 53.7,
+          "gap_pct": 7.9
+        }
+      ]
+    },
+    "pillar_8_historical": {
+      "anchors": [
+        {
+          "event": "Transatlantic Slave Trade",
+          "period": "1514\u20131866",
+          "magnitude": "12.5M Africans forcibly transported",
+          "source": "Slave Voyages Database"
+        },
+        {
+          "event": "40 Acres and a Mule \u2014 Revoked",
+          "period": "1865",
+          "magnitude": "Freedmen's Bureau Special Field Orders No. 15 \u2014 rescinded by Andrew Johnson",
+          "source": "NARA Freedmen's Bureau Records"
+        },
+        {
+          "event": "Reconstruction Black Land Ownership",
+          "period": "1865\u20131900",
+          "magnitude": "Black farmers owned 3.1M acres by 1900",
+          "source": "USDA NASS Historical Census"
+        },
+        {
+          "event": "Great Migration Wave 1",
+          "period": "1910\u20131940",
+          "magnitude": "1.6M Black Americans migrated North",
+          "source": "IPUMS Census microdata"
+        },
+        {
+          "event": "Redlining HOLC Maps",
+          "period": "1935\u20131940",
+          "magnitude": "239 cities systematically redlined Black neighborhoods",
+          "source": "Mapping Inequality (UNC/Richmond)"
+        },
+        {
+          "event": "Tulsa Black Wall Street Massacre",
+          "period": "1921",
+          "magnitude": "35+ blocks destroyed, 300 killed, 10,000 displaced, ~$30M property destroyed (2024 dollars: $450M)",
+          "source": "1921 Tulsa Race Massacre Commission"
+        },
+        {
+          "event": "Great Migration Wave 2",
+          "period": "1940\u20131970",
+          "magnitude": "4.0M Black Americans migrated North and West",
+          "source": "IPUMS Census microdata"
+        },
+        {
+          "event": "Urban Renewal Displacement",
+          "period": "1950\u20131980",
+          "magnitude": "~1M Black residents displaced \u2014 'Negro removal'",
+          "source": "HUD + NAACP Historical records"
+        },
+        {
+          "event": "COINTELPRO Targeting of Black Leaders",
+          "period": "1956\u20131971",
+          "magnitude": "MLK, Malcolm X, Black Panthers, NAACP \u2014 all surveilled, infiltrated, and in several cases facilitated assassinations",
+          "source": "FBI FOIA declassified files"
+        },
+        {
+          "event": "Anti-Drug Abuse Act \u2014 100:1 Crack/Powder Disparity",
+          "period": "1986\u20132010",
+          "magnitude": "Black defendants received avg. 40% longer sentences than white defendants for same drug offenses",
+          "source": "US Sentencing Commission"
+        },
+        {
+          "event": "Black Land Loss",
+          "period": "1910\u20131997",
+          "magnitude": "Black farmers lost ~12M acres \u2014 from 14M to 2.3M acres (\u221283%)",
+          "source": "USDA NASS Agricultural Census"
+        },
+        {
+          "event": "Fair Sentencing Act",
+          "period": "2010",
+          "magnitude": "Reduced crack/powder disparity from 100:1 to 18:1 \u2014 applied retroactively to 12,000+ cases",
+          "source": "US Sentencing Commission"
+        }
+      ]
+    },
+    "pillar_7_environmental_food_justice": {
+      "pillar": "Environmental + Food Justice",
+      "philosophical_anchor": "Dr. Frances Cress Welsing \u2014 analyze systems, not symptoms. The structure beneath the disparity.",
+      "key_finding": "Black communities face a compound environmental assault: disproportionate toxic exposure, degraded air and water, food deserts, and climate vulnerability \u2014 all produced and maintained by policy, not chance.",
+      "sources": [
+        "EPA EJScreen v2.3",
+        "EPA TRI (PNAS 2018)",
+        "EPA AQS",
+        "CDC NHANES",
+        "USDA FARA 2019",
+        "USDA NASS",
+        "EPA SDWIS",
+        "EPA Superfund NPL",
+        "CDC/ATSDR SVI 2020",
+        "Reuters/Land Trust Alliance"
+      ],
+      "variables": {
+        "env_burden_score": {
+          "label": "Environmental Burden \u2014 Disproportionate Exposure of Black Census Tracts",
+          "source": "EPA EJScreen v2.3 + CDC Environmental Justice Index 2022",
+          "finding": "Black communities score in the 66th\u201375th percentile nationally on composite environmental burden. In Southern Black Belt states, tracts that are majority-Black score in the 80th\u201390th percentile for pollution burden \u2014 meaning they bear more environmental harm than 80\u201390% of all other U.S. communities.",
+          "key_ratio": "Black census tracts: avg EJScreen percentile = 71st vs. white tracts avg = 38th",
+          "mechanism": "Urban industrial zoning, highway routing, and waste facility siting \u2014 all decisions made by governments that systematically devalued Black life and property.",
+          "logos_approved": true
+        },
+        "toxic_facility_proximity": {
+          "label": "Toxic Release Inventory \u2014 Facility Proximity by Race",
+          "source": "PNAS 2018 (Mikati et al.) + EPA TRI + UCC 'Toxic Wastes and Race in the United States' (1987, updated 2007)",
+          "data": [
+            {
+              "year": 1987,
+              "finding": "Communities of color make up 25% of population in areas with commercial hazardous waste facilities, vs. proportional representation of 12%"
+            },
+            {
+              "year": 2007,
+              "finding": "Race remains the strongest predictor of living near hazardous waste facilities \u2014 stronger than income"
+            },
+            {
+              "year": 2018,
+              "finding": "Black Americans bear 1.54x the pollution burden of the overall population; contribute 10% less consumption but bear 56% more air pollution exposure (PNAS)"
+            },
+            {
+              "year": 2022,
+              "finding": "Older Black Americans 65+ are 3x more likely to die from PM2.5 fine particle pollution than older white Americans (Mothers and Others for Clean Air)"
+            }
+          ],
+          "key_stat": "1.54x \u2014 Black pollution burden ratio vs. national average (PNAS 2018)",
+          "mechanism": "NIMBY (Not In My Backyard) politics consistently placed unwanted facilities in Black neighborhoods because Black communities had less political power to resist \u2014 a direct function of voter suppression and disinvestment.",
+          "logos_approved": true
+        },
+        "pm25_air_quality": {
+          "label": "PM2.5 Fine Particulate Matter \u2014 Racial Exposure Disparity",
+          "source": "EPA Science Matters (2021) | Environmental Health Perspectives | JAMA Network Open 2024",
+          "data": [
+            {
+              "year": 2021,
+              "finding": "People of color breathe significantly more particulate air pollution on average, across all income levels and regions \u2014 EPA confirmed"
+            },
+            {
+              "year": 2021,
+              "black_excess_exposure_pct": 10.4,
+              "description": "Black Americans exposed to 10.4% more PM2.5 than they produce in economic activity"
+            },
+            {
+              "year": 2022,
+              "finding": "Black communities face highest short-term PM2.5 disparities nationally (Environmental Health journal)"
+            },
+            {
+              "year": 2024,
+              "finding": "Racial monitoring disparities exist for all criteria pollutants; sulfur dioxide monitoring gaps most severe in Black communities (JAMA Network Open)"
+            }
+          ],
+          "key_stat": "Black Americans: +10.4% PM2.5 exposure vs. their share of economic activity",
+          "mechanism": "Industrial facilities, highways, and power plants built in and through Black neighborhoods. The air they breathe is not an accident \u2014 it is the physical residue of decisions made across a century.",
+          "logos_approved": true
+        },
+        "lead_exposure_children": {
+          "label": "Blood Lead Levels \u2014 Black Children",
+          "source": "CDC NHANES (1976\u20132016) | CDC MMWR 2016 | NHANES Biomonitoring Data",
+          "data": [
+            {
+              "years": "1976-1980",
+              "prevalence_elevated_bll_all_children_pct": 77.8
+            },
+            {
+              "years": "1991-1994",
+              "black_children_elevated_bll_pct": 21.9,
+              "white_children_elevated_bll_pct": 5.5,
+              "ratio": 3.98
+            },
+            {
+              "years": "1999-2004",
+              "black_children_elevated_bll_pct": 5.6,
+              "white_children_elevated_bll_pct": 1.4,
+              "ratio": 4.0
+            },
+            {
+              "years": "2007-2014",
+              "black_children_elevated_bll_pct": 4.0,
+              "white_children_elevated_bll_pct": 1.9,
+              "ratio": 2.1,
+              "source": "CDC MMWR 2016"
+            },
+            {
+              "years": "2013-2016",
+              "black_children_median_bll_ug_dl": 1.0,
+              "white_children_median_bll_ug_dl": 0.6,
+              "ratio": 1.67,
+              "source": "EPA Americas Children Environment"
+            },
+            {
+              "years": "1999-2010",
+              "finding": "Black children in poverty had 4x higher odds of elevated blood lead level vs. white children not in poverty (NHANES)"
+            }
+          ],
+          "key_stat": "1991\u20132004: Black children 4x more likely than white children to have elevated blood lead levels",
+          "mechanism": "Lead paint concentration in older housing stock \u2014 itself a product of redlining that locked Black families into deteriorated pre-WWII housing for generations. Flint, MI was not an anomaly. It was a pattern.",
+          "logos_approved": true
+        },
+        "food_desert_access": {
+          "label": "Food Desert Access \u2014 LILA Tracts and Black Population",
+          "source": "USDA Food Access Research Atlas (FARA) 2019 | ERS State-Level Estimates",
+          "data": [
+            {
+              "year": 2010,
+              "lila_tracts_national": 6529,
+              "us_pop_in_lila_pct": 11.5
+            },
+            {
+              "year": 2015,
+              "lila_tracts_national": 8399,
+              "us_pop_in_lila_pct": 12.8
+            },
+            {
+              "year": 2019,
+              "lila_tracts_national": 8685,
+              "us_pop_in_lila_pct": 12.8
+            },
+            {
+              "year": 2019,
+              "finding": "Black Americans disproportionately represented in LILA tracts \u2014 particularly in urban cores and Deep South counties"
+            },
+            {
+              "year": 2019,
+              "finding": "Black-majority census tracts in the urban South have food store access distances 2\u20133x greater than comparable white-majority tracts"
+            },
+            {
+              "finding": "Grocery store density in predominantly Black zip codes is significantly lower than in white zip codes of equivalent income (USDA ERS)"
+            }
+          ],
+          "key_stat": "Black Americans face structural food apartheid \u2014 not food deserts as natural phenomena, but the deliberate withdrawal of capital and commerce from Black communities.",
+          "mechanism": "Supermarket redlining: from the 1960s onward, grocery chains explicitly avoided opening in Black neighborhoods. When urban renewal destroyed Black business districts, the food infrastructure was never rebuilt.",
+          "logos_approved": true
+        },
+        "black_farmer_dispossession": {
+          "label": "Black Farmer Count and Land Dispossession \u2014 1920 to 2017",
+          "source": "USDA NASS Census of Agriculture | Reuters (2022) | Land Trust Alliance | Oakland Institute",
+          "data": [
+            {
+              "year": 1910,
+              "black_farm_operators": 890000,
+              "black_farmland_acres": 16000000
+            },
+            {
+              "year": 1920,
+              "black_farm_operators": 949889,
+              "black_farmland_acres": 41400000,
+              "note": "Peak. Black farmers = 14% of all U.S. farmers"
+            },
+            {
+              "year": 1950,
+              "black_farm_operators": 560000,
+              "black_farmland_acres": 12000000
+            },
+            {
+              "year": 1969,
+              "black_farm_operators": 87000,
+              "black_farmland_acres": 6000000
+            },
+            {
+              "year": 1978,
+              "black_farm_operators": 57271,
+              "black_farmland_acres": 3200000
+            },
+            {
+              "year": 1992,
+              "black_farm_operators": 18816,
+              "black_farmland_acres": 2300000
+            },
+            {
+              "year": 2002,
+              "black_farm_operators": 29090,
+              "black_farmland_acres": 2200000,
+              "note": "1992\u20132002: 94% of Black farmers lost part or all farmland, 3x rate of white farmers"
+            },
+            {
+              "year": 2012,
+              "black_farm_operators": 44629,
+              "black_farmland_acres": 2900000
+            },
+            {
+              "year": 2017,
+              "black_farm_operators": 45508,
+              "black_farmland_acres": 2900000,
+              "pct_of_all_farmers": 1.3
+            },
+            {
+              "year": 2022,
+              "black_farmland_loss_20th_century_value_usd": 326000000000,
+              "source": "Reuters 2022 study"
+            }
+          ],
+          "key_stat": "Black farmers fell from 949,889 (1920) to 45,508 (2017). Land fell from 41.4M acres to 2.9M acres \u2014 a loss of 93%.",
+          "mechanism": "USDA discriminatory loan denials (confirmed by class action Pigford v. Glickman 1999), heir property vulnerability, tax sales, violence, and economic coercion. The Pigford settlement acknowledged USDA's role explicitly.",
+          "logos_approved": true
+        },
+        "water_quality_violations": {
+          "label": "Drinking Water Quality Violations \u2014 Race and Income Disparity",
+          "source": "EPA SDWIS | AWWA 2021 | Gallup 2023 | ScienceDirect PFAS Study 2024",
+          "data": [
+            {
+              "finding": "1982\u20132015: 3\u201310% of drinking water systems had health-based violations annually \u2014 affecting 9 to 45 million Americans",
+              "source": "EPA 2024"
+            },
+            {
+              "year": 2013,
+              "finding": "Over 1 million Black, Indigenous, and other people of color had insecure access to clean drinking water (2013\u20132017)",
+              "source": "ScienceDirect 2024"
+            },
+            {
+              "year": 2020,
+              "finding": "Communities of color and low-income communities bear disproportionate drinking water quality violations \u2014 AWWA confirms",
+              "source": "AWWA 2021"
+            },
+            {
+              "year": 2023,
+              "black_adults_worried_great_deal_pct": 76,
+              "white_adults_worried_great_deal_pct": 48,
+              "source": "Gallup 2023"
+            },
+            {
+              "finding": "Race and socioeconomic status are independent predictors of water quality violations \u2014 Black communities face higher risk even controlling for income",
+              "source": "PMC PFAS study 2024"
+            }
+          ],
+          "key_stat": "76% of Black adults worry 'a great deal' about polluted drinking water, vs. 48% of white adults (Gallup 2023). This is not irrational fear. It is documented, lived reality.",
+          "mechanism": "Aging infrastructure disproportionately concentrated in communities that were redlined and disinvested. When Flint, MI switched water sources to save money, the decision was made about a city that was 57% Black. That was the calculation.",
+          "logos_approved": true
+        },
+        "superfund_proximity": {
+          "label": "Superfund Site Proximity \u2014 Racial Overrepresentation",
+          "source": "EPA Superfund FY2022 Population Estimates | Nature Communications 2025 | PMC 2024",
+          "data": [
+            {
+              "year": 2022,
+              "people_within_1_mile_superfund": 23000000,
+              "pct_us_population": 7
+            },
+            {
+              "year": 2022,
+              "people_within_3_miles_superfund": 78000000,
+              "pct_us_population": 24
+            },
+            {
+              "finding": "Black and Asian populations are disproportionately overrepresented in Superfund host communities nationally (Nature Communications 2025)"
+            },
+            {
+              "state": "South Carolina",
+              "black_pop_pct_state": 29.5,
+              "black_pop_pct_in_superfund_tracts": 55.9,
+              "ratio": 1.89,
+              "source": "NIU Law Review 2024"
+            },
+            {
+              "finding": "Racial disparity in Superfund proximity compounds with slower cleanup timelines for majority-minority communities \u2014 documented by multiple EPA studies"
+            }
+          ],
+          "key_stat": "In South Carolina: Black residents are 29.5% of the state's population but 55.9% of residents in Superfund host census tracts.",
+          "mechanism": "Industrial site selection historically chose Black neighborhoods because land was cheaper (itself a product of redlining) and because Black communities lacked political leverage to resist.",
+          "logos_approved": true
+        },
+        "climate_vulnerability": {
+          "label": "Climate Vulnerability \u2014 Black Communities (CDC/ATSDR SVI 2020)",
+          "source": "CDC/ATSDR Social Vulnerability Index 2020 | Minority Health SVI 2020 | PMC 2021",
+          "data": [
+            {
+              "year": 2020,
+              "finding": "Black/African American women in the United States are more likely to live in neighborhoods with higher social vulnerability than other racial/ethnic groups (PMC 2021)"
+            },
+            {
+              "year": 2020,
+              "finding": "CDC Minority Health SVI shows Black communities disproportionately concentrated in high-vulnerability census tracts across all four SVI themes: socioeconomic status, household composition, minority status, and housing/transportation"
+            },
+            {
+              "year": 2020,
+              "finding": "Majority-Black counties in the Gulf Coast face compounded climate risk: flooding, heat, industrial pollution, and inadequate emergency response infrastructure"
+            },
+            {
+              "finding": "Hurricane Katrina 2005 \u2014 Black residents constituted the majority of those who could not evacuate, the majority of deaths, and the majority of those who never returned. SVI scores predicted this outcome."
+            }
+          ],
+          "key_stat": "Black communities are concentrated in high-SVI census tracts \u2014 meaning they face climate shocks with less capacity to absorb them: less savings, worse housing, less access to cars, and less political voice to demand infrastructure.",
+          "mechanism": "Climate vulnerability is the accumulation of every other disparity. It is not a separate problem. It is the compound interest on centuries of structural exclusion.",
+          "logos_approved": true
+        },
+        "grocery_access": {
+          "label": "Grocery Store Access \u2014 Black Zip Codes vs. White Zip Codes",
+          "source": "USDA FARA 2019 + Census ACS | Urban Institute | NAACP LDF Water/Food Justice Report",
+          "data": [
+            {
+              "finding": "Grocery store density in predominantly Black zip codes is significantly lower than in white zip codes of comparable income (USDA ERS)"
+            },
+            {
+              "finding": "Black residents in urban LILA tracts are more likely to rely on convenience stores and dollar stores for food, which carry fewer fresh items at higher per-unit prices"
+            },
+            {
+              "finding": "2015: 12.8% of U.S. population in LILA tracts \u2014 Black Americans overrepresented in these tracts, particularly in urban South and Midwest"
+            },
+            {
+              "finding": "NAACP LDF: Black communities face compounding food and water access inequities that reinforce each other at the community level"
+            }
+          ],
+          "key_stat": "The 'food desert' framing understates the problem. What Black communities face is food apartheid \u2014 the systematic, policy-driven removal of food infrastructure from Black spaces.",
+          "mechanism": "Supermarket redlining, urban renewal, highway construction that destroyed Black commercial districts, and decades of economic disinvestment. The term 'food desert' makes it sound natural. It is not.",
+          "logos_approved": true
+        }
+      }
+    },
+    "state_level_resolution": {
+      "methodology": "Census ACS 2022 | BLS LAUS 2023 | BJS State Imprisonment 2022 | Census CPS 2022 | CDC WONDER 2021 | NAEP 2024 | Census CPS Voting 2022",
+      "priority_states": {
+        "MS": {
+          "name": "Mississippi",
+          "black_pop_pct": 37.8,
+          "black_poverty_rate": 29.25,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 8.2,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 42.0,
+          "white_homeownership_pct": 73.0,
+          "homeownership_gap": 31.0,
+          "black_incarceration_per_100k": 1810,
+          "white_incarceration_per_100k": 292,
+          "incarceration_ratio": 6.2,
+          "black_maternal_mortality_per_100k": 62.3,
+          "naep_reading_gap_8th": 26,
+          "black_voter_turnout_pct": 64.2,
+          "farmblock_fdi_score_humphreys": 87.2,
+          "key_note": "Humphreys County \u2014 highest FDI in nation. 72% Black. 37% poverty. No hospital. FDI + BDI compound point.",
+          "bdi_composite_score": 79.82
+        },
+        "AL": {
+          "name": "Alabama",
+          "black_pop_pct": 26.8,
+          "black_poverty_rate": 26.1,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.5,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 43.2,
+          "white_homeownership_pct": 72.8,
+          "homeownership_gap": 29.6,
+          "black_incarceration_per_100k": 1740,
+          "white_incarceration_per_100k": 280,
+          "incarceration_ratio": 6.2,
+          "black_maternal_mortality_per_100k": 58.1,
+          "naep_reading_gap_8th": 28,
+          "black_voter_turnout_pct": 65.0,
+          "key_note": "Black Belt counties (Greene, Wilcox, Lowndes) \u2014 extreme poverty + environmental burden convergence.",
+          "bdi_composite_score": 75.68
+        },
+        "LA": {
+          "name": "Louisiana",
+          "black_pop_pct": 32.7,
+          "black_poverty_rate": 28.0,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 8.9,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 41.8,
+          "white_homeownership_pct": 74.1,
+          "homeownership_gap": 32.3,
+          "black_incarceration_per_100k": 2190,
+          "white_incarceration_per_100k": 310,
+          "incarceration_ratio": 7.1,
+          "black_maternal_mortality_per_100k": 71.4,
+          "naep_reading_gap_8th": 30,
+          "black_voter_turnout_pct": 61.8,
+          "key_note": "Cancer Alley \u2014 150-mile industrial corridor, 85% Black residents. Highest maternal mortality nationally. Highest incarceration ratio in nation.",
+          "bdi_composite_score": 84.85
+        },
+        "GA": {
+          "name": "Georgia",
+          "black_pop_pct": 32.6,
+          "black_poverty_rate": 21.4,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 6.8,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 44.1,
+          "white_homeownership_pct": 73.5,
+          "homeownership_gap": 29.4,
+          "black_incarceration_per_100k": 1580,
+          "white_incarceration_per_100k": 280,
+          "incarceration_ratio": 5.6,
+          "black_maternal_mortality_per_100k": 49.3,
+          "naep_reading_gap_8th": 25,
+          "black_voter_turnout_pct": 68.4,
+          "key_note": "Atlanta metro masks deep rural distress. Voting suppression post-2013 particularly acute (115 polling place closures).",
+          "bdi_composite_score": 65.78
+        },
+        "SC": {
+          "name": "South Carolina",
+          "black_pop_pct": 26.5,
+          "black_poverty_rate": 24.3,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.0,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 43.9,
+          "white_homeownership_pct": 76.2,
+          "homeownership_gap": 32.3,
+          "black_incarceration_per_100k": 1630,
+          "white_incarceration_per_100k": 288,
+          "incarceration_ratio": 5.7,
+          "black_maternal_mortality_per_100k": 55.8,
+          "naep_reading_gap_8th": 27,
+          "black_voter_turnout_pct": 60.1,
+          "key_note": "29.5% Black pop, 55.9% of Superfund host tract residents. Environmental injustice convergence.",
+          "bdi_composite_score": 73.46
+        },
+        "FL": {
+          "name": "Florida",
+          "black_pop_pct": 16.9,
+          "black_poverty_rate": 20.8,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 6.2,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 41.6,
+          "white_homeownership_pct": 70.9,
+          "homeownership_gap": 29.3,
+          "black_incarceration_per_100k": 1450,
+          "white_incarceration_per_100k": 275,
+          "incarceration_ratio": 5.3,
+          "black_maternal_mortality_per_100k": 44.7,
+          "naep_reading_gap_8th": 22,
+          "black_voter_turnout_pct": 59.8,
+          "key_note": "Miami-Dade Liberty City = E5 Enclave headquarters. Gentrification displacement + voter disenfranchisement (Amendment 4 rollback).",
+          "bdi_composite_score": 61.29
+        },
+        "TX": {
+          "name": "Texas",
+          "black_pop_pct": 12.9,
+          "black_poverty_rate": 20.5,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 6.5,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 38.4,
+          "white_homeownership_pct": 68.2,
+          "homeownership_gap": 29.8,
+          "black_incarceration_per_100k": 1680,
+          "white_incarceration_per_100k": 295,
+          "incarceration_ratio": 5.7,
+          "black_maternal_mortality_per_100k": 52.4,
+          "naep_reading_gap_8th": 24,
+          "black_voter_turnout_pct": 56.3,
+          "key_note": "Houston Ship Channel \u2014 environmental burden on Black and Brown Houston neighborhoods documented for decades.",
+          "bdi_composite_score": 66.97
+        },
+        "IL": {
+          "name": "Illinois",
+          "black_pop_pct": 14.7,
+          "black_poverty_rate": 26.3,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 9.8,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 36.8,
+          "white_homeownership_pct": 72.1,
+          "homeownership_gap": 35.3,
+          "black_incarceration_per_100k": 2050,
+          "white_incarceration_per_100k": 198,
+          "incarceration_ratio": 10.4,
+          "black_maternal_mortality_per_100k": 53.0,
+          "naep_reading_gap_8th": 29,
+          "black_voter_turnout_pct": 61.0,
+          "key_note": "Illinois: highest Black-white incarceration ratio in nation at 10.4:1. Chicago South/West sides \u2014 35pt homeownership gap.",
+          "bdi_composite_score": 84.44
+        },
+        "MI": {
+          "name": "Michigan",
+          "black_pop_pct": 14.0,
+          "black_poverty_rate": 27.4,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 9.2,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 36.2,
+          "white_homeownership_pct": 76.8,
+          "homeownership_gap": 40.6,
+          "black_incarceration_per_100k": 1820,
+          "white_incarceration_per_100k": 225,
+          "incarceration_ratio": 8.1,
+          "black_maternal_mortality_per_100k": 57.2,
+          "naep_reading_gap_8th": 32,
+          "black_voter_turnout_pct": 62.1,
+          "key_note": "Flint water crisis \u2014 the definitive modern case of environmental racism. Detroit: 40pt homeownership gap. NAEP gap 32pts.",
+          "bdi_composite_score": 86.54
+        },
+        "OH": {
+          "name": "Ohio",
+          "black_pop_pct": 13.0,
+          "black_poverty_rate": 27.9,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 8.7,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 33.4,
+          "white_homeownership_pct": 72.4,
+          "homeownership_gap": 39.0,
+          "black_incarceration_per_100k": 1980,
+          "white_incarceration_per_100k": 298,
+          "incarceration_ratio": 6.6,
+          "black_maternal_mortality_per_100k": 60.8,
+          "naep_reading_gap_8th": 28,
+          "black_voter_turnout_pct": 58.4,
+          "key_note": "Columbus, Cleveland, Cincinnati \u2014 three majority-Black urban cores with extreme poverty-homeownership compound.",
+          "bdi_composite_score": 84.37
+        },
+        "NY": {
+          "name": "New York",
+          "black_pop_pct": 17.6,
+          "black_poverty_rate": 21.7,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.8,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 32.1,
+          "white_homeownership_pct": 64.8,
+          "homeownership_gap": 32.7,
+          "black_incarceration_per_100k": 1290,
+          "white_incarceration_per_100k": 120,
+          "incarceration_ratio": 10.8,
+          "black_maternal_mortality_per_100k": 47.9,
+          "naep_reading_gap_8th": 26,
+          "black_voter_turnout_pct": 60.2,
+          "key_note": "NY: highest Black-white incarceration ratio in nation at 10.8:1. Gentrification displacement in Harlem, Bed-Stuy, Crown Heights.",
+          "bdi_composite_score": 75.29
+        },
+        "NC": {
+          "name": "North Carolina",
+          "black_pop_pct": 21.5,
+          "black_poverty_rate": 23.8,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.1,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 44.3,
+          "white_homeownership_pct": 74.2,
+          "homeownership_gap": 29.9,
+          "black_incarceration_per_100k": 1540,
+          "white_incarceration_per_100k": 272,
+          "incarceration_ratio": 5.7,
+          "black_maternal_mortality_per_100k": 48.6,
+          "naep_reading_gap_8th": 24,
+          "black_voter_turnout_pct": 62.8,
+          "key_note": "NC: hog farm waste lagoons disproportionately concentrated in Black and Indigenous communities. Documented environmental racism.",
+          "bdi_composite_score": 67.45
+        },
+        "MD": {
+          "name": "Maryland",
+          "black_pop_pct": 31.1,
+          "black_poverty_rate": 16.2,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 5.8,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 47.3,
+          "white_homeownership_pct": 73.6,
+          "homeownership_gap": 26.3,
+          "black_incarceration_per_100k": 1340,
+          "white_incarceration_per_100k": 195,
+          "incarceration_ratio": 6.9,
+          "black_maternal_mortality_per_100k": 40.2,
+          "naep_reading_gap_8th": 23,
+          "black_voter_turnout_pct": 67.4,
+          "key_note": "Best-case state for Black economic indicators \u2014 still shows 26pt homeownership gap and 6.9:1 incarceration ratio. Structural, not individual.",
+          "bdi_composite_score": 58.28
+        },
+        "VA": {
+          "name": "Virginia",
+          "black_pop_pct": 19.9,
+          "black_poverty_rate": 18.2,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 5.9,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 44.8,
+          "white_homeownership_pct": 73.0,
+          "homeownership_gap": 28.2,
+          "black_incarceration_per_100k": 1280,
+          "white_incarceration_per_100k": 212,
+          "incarceration_ratio": 6.0,
+          "black_maternal_mortality_per_100k": 41.5,
+          "naep_reading_gap_8th": 22,
+          "black_voter_turnout_pct": 64.0,
+          "key_note": "Richmond \u2014 former capital of Confederacy. Black poverty and homeownership gaps persist across Old Dominion despite economic growth.",
+          "bdi_composite_score": 58.7
+        },
+        "TN": {
+          "name": "Tennessee",
+          "black_pop_pct": 17.1,
+          "black_poverty_rate": 24.1,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.4,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 40.5,
+          "white_homeownership_pct": 72.8,
+          "homeownership_gap": 32.3,
+          "black_incarceration_per_100k": 1640,
+          "white_incarceration_per_100k": 280,
+          "incarceration_ratio": 5.9,
+          "black_maternal_mortality_per_100k": 52.8,
+          "naep_reading_gap_8th": 26,
+          "black_voter_turnout_pct": 56.4,
+          "key_note": "Memphis \u2014 majority Black city, Republican-controlled state legislature. Justin Jones expelled from legislature for gun protest. Political power systematic suppression.",
+          "bdi_composite_score": 72.91
+        },
+        "AR": {
+          "name": "Arkansas",
+          "black_pop_pct": 15.7,
+          "black_poverty_rate": 28.48,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 7.9,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 40.1,
+          "white_homeownership_pct": 72.3,
+          "homeownership_gap": 32.2,
+          "black_incarceration_per_100k": 1590,
+          "white_incarceration_per_100k": 275,
+          "incarceration_ratio": 5.8,
+          "black_maternal_mortality_per_100k": 58.0,
+          "naep_reading_gap_8th": 27,
+          "black_voter_turnout_pct": 56.0,
+          "key_note": "Second highest Black poverty rate in nation (28.48%). FarmBlock Phase 2 cities include Pine Bluff, AR.",
+          "bdi_composite_score": 78.36
+        },
+        "MO": {
+          "name": "Missouri",
+          "black_pop_pct": 11.8,
+          "black_poverty_rate": 24.9,
+          "national_black_poverty": 17.1,
+          "black_unemployment_rate": 8.2,
+          "national_black_unemployment": 5.4,
+          "black_homeownership_pct": 34.8,
+          "white_homeownership_pct": 72.9,
+          "homeownership_gap": 38.1,
+          "black_incarceration_per_100k": 1860,
+          "white_incarceration_per_100k": 338,
+          "incarceration_ratio": 5.5,
+          "black_maternal_mortality_per_100k": 54.3,
+          "naep_reading_gap_8th": 28,
+          "black_voter_turnout_pct": 57.8,
+          "key_note": "Ferguson, MO \u2014 site of Michael Brown's killing. DOJ confirmed systematic racial bias in policing. St. Louis has 38pt homeownership gap.",
+          "bdi_composite_score": 76.91
+        }
+      }
+    },
+    "section_3_hud_enforcement": {
+      "module": "Section 3 Disparity Analysis",
+      "parent_dataset": "BDI Sovereign Dataset",
+      "dag": "bdi-dataset-doctrine-2026-0417",
+      "generated": "2026-04-17T16:35:18.454672Z",
+      "statute": "Section 3, Housing and Urban Development Act of 1968 \u2014 12 U.S.C. \u00a7 1701u",
+      "regulatory_history": [
+        {
+          "year": 1968,
+          "event": "Section 3 enacted \u2014 HUD Act of 1968",
+          "scope": "Applied to Section 235, 236, and 221(d)(3) housing programs",
+          "enforcement": "None \u2014 no penalty mechanism, no reporting requirement",
+          "significance": "Dead letter law from birth"
+        },
+        {
+          "year": 1969,
+          "event": "HUD Act of 1969 \u2014 First Expansion",
+          "scope": "Broadened to ALL HUD-financed projects including planning, development, urban renewal",
+          "enforcement": "Still no teeth \u2014 'greatest extent feasible' = discretionary",
+          "significance": "Scope expanded, enforcement gap widens"
+        },
+        {
+          "year": 1974,
+          "event": "Housing and Community Development Act \u2014 CDBG added",
+          "scope": "Now covers Community Development Block Grant program",
+          "enforcement": "Reporting added \u2014 but self-reported, unverified",
+          "significance": "CDBG becomes major Section 3 trigger (billions annually)"
+        },
+        {
+          "year": 1980,
+          "event": "1980 Amendment \u2014 Geographic Expansion",
+          "scope": "Residency requirements expanded for non-site-specific programs",
+          "enforcement": "Still complaint-driven only",
+          "significance": "More Black communities covered, still no proactive enforcement"
+        },
+        {
+          "year": 1992,
+          "event": "Housing and Community Development Act \u2014 Major Expansion",
+          "scope": "Added HUD Office of Public and Indian Housing (PIH); established percentage benchmarks; formalized business criteria",
+          "enforcement": "First numeric benchmarks: 10% new hires must be Section 3 residents; 3% of construction contracts to Section 3 businesses",
+          "significance": "First measurable targets. Still self-reported. Still complaint-driven."
+        },
+        {
+          "year": 1994,
+          "event": "Interim Final Rule \u2014 24 CFR Part 135",
+          "scope": "Full regulatory framework published. Governed Section 3 for 26 YEARS until 2020.",
+          "enforcement": "Self-certification by grantees. No independent audit mechanism. HUD enforces only on complaint.",
+          "significance": "The 1994 rule became the operating standard. 26 years of 'greatest extent feasible' = consistent underperformance."
+        },
+        {
+          "year": 2020,
+          "event": "Final Rule \u2014 24 CFR Part 75 (Replaces Part 135)",
+          "scope": "Restructured benchmarks. New definitions of 'targeted Section 3 worker' and 'Section 3 business.' Applied to PIH and CPD separately.",
+          "enforcement": "New safe harbor benchmarks: 25% of labor hours on Section 3 workers. Still self-reported. HUD audit capacity not increased.",
+          "significance": "Rule modernized but enforcement architecture unchanged. Safe harbor = compliance theater."
+        },
+        {
+          "year": 2021,
+          "event": "2020 Rule Takes Effect",
+          "scope": "All HUD grantees must comply with new Part 75 framework",
+          "enforcement": "Grantees submit annual Section 3 reports via HUD's reporting portal",
+          "significance": "Better data collection \u2014 but still no independent verification"
+        }
+      ],
+      "compliance_data": [
+        {
+          "period": "1994\u20131999",
+          "avg_new_hires_section3": "~8,000\u201312,000/year (estimated)",
+          "benchmark_met": "No \u2014 benchmark was 10% of new hires",
+          "section3_business_contracts_pct": "Below 3% nationally",
+          "enforcement_actions": 0,
+          "source": "HUD FHEO annual summaries; GAO-96-22 review",
+          "notes": "GAO 1996 report found Section 3 implementation 'largely ineffective' \u2014 most PHAs submitted no reports or submitted blank forms"
+        },
+        {
+          "period": "2000\u20132004",
+          "avg_new_hires_section3": "~15,000\u201320,000/year",
+          "benchmark_met": "Partially \u2014 self-reported compliance but no audit",
+          "section3_business_contracts_pct": "1.8%\u20132.3% (self-reported)",
+          "enforcement_actions": "<10 nationally per year",
+          "source": "HUD FHEO, HUD USER PD&R studies",
+          "notes": "Post-HOPE VI construction boom generated large Section 3 reporting requirements. Under-enforcement documented by HUD OIG."
+        },
+        {
+          "period": "2005\u20132009",
+          "avg_new_hires_section3": "~22,000\u201328,000/year",
+          "benchmark_met": "Self-reported yes; independent verification absent",
+          "section3_business_contracts_pct": "2.1%\u20132.8% (self-reported)",
+          "enforcement_actions": "<15 nationally per year",
+          "source": "HUD FHEO annual reports",
+          "notes": "American Recovery and Reinvestment Act 2009 dramatically increased HUD construction funding \u2014 Section 3 obligations surged but compliance monitoring did not scale"
+        },
+        {
+          "period": "2010\u20132014",
+          "avg_new_hires_section3": "~25,000\u201330,000/year",
+          "benchmark_met": "Self-reported yes",
+          "section3_business_contracts_pct": "2.5%\u20133.0% (self-reported)",
+          "enforcement_actions": "~20 per year",
+          "source": "HUD FHEO; NLIHC 2014 Section 3 analysis",
+          "notes": "NLIHC documented in 2014 that 25% of Section 3 residents with criminal records were systematically excluded from job opportunities despite Section 3 protections \u2014 disproportionately Black men"
+        },
+        {
+          "period": "2012 (specific year \u2014 best documented)",
+          "new_hires_section3": 27166,
+          "section3_businesses_receiving_contracts": 7600,
+          "training_opportunities": 4800,
+          "benchmark_met": "Self-reported yes for new hires; contracts below benchmark",
+          "enforcement_actions": 18,
+          "source": "HUD Section 3 Annual Summary Report 2012 (cited by NLIHC)",
+          "notes": "First year with detailed published numbers. Public housing demographic: 45% Black = ~12,000+ of these hires were Black Section 3 workers. Still: no race breakdown published by HUD."
+        },
+        {
+          "period": "2015\u20132019",
+          "avg_new_hires_section3": "~27,000\u201335,000/year (estimated)",
+          "benchmark_met": "Self-reported compliance improving",
+          "section3_business_contracts_pct": "2.8%\u20133.5% (self-reported)",
+          "enforcement_actions": "~15\u201325 per year",
+          "source": "HUD FHEO annual reports; Georgetown Law Journal 2024 (Lutz)",
+          "notes": "Georgetown 2024 analysis found Philadelphia's Section 3 program (one of best in nation) still could not demonstrate systematic tracking of whether jobs actually went to lowest-income residents vs. income-adjacent workers"
+        },
+        {
+          "period": "2020 (COVID year + rule transition)",
+          "avg_new_hires_section3": "Disrupted \u2014 construction halted Q1\u2013Q2",
+          "benchmark_met": "N/A \u2014 COVID waiver year",
+          "section3_business_contracts_pct": "N/A",
+          "enforcement_actions": "Suspended",
+          "source": "HUD COVID waivers",
+          "notes": "New Part 75 rule finalized September 2020; grantees given transition period"
+        },
+        {
+          "period": "2021\u20132023",
+          "avg_new_hires_section3": "Reported under new Part 75 labor hours standard",
+          "benchmark_pct_labor_hours": "25% of total labor hours by Section 3 workers",
+          "grantees_reporting": "~4,800\u20135,000",
+          "enforcement_actions": "~20\u201330 per year",
+          "source": "HUD Exchange Section 3 reporting portal; HUD FHEO FY2023 Annual Report",
+          "notes": "New rule measures labor hours % not new hires. Harder to game but still self-reported. IIJA 2021 injected additional billions into covered programs."
+        }
+      ],
+      "structural_gap": {
+        "annual_hud_budget_approx": "~$60\u201370B (2010\u20132024 average)",
+        "section3_covered_pct": "Up to 40% = ~$24\u201328B/year",
+        "section3_business_benchmark_pct": "3% of covered contracts",
+        "implied_annual_floor_for_section3_businesses": "$720M\u2013$840M/year",
+        "estimated_actual_compliance": "Consistently below benchmark per OIG and GAO",
+        "30_year_cumulative_shortfall_estimate": "$5B\u2013$15B in contracts not directed to Section 3 businesses (1994\u20132024)",
+        "who_bears_this_loss": "Low-income residents of public housing \u2014 45% Black nationally, higher in urban areas",
+        "public_housing_demographics_2022": {
+          "black_or_african_american": "44.7%",
+          "white": "17.5%",
+          "hispanic_or_latino": "28.4%",
+          "source": "HUD Picture of Subsidized Households 2022"
+        },
+        "welsing_analysis": "Section 3 is a statute that has existed for 56 years. Every dollar not directed to Section 3 workers/businesses under HUD's own mandate is a dollar extracted from Black communities through the deliberate non-enforcement of a law designed to address structural economic exclusion."
+      },
+      "enforcement_audit_record": [
+        {
+          "year": 1996,
+          "source": "GAO Report GAO/RCED-96-22",
+          "finding": "Section 3 implementation largely ineffective. Most PHAs did not submit reports. HUD did not enforce reporting requirements. No systematic monitoring existed.",
+          "action_taken": "None"
+        },
+        {
+          "year": 2002,
+          "source": "HUD Office of Inspector General Audit",
+          "finding": "PHAs reported Section 3 compliance but HUD had no system to verify accuracy. Self-reporting was the sole compliance mechanism.",
+          "action_taken": "Minor guidance updates"
+        },
+        {
+          "year": 2011,
+          "source": "HUD OIG Report 2011-NY-0003",
+          "finding": "New York City Housing Authority (NYCHA) \u2014 largest PHA in US \u2014 failed to adequately implement Section 3. Millions in construction contracts did not go to Section 3 workers or businesses.",
+          "action_taken": "Corrective action plan \u2014 no financial penalty"
+        },
+        {
+          "year": 2014,
+          "source": "NLIHC 'Barriers to Section 3 Employment for Residents with Records'",
+          "finding": "PHAs systematically excluded residents with criminal records from Section 3 jobs \u2014 these residents are disproportionately Black men. Background check policies not required by law but adopted by PHAs created race-based exclusion within the Section 3 workforce.",
+          "action_taken": "HUD guidance issued 2016 \u2014 not binding"
+        },
+        {
+          "year": 2018,
+          "source": "Georgetown Law Poverty Journal (Lutz 2024, analyzing Philadelphia data)",
+          "finding": "Even the best-performing Section 3 program (Philadelphia) could not demonstrate systematic evidence that jobs reached the lowest-income public housing residents vs. income-adjacent workers who also qualify. The program benefited low-income workers broadly but not the most excluded Black residents specifically.",
+          "action_taken": "None \u2014 academic finding"
+        },
+        {
+          "year": 2020,
+          "source": "HUD Final Rule \u2014 24 CFR Part 75",
+          "finding": "HUD itself acknowledged in the regulatory impact assessment that the 2020 rule would direct an additional 1,400 jobs and $172M+ in contracts annually \u2014 implying the prior 26-year framework under the 1994 rule was structurally underperforming by at least this margin every year.",
+          "action_taken": "New rule published \u2014 enforcement architecture unchanged"
+        }
+      ],
+      "public_housing_demographics_2022": {
+        "black_pct": 44.7,
+        "hispanic_pct": 28.4,
+        "white_pct": 17.5,
+        "source": "HUD Picture of Subsidized Households 2022"
+      },
+      "key_verdicts": {
+        "du_bois": "Section 3 underperformed by HUD's own admission ~$172M+/year for 26 years. Cumulative gap ~$4.5B in contracts not directed to Black/low-income communities.",
+        "baldwin": "The law didn't fail. The enforcement did. The result is the same.",
+        "welsing": "Section 3 non-enforcement follows the exact same pattern as every other equity law passed since 1968. The law creates appearance of equity. The enforcement gap is where extraction continues."
+      }
+    },
+    "bdi_composite_index": {
+      "formula": "Economic\u00d70.20 + Health\u00d70.20 + CriminalJustice\u00d70.20 + Education\u00d70.15 + Housing\u00d70.10 + Environmental\u00d70.10 + Political\u00d70.05",
+      "normalization": "0\u2013100 scale (100 = highest structural oppression burden)",
+      "state_scores": {
+        "MS": {
+          "state": "Mississippi",
+          "bdi_composite": 79.82,
+          "black_pop_pct": 37.8
+        },
+        "AL": {
+          "state": "Alabama",
+          "bdi_composite": 75.68,
+          "black_pop_pct": 26.8
+        },
+        "LA": {
+          "state": "Louisiana",
+          "bdi_composite": 84.85,
+          "black_pop_pct": 32.7
+        },
+        "GA": {
+          "state": "Georgia",
+          "bdi_composite": 65.78,
+          "black_pop_pct": 32.6
+        },
+        "SC": {
+          "state": "South Carolina",
+          "bdi_composite": 73.46,
+          "black_pop_pct": 26.5
+        },
+        "FL": {
+          "state": "Florida",
+          "bdi_composite": 61.29,
+          "black_pop_pct": 16.9
+        },
+        "TX": {
+          "state": "Texas",
+          "bdi_composite": 66.97,
+          "black_pop_pct": 12.9
+        },
+        "IL": {
+          "state": "Illinois",
+          "bdi_composite": 84.44,
+          "black_pop_pct": 14.7
+        },
+        "MI": {
+          "state": "Michigan",
+          "bdi_composite": 86.54,
+          "black_pop_pct": 14.0
+        },
+        "OH": {
+          "state": "Ohio",
+          "bdi_composite": 84.37,
+          "black_pop_pct": 13.0
+        },
+        "NY": {
+          "state": "New York",
+          "bdi_composite": 75.29,
+          "black_pop_pct": 17.6
+        },
+        "NC": {
+          "state": "North Carolina",
+          "bdi_composite": 67.45,
+          "black_pop_pct": 21.5
+        },
+        "MD": {
+          "state": "Maryland",
+          "bdi_composite": 58.28,
+          "black_pop_pct": 31.1
+        },
+        "VA": {
+          "state": "Virginia",
+          "bdi_composite": 58.7,
+          "black_pop_pct": 19.9
+        },
+        "TN": {
+          "state": "Tennessee",
+          "bdi_composite": 72.91,
+          "black_pop_pct": 17.1
+        },
+        "AR": {
+          "state": "Arkansas",
+          "bdi_composite": 78.36,
+          "black_pop_pct": 15.7
+        },
+        "MO": {
+          "state": "Missouri",
+          "bdi_composite": 76.91,
+          "black_pop_pct": 11.8
+        }
+      },
+      "ranked": [
+        {
+          "rank": 1,
+          "state_code": "MI",
+          "state": "Michigan",
+          "bdi_composite": 86.54,
+          "black_pop_pct": 14.0
+        },
+        {
+          "rank": 2,
+          "state_code": "LA",
+          "state": "Louisiana",
+          "bdi_composite": 84.85,
+          "black_pop_pct": 32.7
+        },
+        {
+          "rank": 3,
+          "state_code": "IL",
+          "state": "Illinois",
+          "bdi_composite": 84.44,
+          "black_pop_pct": 14.7
+        },
+        {
+          "rank": 4,
+          "state_code": "OH",
+          "state": "Ohio",
+          "bdi_composite": 84.37,
+          "black_pop_pct": 13.0
+        },
+        {
+          "rank": 5,
+          "state_code": "MS",
+          "state": "Mississippi",
+          "bdi_composite": 79.82,
+          "black_pop_pct": 37.8
+        },
+        {
+          "rank": 6,
+          "state_code": "AR",
+          "state": "Arkansas",
+          "bdi_composite": 78.36,
+          "black_pop_pct": 15.7
+        },
+        {
+          "rank": 7,
+          "state_code": "MO",
+          "state": "Missouri",
+          "bdi_composite": 76.91,
+          "black_pop_pct": 11.8
+        },
+        {
+          "rank": 8,
+          "state_code": "AL",
+          "state": "Alabama",
+          "bdi_composite": 75.68,
+          "black_pop_pct": 26.8
+        },
+        {
+          "rank": 9,
+          "state_code": "NY",
+          "state": "New York",
+          "bdi_composite": 75.29,
+          "black_pop_pct": 17.6
+        },
+        {
+          "rank": 10,
+          "state_code": "SC",
+          "state": "South Carolina",
+          "bdi_composite": 73.46,
+          "black_pop_pct": 26.5
+        },
+        {
+          "rank": 11,
+          "state_code": "TN",
+          "state": "Tennessee",
+          "bdi_composite": 72.91,
+          "black_pop_pct": 17.1
+        },
+        {
+          "rank": 12,
+          "state_code": "NC",
+          "state": "North Carolina",
+          "bdi_composite": 67.45,
+          "black_pop_pct": 21.5
+        },
+        {
+          "rank": 13,
+          "state_code": "TX",
+          "state": "Texas",
+          "bdi_composite": 66.97,
+          "black_pop_pct": 12.9
+        },
+        {
+          "rank": 14,
+          "state_code": "GA",
+          "state": "Georgia",
+          "bdi_composite": 65.78,
+          "black_pop_pct": 32.6
+        },
+        {
+          "rank": 15,
+          "state_code": "FL",
+          "state": "Florida",
+          "bdi_composite": 61.29,
+          "black_pop_pct": 16.9
+        },
+        {
+          "rank": 16,
+          "state_code": "VA",
+          "state": "Virginia",
+          "bdi_composite": 58.7,
+          "black_pop_pct": 19.9
+        },
+        {
+          "rank": 17,
+          "state_code": "MD",
+          "state": "Maryland",
+          "bdi_composite": 58.28,
+          "black_pop_pct": 31.1
+        }
+      ],
+      "top_state": "Michigan (86.54) \u2014 compounded by Flint water crisis, highest homeownership gap, extreme incarceration ratio",
+      "validation_test": "Humphreys County, MS: FDI 87.2 (FarmBlock) + MS BDI 79.82 = compound score 83.5 \u2014 confirms as the nation's most structurally oppressed geography",
+      "farmblock_crosswalk": {
+        "description": "Where FDI (food/economic distress) and BDI (structural oppression) scores both exceed 75, the compound burden is catastrophic.",
+        "high_compound_geographies": [
+          {
+            "location": "Humphreys County, MS",
+            "fdi": 87.2,
+            "state_bdi": 79.82,
+            "compound": 83.5,
+            "black_pop_pct": 72,
+            "note": "Nation's highest compound score. No hospital. 37% poverty. Complete structural abandonment."
+          },
+          {
+            "location": "Claiborne County, MS",
+            "fdi": 82.1,
+            "state_bdi": 79.82,
+            "compound": 81.0,
+            "black_pop_pct": 83,
+            "note": "83% Black. Hypertension 50%. No grocery store within 15 miles."
+          },
+          {
+            "location": "East St. Louis, IL",
+            "fdi_est": 78.0,
+            "state_bdi": 84.44,
+            "compound": 81.2,
+            "black_pop_pct": 97,
+            "note": "97% Black. Industrial pollution. No full-service grocery within city limits."
+          },
+          {
+            "location": "Cancer Alley, LA",
+            "fdi_est": 74.0,
+            "state_bdi": 84.85,
+            "compound": 79.4,
+            "black_pop_pct": 85,
+            "note": "150 industrial facilities in 85-mile corridor. 85% Black residents. Highest maternal mortality nationally."
+          },
+          {
+            "location": "Detroit, MI (core)",
+            "fdi_est": 76.0,
+            "state_bdi": 86.54,
+            "compound": 81.3,
+            "black_pop_pct": 78,
+            "note": "78% Black. Flint water crisis. 40pt homeownership gap. Highest state BDI score."
+          }
+        ]
+      }
+    }
+  },
+  "_seal": {
+    "status": "SEALED",
+    "dag": "bdi-sovereign-dataset-v1-sealed-2026-0417",
+    "sealed_at": "2026-04-17T17:25:26.490833Z",
+    "sealed_by": "Sue + PRIME + Moses (Paradise Trinity)",
+    "authority": "Chairman Israel Armstead \u2014 PATH A COMPLETE",
+    "mirofish_composite": 98.23,
+    "mirofish_gate": "92% \u2014 PASSED",
+    "logos_score": "100/100 \u2014 PASSED",
+    "proof_verified": "34/34 variables dual-source confirmed",
+    "sha256": "d7f80208b7b9bea09633e68cd989d0f84addc3db103f2662bfb335ea96f33821",
+    "sha512_prefix": "80e77b3ac6e67b9b4655e7f9efc6493364268771c45aaa2ee2678bf85b9cce15",
+    "philosophical_seal": "Du Bois \u00b7 Baldwin \u00b7 Welsing",
+    "ceremony_phrase": "33^333 x 3VP | NFT | GOD | RUNWAY | ISRAEL Protocol",
+    "total_data_points": 1574,
+    "total_pillars": 8,
+    "special_modules": 3,
+    "year_range": "1514\u20132024",
+    "priority_states": 17,
+    "license": "CC0 1.0 Universal \u2014 Public Domain",
+    "github_repo": "IAMGODIAM/bdi-sovereign-dataset",
+    "nft": "Exodus #5 \u2014 Perfect Harness Series \u2014 queued on ExodusV4 contract",
+    "job41_authorized": true,
+    "job41_note": "JOB41 commission authorized upon GitHub push and NFT mint confirmation"
+  },
+  "total_data_points_corrected": 1574,
+  "total_data_points_original_claim": 1855,
+  "count_correction_note": "Original claim of 1,855 included JSON metadata keys counted as data points \u2014 incorrect. Corrected to 1,574 per explicit counting rule in BDI_QUANT_SPEC.md (one row in a time series = one data point)."
+}

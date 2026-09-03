@@ -1,0 +1,109 @@
+{
+  "source": "U.S. Census Bureau \u2014 ACS 1-Year, B17001B/H",
+  "pulled_date": "2026-04-18",
+  "pillar": "1 \u2014 Economic Justice",
+  "series": [
+    {
+      "year": 2005,
+      "black_poverty_pct": 25.6,
+      "white_poverty_pct": 9.0,
+      "black_white_ratio": 2.84
+    },
+    {
+      "year": 2006,
+      "black_poverty_pct": 25.3,
+      "white_poverty_pct": 9.3,
+      "black_white_ratio": 2.72
+    },
+    {
+      "year": 2007,
+      "black_poverty_pct": 24.7,
+      "white_poverty_pct": 9.0,
+      "black_white_ratio": 2.74
+    },
+    {
+      "year": 2008,
+      "black_poverty_pct": 24.1,
+      "white_poverty_pct": 9.3,
+      "black_white_ratio": 2.59
+    },
+    {
+      "year": 2009,
+      "black_poverty_pct": 25.8,
+      "white_poverty_pct": 10.0,
+      "black_white_ratio": 2.58
+    },
+    {
+      "year": 2010,
+      "black_poverty_pct": 27.1,
+      "white_poverty_pct": 10.6,
+      "black_white_ratio": 2.56
+    },
+    {
+      "year": 2011,
+      "black_poverty_pct": 28.1,
+      "white_poverty_pct": 11.0,
+      "black_white_ratio": 2.55
+    },
+    {
+      "year": 2012,
+      "black_poverty_pct": 28.1,
+      "white_poverty_pct": 11.0,
+      "black_white_ratio": 2.55
+    },
+    {
+      "year": 2013,
+      "black_poverty_pct": 27.6,
+      "white_poverty_pct": 11.1,
+      "black_white_ratio": 2.49
+    },
+    {
+      "year": 2014,
+      "black_poverty_pct": 27.0,
+      "white_poverty_pct": 10.8,
+      "black_white_ratio": 2.5
+    },
+    {
+      "year": 2015,
+      "black_poverty_pct": 25.4,
+      "white_poverty_pct": 10.4,
+      "black_white_ratio": 2.44
+    },
+    {
+      "year": 2016,
+      "black_poverty_pct": 23.9,
+      "white_poverty_pct": 10.0,
+      "black_white_ratio": 2.39
+    },
+    {
+      "year": 2017,
+      "black_poverty_pct": 23.0,
+      "white_poverty_pct": 9.6,
+      "black_white_ratio": 2.4
+    },
+    {
+      "year": 2018,
+      "black_poverty_pct": 22.5,
+      "white_poverty_pct": 9.5,
+      "black_white_ratio": 2.37
+    },
+    {
+      "year": 2019,
+      "black_poverty_pct": 21.2,
+      "white_poverty_pct": 9.0,
+      "black_white_ratio": 2.36
+    },
+    {
+      "year": 2021,
+      "black_poverty_pct": 21.8,
+      "white_poverty_pct": 9.5,
+      "black_white_ratio": 2.29
+    },
+    {
+      "year": 2022,
+      "black_poverty_pct": 21.3,
+      "white_poverty_pct": 9.5,
+      "black_white_ratio": 2.24
+    }
+  ]
+}

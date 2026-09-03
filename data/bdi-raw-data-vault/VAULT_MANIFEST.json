@@ -1,0 +1,162 @@
+{
+  "vault": "BDI Raw Data Vault",
+  "version": "v3.1",
+  "dag": "bdi-vault-v3-comprehensive-2026-0418",
+  "publisher": "E5 Enclave Incorporated | EIN 99-3822441",
+  "license": "CC0 1.0 Universal \u2014 Public Domain",
+  "pulled_date": "2026-04-18",
+  "mirofish_composite": "94%",
+  "total_files": 17,
+  "structure": {
+    "Tier 1 \u2014 National/State": {
+      "description": "National aggregates + all 50 states + DC",
+      "files": [
+        {
+          "file": "economic/bls_unemployment_by_race_1972-2025_FULL_RAW.json",
+          "records": 54,
+          "years": "1972-2025",
+          "source": "BLS LNS14000006/3"
+        },
+        {
+          "file": "economic/census_acs_homeownership_income_RAW.json",
+          "records": 17,
+          "years": "2005-2022",
+          "source": "Census ACS B25003/B19013"
+        },
+        {
+          "file": "economic/census_acs_poverty_RAW.json",
+          "records": 17,
+          "years": "2005-2022",
+          "source": "Census ACS B17001"
+        },
+        {
+          "file": "economic/fed_reserve_scf_wealth_usda_land_RAW.json",
+          "records": 26,
+          "years": "1910-2022",
+          "source": "Fed SCF + USDA NASS"
+        },
+        {
+          "file": "economic/tier1_state_economics_ACS_2010-2022_RAW.json",
+          "records": 260,
+          "years": "2010-2022",
+          "source": "Census ACS \u2014 all states"
+        },
+        {
+          "file": "economic/tier1_state_bls_unemployment_2010-2024_RAW.json",
+          "records": 32,
+          "years": "2010-2024",
+          "source": "BLS LAUS \u2014 major states"
+        },
+        {
+          "file": "education/tier1_naep_score_gaps_national_1992-2022_RAW.json",
+          "records": 14,
+          "years": "1992-2022",
+          "source": "NAEP published reports"
+        },
+        {
+          "file": "education/tier1_state_education_attainment_2022_RAW.json",
+          "records": 52,
+          "years": "2022",
+          "source": "Census C15002B/H"
+        },
+        {
+          "file": "health/nchs_life_expectancy_maternal_mortality_RAW.json",
+          "records": 31,
+          "years": "1900-2022",
+          "source": "NCHS NVSR"
+        },
+        {
+          "file": "criminal_justice/bjs_incarceration_mpv_killings_RAW.json",
+          "records": 28,
+          "years": "1925-2023",
+          "source": "BJS + MPV"
+        }
+      ]
+    },
+    "Tier 2 \u2014 Metro/MSA": {
+      "description": "All 516+ Metropolitan and Micropolitan Statistical Areas",
+      "files": [
+        {
+          "file": "economic/tier2_metro_msa_economics_ACS_2015-2022_RAW.json",
+          "records": 1550,
+          "years": "2015-2022",
+          "source": "Census ACS CBSA"
+        }
+      ]
+    },
+    "Tier 3 \u2014 County": {
+      "description": "All 3,142+ counties in the United States",
+      "files": [
+        {
+          "file": "economic/tier3_county_economics_ACS5Y_2015-2022_RAW.json",
+          "records": 9160,
+          "years": "2015-2022",
+          "source": "Census ACS 5-Year all counties"
+        },
+        {
+          "file": "demographics/tier3_county_black_population_pct_2022_RAW.json",
+          "records": 3222,
+          "years": "2022",
+          "source": "Census B02001"
+        },
+        {
+          "file": "housing/hmda_mortgage_denial_eviction_RAW.json",
+          "records": 19,
+          "years": "1993-2022",
+          "source": "CFPB HMDA + Princeton Eviction Lab"
+        }
+      ]
+    },
+    "Historical": {
+      "files": [
+        {
+          "file": "historical/slavevoyages_1514-1866_aggregate_RAW.json",
+          "records": 10,
+          "years": "1514-1866",
+          "source": "Slave Voyages DB \u2014 Emory"
+        },
+        {
+          "file": "housing/census_decennial_homeownership_1940-2010_RAW.json",
+          "records": 32,
+          "years": "1940-2020",
+          "source": "Census decennial + CPS P20"
+        }
+      ]
+    }
+  },
+  "total_data_points": {
+    "tier1_national": 479,
+    "tier1_state": 358,
+    "tier2_metro": 1550,
+    "tier3_county": 12382,
+    "historical": 42,
+    "grand_total": "~14,811 verified data points"
+  },
+  "geographies_covered": {
+    "national": 1,
+    "states": "52 (50 + DC + PR)",
+    "metros_msas": "516+",
+    "counties": "3,222",
+    "cities_farmblock_targeted": 50
+  },
+  "pending_pulls": [
+    "CDC PLACES county health (503 \u2014 retry next session)",
+    "CDC BRFSS state-level race health outcomes (503)",
+    "Vera Institute county incarceration by race (repo moved)",
+    "EPA EJScreen county environmental burden (batch pull needed)",
+    "CFPB HMDA state + county denial rates (auth issue)",
+    "NAEP state-level score gaps by race (NDE access)"
+  ],
+  "reports": [
+    "reports/REPORT_1_SCIENTIFIC_RAW.md \u2014 Empirical record, all sources, formulas, citations",
+    "reports/REPORT_2_ANALYTICAL_READING.md \u2014 Structural analysis across all pillars",
+    "reports/REPORT_3_BLACK_PAPER_ADJUSTMENTS.md \u2014 9 adjustments to Black Paper manuscript"
+  ],
+  "last_updated": "2026-04-18T20:00:00Z",
+  "changes_v3_1": [
+    "Removed 0KB duplicate: economic/bls_unemployment_by_race_RAW.json",
+    "Restored historical/slavevoyages_1514-1866_aggregate_RAW.json (was empty)",
+    "Added dual_source_log.json \u2014 per-series verification log",
+    "Corrected active file count"
+  ]
+}

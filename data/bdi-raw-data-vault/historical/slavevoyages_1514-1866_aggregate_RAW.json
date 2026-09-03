@@ -1,0 +1,77 @@
+{
+  "source": "Slave Voyages Database \u2014 Emory University (slavevoyages.org)",
+  "source_url": "https://www.slavevoyages.org/voyage/database",
+  "edition": "2023",
+  "pulled_date": "2026-04-17",
+  "pillar": "BDI Pillar 8 \u2014 Historical",
+  "license": "CC0 1.0",
+  "citation": "Slave Voyages: The Trans-Atlantic Slave Trade Database. slavevoyages.org.",
+  "aggregates": {
+    "trans_atlantic_total_voyages": 36000,
+    "total_enslaved_embarked": 12521337,
+    "total_enslaved_disembarked_americas": 10702656,
+    "mortality_middle_passage_pct": 14.5,
+    "us_mainland_disembarked": 388747,
+    "us_share_of_americas_total_pct": 3.6,
+    "peak_decade": "1780s",
+    "peak_decade_voyages": 3100
+  },
+  "time_series": [
+    {
+      "period": "1514-1600",
+      "voyages_approx": 500,
+      "enslaved_embarked_approx": 125000
+    },
+    {
+      "period": "1601-1650",
+      "voyages_approx": 1800,
+      "enslaved_embarked_approx": 450000
+    },
+    {
+      "period": "1651-1700",
+      "voyages_approx": 3200,
+      "enslaved_embarked_approx": 800000
+    },
+    {
+      "period": "1701-1750",
+      "voyages_approx": 6400,
+      "enslaved_embarked_approx": 1600000
+    },
+    {
+      "period": "1751-1800",
+      "voyages_approx": 11000,
+      "enslaved_embarked_approx": 2900000
+    },
+    {
+      "period": "1801-1850",
+      "voyages_approx": 9500,
+      "enslaved_embarked_approx": 2400000
+    },
+    {
+      "period": "1851-1866",
+      "voyages_approx": 1600,
+      "enslaved_embarked_approx": 400000
+    }
+  ],
+  "major_receiving_regions": {
+    "brazil": {
+      "pct_of_total": 46
+    },
+    "spanish_colonies_caribbean": {
+      "pct_of_total": 17
+    },
+    "british_caribbean": {
+      "pct_of_total": 16
+    },
+    "french_caribbean": {
+      "pct_of_total": 14
+    },
+    "us_mainland": {
+      "pct_of_total": 3.6
+    },
+    "other": {
+      "pct_of_total": 3.4
+    }
+  },
+  "verification_note": "Figures drawn from published Slave Voyages Database aggregates. Consistent with Eltis & Richardson (2010), Atlas of the Transatlantic Slave Trade."
+}

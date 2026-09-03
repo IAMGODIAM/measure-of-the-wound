@@ -1,0 +1,180 @@
+{
+  "source": "Federal Reserve Survey of Consumer Finances + USDA NASS Census of Agriculture",
+  "pulled_date": "2026-04-18",
+  "pillar": "1 \u2014 Economic Justice + 8 \u2014 Historical Architecture",
+  "scf_wealth_gap_1989_2022": [
+    {
+      "year": 1989,
+      "black_median_wealth": 12000,
+      "white_median_wealth": 95000,
+      "absolute_gap": 83000,
+      "ratio": 0.126,
+      "source": "Federal Reserve Survey of Consumer Finances 1989"
+    },
+    {
+      "year": 1992,
+      "black_median_wealth": 14000,
+      "white_median_wealth": 95000,
+      "absolute_gap": 81000,
+      "ratio": 0.147,
+      "source": "Federal Reserve SCF 1992"
+    },
+    {
+      "year": 1995,
+      "black_median_wealth": 14000,
+      "white_median_wealth": 90000,
+      "absolute_gap": 76000,
+      "ratio": 0.156,
+      "source": "Federal Reserve SCF 1995"
+    },
+    {
+      "year": 1998,
+      "black_median_wealth": 17000,
+      "white_median_wealth": 107000,
+      "absolute_gap": 90000,
+      "ratio": 0.159,
+      "source": "Federal Reserve SCF 1998"
+    },
+    {
+      "year": 2001,
+      "black_median_wealth": 20000,
+      "white_median_wealth": 121000,
+      "absolute_gap": 101000,
+      "ratio": 0.165,
+      "source": "Federal Reserve SCF 2001"
+    },
+    {
+      "year": 2004,
+      "black_median_wealth": 20400,
+      "white_median_wealth": 134000,
+      "absolute_gap": 113600,
+      "ratio": 0.152,
+      "source": "Federal Reserve SCF 2004"
+    },
+    {
+      "year": 2007,
+      "black_median_wealth": 19200,
+      "white_median_wealth": 171000,
+      "absolute_gap": 151800,
+      "ratio": 0.112,
+      "source": "Federal Reserve SCF 2007 \u2014 pre-crash peak"
+    },
+    {
+      "year": 2010,
+      "black_median_wealth": 13700,
+      "white_median_wealth": 130700,
+      "absolute_gap": 117000,
+      "ratio": 0.105,
+      "note": "2008 crash erased decade of Black wealth gains",
+      "source": "Federal Reserve SCF 2010"
+    },
+    {
+      "year": 2013,
+      "black_median_wealth": 11200,
+      "white_median_wealth": 141900,
+      "absolute_gap": 130700,
+      "ratio": 0.079,
+      "note": "Widest ratio gap in series \u2014 post-crash nadir",
+      "source": "Federal Reserve SCF 2013"
+    },
+    {
+      "year": 2016,
+      "black_median_wealth": 17600,
+      "white_median_wealth": 171000,
+      "absolute_gap": 153400,
+      "ratio": 0.103,
+      "source": "Federal Reserve SCF 2016"
+    },
+    {
+      "year": 2019,
+      "black_median_wealth": 24100,
+      "white_median_wealth": 188200,
+      "absolute_gap": 164100,
+      "ratio": 0.128,
+      "source": "Federal Reserve SCF 2019"
+    },
+    {
+      "year": 2022,
+      "black_median_wealth": 44900,
+      "white_median_wealth": 285000,
+      "absolute_gap": 240100,
+      "ratio": 0.158,
+      "source": "Federal Reserve SCF 2022"
+    }
+  ],
+  "usda_black_farmland_acres_1910_2022": [
+    {
+      "year": 1910,
+      "black_farmland_acres": 15000000,
+      "note": "Peak Black land ownership",
+      "source": "USDA NASS Census of Agriculture 1910"
+    },
+    {
+      "year": 1920,
+      "black_farmland_acres": 14000000,
+      "source": "USDA NASS 1920"
+    },
+    {
+      "year": 1930,
+      "black_farmland_acres": 12000000,
+      "source": "USDA NASS 1930"
+    },
+    {
+      "year": 1940,
+      "black_farmland_acres": 11000000,
+      "source": "USDA NASS 1940"
+    },
+    {
+      "year": 1950,
+      "black_farmland_acres": 9000000,
+      "source": "USDA NASS 1950"
+    },
+    {
+      "year": 1960,
+      "black_farmland_acres": 6000000,
+      "source": "USDA NASS 1960"
+    },
+    {
+      "year": 1969,
+      "black_farmland_acres": 5800000,
+      "source": "USDA NASS 1969"
+    },
+    {
+      "year": 1978,
+      "black_farmland_acres": 3100000,
+      "source": "USDA NASS 1978"
+    },
+    {
+      "year": 1982,
+      "black_farmland_acres": 2600000,
+      "source": "USDA NASS 1982"
+    },
+    {
+      "year": 1992,
+      "black_farmland_acres": 2300000,
+      "source": "USDA NASS 1992"
+    },
+    {
+      "year": 1997,
+      "black_farmland_acres": 1500000,
+      "note": "\u221290% from 1910 peak \u2014 documented in USDA 'Minority Farmers' report",
+      "source": "USDA NASS 1997 + USDA Report to Congress 2001"
+    },
+    {
+      "year": 2007,
+      "black_farmland_acres": 1141733,
+      "source": "USDA NASS 2007"
+    },
+    {
+      "year": 2017,
+      "black_farmland_acres": 4700000,
+      "note": "Methodology change in 2017 Census \u2014 now counts leased land",
+      "source": "USDA NASS 2017 \u2014 methodology change"
+    },
+    {
+      "year": 2022,
+      "black_farmland_acres": 2900000,
+      "source": "USDA NASS 2022"
+    }
+  ]
+}

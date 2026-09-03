@@ -1,0 +1,139 @@
+{
+  "source": "CFPB HMDA Annual Data + Princeton Eviction Lab (Desmond et al.)",
+  "pulled_date": "2026-04-18",
+  "pillar": "5 \u2014 Housing",
+  "hmda_mortgage_denial_1993_2022": [
+    {
+      "year": 1993,
+      "black_denial_rate_pct": 34.3,
+      "white_denial_rate_pct": 15.3,
+      "ratio": 2.24,
+      "source": "HMDA Published Data 1993, Fed Reserve Bulletin 1994"
+    },
+    {
+      "year": 1995,
+      "black_denial_rate_pct": 30.2,
+      "white_denial_rate_pct": 13.5,
+      "ratio": 2.24,
+      "source": "HMDA 1995"
+    },
+    {
+      "year": 1997,
+      "black_denial_rate_pct": 26.0,
+      "white_denial_rate_pct": 11.1,
+      "ratio": 2.34,
+      "source": "HMDA 1997"
+    },
+    {
+      "year": 2000,
+      "black_denial_rate_pct": 24.5,
+      "white_denial_rate_pct": 10.4,
+      "ratio": 2.36,
+      "source": "HMDA 2000"
+    },
+    {
+      "year": 2003,
+      "black_denial_rate_pct": 20.3,
+      "white_denial_rate_pct": 10.1,
+      "ratio": 2.01,
+      "source": "HMDA 2003"
+    },
+    {
+      "year": 2006,
+      "black_denial_rate_pct": 18.2,
+      "white_denial_rate_pct": 8.2,
+      "ratio": 2.22,
+      "note": "Subprime era \u2014 denial fell but predatory approval rose",
+      "source": "HMDA 2006"
+    },
+    {
+      "year": 2010,
+      "black_denial_rate_pct": 26.1,
+      "white_denial_rate_pct": 12.4,
+      "ratio": 2.11,
+      "note": "Post-crash tightening disproportionate",
+      "source": "HMDA 2010"
+    },
+    {
+      "year": 2014,
+      "black_denial_rate_pct": 27.0,
+      "white_denial_rate_pct": 11.5,
+      "ratio": 2.35,
+      "source": "HMDA 2014"
+    },
+    {
+      "year": 2017,
+      "black_denial_rate_pct": 22.9,
+      "white_denial_rate_pct": 10.1,
+      "ratio": 2.27,
+      "source": "CFPB HMDA 2017"
+    },
+    {
+      "year": 2019,
+      "black_denial_rate_pct": 17.4,
+      "white_denial_rate_pct": 8.5,
+      "ratio": 2.05,
+      "source": "CFPB HMDA 2019"
+    },
+    {
+      "year": 2021,
+      "black_denial_rate_pct": 18.1,
+      "white_denial_rate_pct": 8.3,
+      "ratio": 2.18,
+      "source": "CFPB HMDA 2021"
+    },
+    {
+      "year": 2022,
+      "black_denial_rate_pct": 19.8,
+      "white_denial_rate_pct": 9.1,
+      "ratio": 2.18,
+      "source": "CFPB HMDA 2022"
+    }
+  ],
+  "eviction_rate_2000_2016": [
+    {
+      "year": 2000,
+      "black_eviction_rate_pct": 6.35,
+      "white_eviction_rate_pct": 1.83,
+      "ratio": 3.47,
+      "source": "Princeton Eviction Lab \u2014 Desmond 2016"
+    },
+    {
+      "year": 2003,
+      "black_eviction_rate_pct": 6.73,
+      "white_eviction_rate_pct": 1.98,
+      "ratio": 3.4
+    },
+    {
+      "year": 2006,
+      "black_eviction_rate_pct": 7.12,
+      "white_eviction_rate_pct": 2.01,
+      "ratio": 3.54
+    },
+    {
+      "year": 2009,
+      "black_eviction_rate_pct": 7.44,
+      "white_eviction_rate_pct": 2.48,
+      "ratio": 3.0
+    },
+    {
+      "year": 2012,
+      "black_eviction_rate_pct": 7.21,
+      "white_eviction_rate_pct": 2.12,
+      "ratio": 3.4
+    },
+    {
+      "year": 2015,
+      "black_eviction_rate_pct": 7.12,
+      "white_eviction_rate_pct": 2.07,
+      "ratio": 3.44
+    },
+    {
+      "year": 2016,
+      "black_eviction_rate_pct": 6.97,
+      "white_eviction_rate_pct": 2.02,
+      "ratio": 3.45,
+      "source": "Princeton Eviction Lab \u2014 last year of published data series"
+    }
+  ]
+}

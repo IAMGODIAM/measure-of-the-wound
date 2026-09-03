@@ -1,0 +1,166 @@
+{
+  "source_note": "Published Census decennial reports + CPS P20 Historical Voting series",
+  "pulled_date": "2026-04-18",
+  "verification": "Primary source: U.S. Census Bureau publications. Secondary: Joint Center for Political Studies historical records",
+  "decennial_homeownership": [
+    {
+      "year": 1940,
+      "black_homeownership_pct": 23.6,
+      "white_homeownership_pct": 45.7,
+      "gap_pp": 22.1,
+      "source": "Census of Housing 1940, Table H-1"
+    },
+    {
+      "year": 1950,
+      "black_homeownership_pct": 34.5,
+      "white_homeownership_pct": 57.0,
+      "gap_pp": 22.5,
+      "source": "Census of Housing 1950"
+    },
+    {
+      "year": 1960,
+      "black_homeownership_pct": 38.4,
+      "white_homeownership_pct": 64.4,
+      "gap_pp": 26.0,
+      "source": "Census of Housing 1960"
+    },
+    {
+      "year": 1970,
+      "black_homeownership_pct": 41.6,
+      "white_homeownership_pct": 65.4,
+      "gap_pp": 23.8,
+      "source": "Census of Housing 1970"
+    },
+    {
+      "year": 1980,
+      "black_homeownership_pct": 44.4,
+      "white_homeownership_pct": 67.8,
+      "gap_pp": 23.4,
+      "source": "Census of Housing 1980"
+    },
+    {
+      "year": 1990,
+      "black_homeownership_pct": 43.4,
+      "white_homeownership_pct": 68.2,
+      "gap_pp": 24.8,
+      "source": "Census of Housing 1990"
+    },
+    {
+      "year": 2000,
+      "black_homeownership_pct": 46.3,
+      "white_homeownership_pct": 73.8,
+      "gap_pp": 27.5,
+      "source": "Census of Housing 2000, Table H011"
+    },
+    {
+      "year": 2010,
+      "black_homeownership_pct": 44.3,
+      "white_homeownership_pct": 73.0,
+      "gap_pp": 28.7,
+      "source": "Census of Housing 2010"
+    }
+  ],
+  "cps_voter_turnout_1964_2020": [
+    {
+      "year": 1964,
+      "black_turnout_pct": 58.5,
+      "white_turnout_pct": 70.7,
+      "gap_pp": -12.2,
+      "note": "First election after Civil Rights Act"
+    },
+    {
+      "year": 1968,
+      "black_turnout_pct": 57.6,
+      "white_turnout_pct": 69.1,
+      "gap_pp": -11.5
+    },
+    {
+      "year": 1972,
+      "black_turnout_pct": 52.1,
+      "white_turnout_pct": 64.5,
+      "gap_pp": -12.4
+    },
+    {
+      "year": 1976,
+      "black_turnout_pct": 48.7,
+      "white_turnout_pct": 60.9,
+      "gap_pp": -12.2
+    },
+    {
+      "year": 1980,
+      "black_turnout_pct": 50.5,
+      "white_turnout_pct": 60.9,
+      "gap_pp": -10.4
+    },
+    {
+      "year": 1984,
+      "black_turnout_pct": 55.8,
+      "white_turnout_pct": 61.4,
+      "gap_pp": -5.6,
+      "note": "Jesse Jackson first campaign \u2014 surge"
+    },
+    {
+      "year": 1988,
+      "black_turnout_pct": 51.5,
+      "white_turnout_pct": 59.1,
+      "gap_pp": -7.6
+    },
+    {
+      "year": 1992,
+      "black_turnout_pct": 54.0,
+      "white_turnout_pct": 63.6,
+      "gap_pp": -9.6
+    },
+    {
+      "year": 1996,
+      "black_turnout_pct": 50.6,
+      "white_turnout_pct": 60.7,
+      "gap_pp": -10.1
+    },
+    {
+      "year": 2000,
+      "black_turnout_pct": 53.5,
+      "white_turnout_pct": 60.4,
+      "gap_pp": -6.9
+    },
+    {
+      "year": 2004,
+      "black_turnout_pct": 60.0,
+      "white_turnout_pct": 65.8,
+      "gap_pp": -5.8
+    },
+    {
+      "year": 2008,
+      "black_turnout_pct": 64.7,
+      "white_turnout_pct": 64.4,
+      "gap_pp": 0.3,
+      "note": "Black turnout nearly matched white for first time in recorded history"
+    },
+    {
+      "year": 2012,
+      "black_turnout_pct": 66.6,
+      "white_turnout_pct": 64.1,
+      "gap_pp": 2.5,
+      "note": "Black turnout EXCEEDED white \u2014 first time in recorded history"
+    },
+    {
+      "year": 2016,
+      "black_turnout_pct": 59.6,
+      "white_turnout_pct": 65.3,
+      "gap_pp": -5.7,
+      "note": "Post-Shelby County: gap reversed"
+    },
+    {
+      "year": 2018,
+      "black_turnout_pct": 51.4,
+      "white_turnout_pct": 57.5,
+      "gap_pp": -6.1
+    },
+    {
+      "year": 2020,
+      "black_turnout_pct": 62.6,
+      "white_turnout_pct": 70.9,
+      "gap_pp": -8.3
+    }
+  ]
+}

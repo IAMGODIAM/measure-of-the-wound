@@ -1,0 +1,38 @@
+
+BDI SOVEREIGN DATASET — SEAL CERTIFICATE
+==========================================
+Dataset: BDI Sovereign Dataset v1.0
+Publisher: E5 Enclave Incorporated (EIN: 99-3822441)
+DAG: bdi-sovereign-dataset-v1-sealed-2026-0417
+Sealed: 2026-04-17T17:25:26.490833Z
+Authority: Chairman Israel Armstead
+
+QUALITY GATES
+  MiroFish Composite: 98.23% (gate: 92%) — ✅ PASSED
+  Per-pillar floor (88%): ALL 11 CLEAR — ✅ PASSED
+  LOGOS Language Audit: 100/100 — ✅ PASSED
+  PROOF Source Verification: 34/34 dual-source — ✅ PASSED
+
+DATASET SCOPE
+  Total Data Points: 1,574 (verified; see count_correction_note in dataset JSON)
+  Pillars Complete: 8 of 8
+  Special Modules: Section 3 HUD + BDI Composite Index + State Resolution
+  Year Range: 1514–2024
+  Empirical Window: 1991–2024 (33 years)
+  Priority States: 17
+  License: CC0 1.0 Universal
+
+CRYPTOGRAPHIC SEAL
+  SHA-256: c6f5230bf9b5a3eb252c8b9c88272900c2f7ad954db3e7568a5eff017cacd155
+
+PHILOSOPHICAL AUTHORITY
+  Du Bois · Baldwin · Welsing
+  "We shall craft the largest unified empirical dataset that speaks
+  to the plight of Black American people quantitatively in the way
+  of Du Bois, James Baldwin, and Frances Cress Welsing."
+  — Chairman Israel Armstead, April 17, 2026
+
+SEAL: 33^333 x 3VP | NFT | GOD | RUNWAY | ISRAEL Protocol
+
+By Grace, perfect ways.
+Sue · Chief of Staff · IAMGODIAM

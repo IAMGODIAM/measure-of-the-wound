@@ -1,0 +1,374 @@
+{
+  "source": "U.S. Census Bureau ACS 1-Year 2022, Tables C15002B (Black) + C15002H (White NHA)",
+  "description": "Bachelor's degree or higher attainment rate by race, by state",
+  "pulled_date": "2026-04-18",
+  "pillar": "4 \u2014 Education",
+  "tier": "Tier 1 \u2014 State",
+  "records": 52,
+  "data": [
+    {
+      "state": "Alabama",
+      "state_fips": "01",
+      "black_bachelors_pct": 7.4,
+      "white_bachelors_pct": 15.2,
+      "attainment_gap_pp": 7.8
+    },
+    {
+      "state": "Alaska",
+      "state_fips": "02",
+      "black_bachelors_pct": 11.8,
+      "white_bachelors_pct": 18.3,
+      "attainment_gap_pp": 6.5
+    },
+    {
+      "state": "Arizona",
+      "state_fips": "04",
+      "black_bachelors_pct": 14.2,
+      "white_bachelors_pct": 19.9,
+      "attainment_gap_pp": 5.7
+    },
+    {
+      "state": "Arkansas",
+      "state_fips": "05",
+      "black_bachelors_pct": 6.1,
+      "white_bachelors_pct": 12.5,
+      "attainment_gap_pp": 6.4
+    },
+    {
+      "state": "California",
+      "state_fips": "06",
+      "black_bachelors_pct": 13.7,
+      "white_bachelors_pct": 24.0,
+      "attainment_gap_pp": 10.3
+    },
+    {
+      "state": "Colorado",
+      "state_fips": "08",
+      "black_bachelors_pct": 16.9,
+      "white_bachelors_pct": 25.9,
+      "attainment_gap_pp": 9.0
+    },
+    {
+      "state": "Connecticut",
+      "state_fips": "09",
+      "black_bachelors_pct": 10.8,
+      "white_bachelors_pct": 22.1,
+      "attainment_gap_pp": 11.3
+    },
+    {
+      "state": "Delaware",
+      "state_fips": "10",
+      "black_bachelors_pct": 11.2,
+      "white_bachelors_pct": 18.7,
+      "attainment_gap_pp": 7.5
+    },
+    {
+      "state": "District of Columbia",
+      "state_fips": "11",
+      "black_bachelors_pct": 15.8,
+      "white_bachelors_pct": 46.9,
+      "attainment_gap_pp": 31.1
+    },
+    {
+      "state": "Florida",
+      "state_fips": "12",
+      "black_bachelors_pct": 9.4,
+      "white_bachelors_pct": 18.9,
+      "attainment_gap_pp": 9.5
+    },
+    {
+      "state": "Georgia",
+      "state_fips": "13",
+      "black_bachelors_pct": 10.6,
+      "white_bachelors_pct": 18.6,
+      "attainment_gap_pp": 8.0
+    },
+    {
+      "state": "Hawaii",
+      "state_fips": "15",
+      "black_bachelors_pct": 19.4,
+      "white_bachelors_pct": 24.1,
+      "attainment_gap_pp": 4.7
+    },
+    {
+      "state": "Idaho",
+      "state_fips": "16",
+      "black_bachelors_pct": 12.0,
+      "white_bachelors_pct": 16.8,
+      "attainment_gap_pp": 4.8
+    },
+    {
+      "state": "Illinois",
+      "state_fips": "17",
+      "black_bachelors_pct": 9.3,
+      "white_bachelors_pct": 20.1,
+      "attainment_gap_pp": 10.8
+    },
+    {
+      "state": "Indiana",
+      "state_fips": "18",
+      "black_bachelors_pct": 9.2,
+      "white_bachelors_pct": 14.5,
+      "attainment_gap_pp": 5.3
+    },
+    {
+      "state": "Iowa",
+      "state_fips": "19",
+      "black_bachelors_pct": 8.4,
+      "white_bachelors_pct": 15.4,
+      "attainment_gap_pp": 6.9
+    },
+    {
+      "state": "Kansas",
+      "state_fips": "20",
+      "black_bachelors_pct": 10.2,
+      "white_bachelors_pct": 18.4,
+      "attainment_gap_pp": 8.2
+    },
+    {
+      "state": "Kentucky",
+      "state_fips": "21",
+      "black_bachelors_pct": 8.5,
+      "white_bachelors_pct": 13.1,
+      "attainment_gap_pp": 4.5
+    },
+    {
+      "state": "Louisiana",
+      "state_fips": "22",
+      "black_bachelors_pct": 6.1,
+      "white_bachelors_pct": 14.3,
+      "attainment_gap_pp": 8.2
+    },
+    {
+      "state": "Maine",
+      "state_fips": "23",
+      "black_bachelors_pct": 21.6,
+      "white_bachelors_pct": 16.2,
+      "attainment_gap_pp": -5.4
+    },
+    {
+      "state": "Maryland",
+      "state_fips": "24",
+      "black_bachelors_pct": 14.0,
+      "white_bachelors_pct": 23.7,
+      "attainment_gap_pp": 9.8
+    },
+    {
+      "state": "Massachusetts",
+      "state_fips": "25",
+      "black_bachelors_pct": 16.0,
+      "white_bachelors_pct": 23.8,
+      "attainment_gap_pp": 7.8
+    },
+    {
+      "state": "Michigan",
+      "state_fips": "26",
+      "black_bachelors_pct": 7.0,
+      "white_bachelors_pct": 16.2,
+      "attainment_gap_pp": 9.2
+    },
+    {
+      "state": "Minnesota",
+      "state_fips": "27",
+      "black_bachelors_pct": 14.4,
+      "white_bachelors_pct": 19.2,
+      "attainment_gap_pp": 4.8
+    },
+    {
+      "state": "Mississippi",
+      "state_fips": "28",
+      "black_bachelors_pct": 5.7,
+      "white_bachelors_pct": 12.9,
+      "attainment_gap_pp": 7.2
+    },
+    {
+      "state": "Missouri",
+      "state_fips": "29",
+      "black_bachelors_pct": 8.4,
+      "white_bachelors_pct": 15.6,
+      "attainment_gap_pp": 7.2
+    },
+    {
+      "state": "Montana",
+      "state_fips": "30",
+      "black_bachelors_pct": 30.6,
+      "white_bachelors_pct": 17.2,
+      "attainment_gap_pp": -13.4
+    },
+    {
+      "state": "Nebraska",
+      "state_fips": "31",
+      "black_bachelors_pct": 10.1,
+      "white_bachelors_pct": 17.4,
+      "attainment_gap_pp": 7.3
+    },
+    {
+      "state": "Nevada",
+      "state_fips": "32",
+      "black_bachelors_pct": 8.6,
+      "white_bachelors_pct": 17.0,
+      "attainment_gap_pp": 8.4
+    },
+    {
+      "state": "New Hampshire",
+      "state_fips": "33",
+      "black_bachelors_pct": 22.5,
+      "white_bachelors_pct": 19.8,
+      "attainment_gap_pp": -2.7
+    },
+    {
+      "state": "New Jersey",
+      "state_fips": "34",
+      "black_bachelors_pct": 11.8,
+      "white_bachelors_pct": 23.6,
+      "attainment_gap_pp": 11.8
+    },
+    {
+      "state": "New Mexico",
+      "state_fips": "35",
+      "black_bachelors_pct": 17.4,
+      "white_bachelors_pct": 21.0,
+      "attainment_gap_pp": 3.6
+    },
+    {
+      "state": "New York",
+      "state_fips": "36",
+      "black_bachelors_pct": 10.9,
+      "white_bachelors_pct": 22.1,
+      "attainment_gap_pp": 11.2
+    },
+    {
+      "state": "North Carolina",
+      "state_fips": "37",
+      "black_bachelors_pct": 9.4,
+      "white_bachelors_pct": 18.9,
+      "attainment_gap_pp": 9.5
+    },
+    {
+      "state": "North Dakota",
+      "state_fips": "38",
+      "black_bachelors_pct": 12.7,
+      "white_bachelors_pct": 14.6,
+      "attainment_gap_pp": 1.9
+    },
+    {
+      "state": "Ohio",
+      "state_fips": "39",
+      "black_bachelors_pct": 7.8,
+      "white_bachelors_pct": 15.7,
+      "attainment_gap_pp": 7.9
+    },
+    {
+      "state": "Oklahoma",
+      "state_fips": "40",
+      "black_bachelors_pct": 10.2,
+      "white_bachelors_pct": 15.1,
+      "attainment_gap_pp": 4.9
+    },
+    {
+      "state": "Oregon",
+      "state_fips": "41",
+      "black_bachelors_pct": 19.5,
+      "white_bachelors_pct": 18.1,
+      "attainment_gap_pp": -1.4
+    },
+    {
+      "state": "Pennsylvania",
+      "state_fips": "42",
+      "black_bachelors_pct": 8.9,
+      "white_bachelors_pct": 17.6,
+      "attainment_gap_pp": 8.7
+    },
+    {
+      "state": "Rhode Island",
+      "state_fips": "44",
+      "black_bachelors_pct": 12.2,
+      "white_bachelors_pct": 20.9,
+      "attainment_gap_pp": 8.7
+    },
+    {
+      "state": "South Carolina",
+      "state_fips": "45",
+      "black_bachelors_pct": 6.5,
+      "white_bachelors_pct": 18.2,
+      "attainment_gap_pp": 11.7
+    },
+    {
+      "state": "South Dakota",
+      "state_fips": "46",
+      "black_bachelors_pct": 8.8,
+      "white_bachelors_pct": 15.4,
+      "attainment_gap_pp": 6.6
+    },
+    {
+      "state": "Tennessee",
+      "state_fips": "47",
+      "black_bachelors_pct": 8.9,
+      "white_bachelors_pct": 15.4,
+      "attainment_gap_pp": 6.5
+    },
+    {
+      "state": "Texas",
+      "state_fips": "48",
+      "black_bachelors_pct": 12.1,
+      "white_bachelors_pct": 21.3,
+      "attainment_gap_pp": 9.1
+    },
+    {
+      "state": "Utah",
+      "state_fips": "49",
+      "black_bachelors_pct": 16.5,
+      "white_bachelors_pct": 21.6,
+      "attainment_gap_pp": 5.1
+    },
+    {
+      "state": "Vermont",
+      "state_fips": "50",
+      "black_bachelors_pct": 21.4,
+      "white_bachelors_pct": 19.8,
+      "attainment_gap_pp": -1.6
+    },
+    {
+      "state": "Virginia",
+      "state_fips": "51",
+      "black_bachelors_pct": 12.2,
+      "white_bachelors_pct": 21.8,
+      "attainment_gap_pp": 9.6
+    },
+    {
+      "state": "Washington",
+      "state_fips": "53",
+      "black_bachelors_pct": 15.3,
+      "white_bachelors_pct": 20.1,
+      "attainment_gap_pp": 4.7
+    },
+    {
+      "state": "West Virginia",
+      "state_fips": "54",
+      "black_bachelors_pct": 9.1,
+      "white_bachelors_pct": 11.4,
+      "attainment_gap_pp": 2.3
+    },
+    {
+      "state": "Wisconsin",
+      "state_fips": "55",
+      "black_bachelors_pct": 6.2,
+      "white_bachelors_pct": 16.2,
+      "attainment_gap_pp": 9.9
+    },
+    {
+      "state": "Wyoming",
+      "state_fips": "56",
+      "black_bachelors_pct": 26.5,
+      "white_bachelors_pct": 14.5,
+      "attainment_gap_pp": -12.0
+    },
+    {
+      "state": "Puerto Rico",
+      "state_fips": "72",
+      "black_bachelors_pct": 9.1,
+      "white_bachelors_pct": 30.1,
+      "attainment_gap_pp": 21.0
+    }
+  ]
+}

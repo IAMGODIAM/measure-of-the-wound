@@ -1,0 +1,341 @@
+{
+  "source": "U.S. Bureau of Labor Statistics \u2014 Public Data API v2 (registered key b01f97f6)",
+  "series_black": "LNS14000006 \u2014 Black/African American Unemployment Rate (seasonally adjusted, annual average computed from monthly M01-M12)",
+  "series_white": "LNS14000003 \u2014 White Unemployment Rate (seasonally adjusted)",
+  "pulled_date": "2026-04-18",
+  "pillar": "1 \u2014 Economic Justice",
+  "data_points": 54,
+  "year_range": "1972\u20132025",
+  "key_findings": {
+    "min_ratio": 1.576,
+    "max_ratio": 2.56,
+    "mean_ratio": 2.115,
+    "summary": "Black unemployment has exceeded white unemployment by 1.576x\u20132.56x every single year since 1972"
+  },
+  "series": [
+    {
+      "year": 1972,
+      "black_unemployment_pct": 10.4,
+      "white_unemployment_pct": 5.05,
+      "black_white_ratio": 2.059
+    },
+    {
+      "year": 1973,
+      "black_unemployment_pct": 9.42,
+      "white_unemployment_pct": 4.34,
+      "black_white_ratio": 2.171
+    },
+    {
+      "year": 1974,
+      "black_unemployment_pct": 10.54,
+      "white_unemployment_pct": 5.06,
+      "black_white_ratio": 2.083
+    },
+    {
+      "year": 1975,
+      "black_unemployment_pct": 14.81,
+      "white_unemployment_pct": 7.77,
+      "black_white_ratio": 1.906
+    },
+    {
+      "year": 1976,
+      "black_unemployment_pct": 13.95,
+      "white_unemployment_pct": 6.98,
+      "black_white_ratio": 1.999
+    },
+    {
+      "year": 1977,
+      "black_unemployment_pct": 14.03,
+      "white_unemployment_pct": 6.23,
+      "black_white_ratio": 2.252
+    },
+    {
+      "year": 1978,
+      "black_unemployment_pct": 12.74,
+      "white_unemployment_pct": 5.22,
+      "black_white_ratio": 2.441
+    },
+    {
+      "year": 1979,
+      "black_unemployment_pct": 12.34,
+      "white_unemployment_pct": 5.08,
+      "black_white_ratio": 2.429
+    },
+    {
+      "year": 1980,
+      "black_unemployment_pct": 14.29,
+      "white_unemployment_pct": 6.32,
+      "black_white_ratio": 2.261
+    },
+    {
+      "year": 1981,
+      "black_unemployment_pct": 15.62,
+      "white_unemployment_pct": 6.68,
+      "black_white_ratio": 2.338
+    },
+    {
+      "year": 1982,
+      "black_unemployment_pct": 18.91,
+      "white_unemployment_pct": 8.61,
+      "black_white_ratio": 2.196
+    },
+    {
+      "year": 1983,
+      "black_unemployment_pct": 19.5,
+      "white_unemployment_pct": 8.37,
+      "black_white_ratio": 2.33
+    },
+    {
+      "year": 1984,
+      "black_unemployment_pct": 15.92,
+      "white_unemployment_pct": 6.47,
+      "black_white_ratio": 2.461
+    },
+    {
+      "year": 1985,
+      "black_unemployment_pct": 15.09,
+      "white_unemployment_pct": 6.2,
+      "black_white_ratio": 2.434
+    },
+    {
+      "year": 1986,
+      "black_unemployment_pct": 14.56,
+      "white_unemployment_pct": 6.04,
+      "black_white_ratio": 2.411
+    },
+    {
+      "year": 1987,
+      "black_unemployment_pct": 12.97,
+      "white_unemployment_pct": 5.32,
+      "black_white_ratio": 2.438
+    },
+    {
+      "year": 1988,
+      "black_unemployment_pct": 11.71,
+      "white_unemployment_pct": 4.73,
+      "black_white_ratio": 2.476
+    },
+    {
+      "year": 1989,
+      "black_unemployment_pct": 11.47,
+      "white_unemployment_pct": 4.48,
+      "black_white_ratio": 2.56
+    },
+    {
+      "year": 1990,
+      "black_unemployment_pct": 11.41,
+      "white_unemployment_pct": 4.83,
+      "black_white_ratio": 2.362
+    },
+    {
+      "year": 1991,
+      "black_unemployment_pct": 12.49,
+      "white_unemployment_pct": 6.1,
+      "black_white_ratio": 2.048
+    },
+    {
+      "year": 1992,
+      "black_unemployment_pct": 14.2,
+      "white_unemployment_pct": 6.58,
+      "black_white_ratio": 2.158
+    },
+    {
+      "year": 1993,
+      "black_unemployment_pct": 12.95,
+      "white_unemployment_pct": 6.07,
+      "black_white_ratio": 2.133
+    },
+    {
+      "year": 1994,
+      "black_unemployment_pct": 11.49,
+      "white_unemployment_pct": 5.28,
+      "black_white_ratio": 2.176
+    },
+    {
+      "year": 1995,
+      "black_unemployment_pct": 10.38,
+      "white_unemployment_pct": 4.88,
+      "black_white_ratio": 2.127
+    },
+    {
+      "year": 1996,
+      "black_unemployment_pct": 10.51,
+      "white_unemployment_pct": 4.67,
+      "black_white_ratio": 2.251
+    },
+    {
+      "year": 1997,
+      "black_unemployment_pct": 10.06,
+      "white_unemployment_pct": 4.21,
+      "black_white_ratio": 2.39
+    },
+    {
+      "year": 1998,
+      "black_unemployment_pct": 8.92,
+      "white_unemployment_pct": 3.87,
+      "black_white_ratio": 2.305
+    },
+    {
+      "year": 1999,
+      "black_unemployment_pct": 8.0,
+      "white_unemployment_pct": 3.67,
+      "black_white_ratio": 2.18
+    },
+    {
+      "year": 2000,
+      "black_unemployment_pct": 7.59,
+      "white_unemployment_pct": 3.48,
+      "black_white_ratio": 2.181
+    },
+    {
+      "year": 2001,
+      "black_unemployment_pct": 8.65,
+      "white_unemployment_pct": 4.17,
+      "black_white_ratio": 2.074
+    },
+    {
+      "year": 2002,
+      "black_unemployment_pct": 10.24,
+      "white_unemployment_pct": 5.1,
+      "black_white_ratio": 2.008
+    },
+    {
+      "year": 2003,
+      "black_unemployment_pct": 10.78,
+      "white_unemployment_pct": 5.25,
+      "black_white_ratio": 2.053
+    },
+    {
+      "year": 2004,
+      "black_unemployment_pct": 10.38,
+      "white_unemployment_pct": 4.8,
+      "black_white_ratio": 2.163
+    },
+    {
+      "year": 2005,
+      "black_unemployment_pct": 9.98,
+      "white_unemployment_pct": 4.37,
+      "black_white_ratio": 2.284
+    },
+    {
+      "year": 2006,
+      "black_unemployment_pct": 8.95,
+      "white_unemployment_pct": 4.03,
+      "black_white_ratio": 2.221
+    },
+    {
+      "year": 2007,
+      "black_unemployment_pct": 8.26,
+      "white_unemployment_pct": 4.12,
+      "black_white_ratio": 2.005
+    },
+    {
+      "year": 2008,
+      "black_unemployment_pct": 10.1,
+      "white_unemployment_pct": 5.19,
+      "black_white_ratio": 1.946
+    },
+    {
+      "year": 2009,
+      "black_unemployment_pct": 14.78,
+      "white_unemployment_pct": 8.49,
+      "black_white_ratio": 1.741
+    },
+    {
+      "year": 2010,
+      "black_unemployment_pct": 15.96,
+      "white_unemployment_pct": 8.72,
+      "black_white_ratio": 1.83
+    },
+    {
+      "year": 2011,
+      "black_unemployment_pct": 15.83,
+      "white_unemployment_pct": 7.93,
+      "black_white_ratio": 1.996
+    },
+    {
+      "year": 2012,
+      "black_unemployment_pct": 13.83,
+      "white_unemployment_pct": 7.19,
+      "black_white_ratio": 1.924
+    },
+    {
+      "year": 2013,
+      "black_unemployment_pct": 13.07,
+      "white_unemployment_pct": 6.51,
+      "black_white_ratio": 2.008
+    },
+    {
+      "year": 2014,
+      "black_unemployment_pct": 11.34,
+      "white_unemployment_pct": 5.3,
+      "black_white_ratio": 2.14
+    },
+    {
+      "year": 2015,
+      "black_unemployment_pct": 9.56,
+      "white_unemployment_pct": 4.58,
+      "black_white_ratio": 2.087
+    },
+    {
+      "year": 2016,
+      "black_unemployment_pct": 8.43,
+      "white_unemployment_pct": 4.28,
+      "black_white_ratio": 1.97
+    },
+    {
+      "year": 2017,
+      "black_unemployment_pct": 7.47,
+      "white_unemployment_pct": 3.82,
+      "black_white_ratio": 1.955
+    },
+    {
+      "year": 2018,
+      "black_unemployment_pct": 6.48,
+      "white_unemployment_pct": 3.47,
+      "black_white_ratio": 1.867
+    },
+    {
+      "year": 2019,
+      "black_unemployment_pct": 6.07,
+      "white_unemployment_pct": 3.27,
+      "black_white_ratio": 1.856
+    },
+    {
+      "year": 2020,
+      "black_unemployment_pct": 11.57,
+      "white_unemployment_pct": 7.34,
+      "black_white_ratio": 1.576
+    },
+    {
+      "year": 2021,
+      "black_unemployment_pct": 8.58,
+      "white_unemployment_pct": 4.73,
+      "black_white_ratio": 1.814
+    },
+    {
+      "year": 2022,
+      "black_unemployment_pct": 6.11,
+      "white_unemployment_pct": 3.19,
+      "black_white_ratio": 1.915
+    },
+    {
+      "year": 2023,
+      "black_unemployment_pct": 5.52,
+      "white_unemployment_pct": 3.28,
+      "black_white_ratio": 1.683
+    },
+    {
+      "year": 2024,
+      "black_unemployment_pct": 5.98,
+      "white_unemployment_pct": 3.59,
+      "black_white_ratio": 1.666
+    },
+    {
+      "year": 2025,
+      "black_unemployment_pct": 6.9,
+      "white_unemployment_pct": 3.73,
+      "black_white_ratio": 1.85
+    }
+  ]
+}

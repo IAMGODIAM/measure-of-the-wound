@@ -1,0 +1,36 @@
+{
+  "title": "The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024 — Publication Package (paper, data snapshot, code, errata, review)",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "<p>Corrected Print Edition v1.3 (Submission Edition) of <em>The Measure of the Wound</em>, together with a frozen snapshot of every raw federal source file the paper's tables are built from, the manuscript sources, the reproducible typesetting pipeline, the recomputation log, the complete corrections ledger (Appendix H), the independent verification review by Manus AI (September 1, 2026) and the author's response.</p><p>An eight-pillar empirical record of Black American structural disparity across 1991–2024, nested within federal series reaching to 1900 (health), 1925 (criminal justice), 1940 (housing), 1964 (political participation), 1972 (labor) and 1514 (historical architecture). Approximately 14,811 raw observations synthesized into 1,574 verified observations and applied to 15,507 census tracts in 49 cities.</p><p><strong>Disclosure of AI assistance:</strong> generative AI (Claude, Anthropic) was used substantially in drafting, recomputation and typesetting under the direction of the author, who is accountable for all content. An independent review was performed by Manus AI. No AI system is an author.</p><p><strong>Reproducibility note:</strong> the FarmBlock Distress Index outputs are published but not yet independently reproducible from this package; see Appendix E.4a.</p>",
+  "creators": [
+    {
+      "name": "Armstead, Israel Lee",
+      "affiliation": "E5 Enclave Incorporated"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "E5 Enclave Incorporated",
+      "type": "HostingInstitution"
+    }
+  ],
+  "keywords": [
+    "racial inequality", "wealth gap", "structural racism", "Black Americans",
+    "longitudinal federal data", "composite index", "maternal mortality",
+    "incarceration", "homeownership", "open data", "CC0"
+  ],
+  "license": "CC0-1.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.3",
+  "related_identifiers": [
+    { "identifier": "https://github.com/IAMGODIAM/bdi-black-paper", "relation": "isDerivedFrom", "resource_type": "publication-report" },
+    { "identifier": "https://github.com/IAMGODIAM/bdi-raw-data-vault", "relation": "isSupplementedBy", "resource_type": "dataset" },
+    { "identifier": "https://github.com/IAMGODIAM/bdi-sovereign-dataset", "relation": "isSupplementedBy", "resource_type": "dataset" },
+    { "identifier": "https://github.com/IAMGODIAM/farmblock-data", "relation": "isSupplementedBy", "resource_type": "dataset" },
+    { "identifier": "https://github.com/IAMGODIAM/farmblock-dataset", "relation": "isSupplementedBy", "resource_type": "dataset" },
+    { "identifier": "https://dc.e5enclave.com", "relation": "isReferencedBy", "resource_type": "publication-other" }
+  ],
+  "notes": "Publisher: E5 Enclave Incorporated, a Florida 501(c)(3) public charity, EIN 99-3822441, UEI H8NGXEYE2HH8. Liberty City, Miami, Florida."
+}
