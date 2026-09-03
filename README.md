@@ -3,6 +3,7 @@
 
 **Israel Lee Armstead** · E5 Enclave Incorporated · Liberty City, Miami, Florida
 **Corrected Print Edition v1.4 — Submission Edition** · September 2026
+**DOI [10.5281/zenodo.22270905](https://doi.org/10.5281/zenodo.22270905)** · ORCID [0009-0001-2505-5863](https://orcid.org/0009-0001-2505-5863)
 **License: CC0 1.0 Universal** — public domain. No permission, attribution or fee required.
 
 > This is the **publication package** — the frozen, citable release of the paper together with everything needed to check it. The living manuscript repository is [`IAMGODIAM/bdi-black-paper`](https://github.com/IAMGODIAM/bdi-black-paper).
@@ -33,9 +34,9 @@ Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure
 
 ## How to cite
 
-> Armstead, Israel Lee. 2026. *The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024.* Corrected Print Edition v1.4. E5 Enclave Incorporated. CC0 1.0. https://github.com/IAMGODIAM/measure-of-the-wound
+> Armstead, Israel Lee. 2026. *The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024.* Corrected Print Edition v1.4. E5 Enclave Incorporated. doi:10.5281/zenodo.22270905. CC0 1.0.
 
-A DOI will be added to this README when the Zenodo archive of the first release is minted.
+`10.5281/zenodo.22270905` is the **concept DOI** — cite it and it always resolves to the current edition. The v1.4 record carries version DOI `10.5281/zenodo.22270906`.
 
 ## The finding in one paragraph
 

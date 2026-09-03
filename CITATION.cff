@@ -5,6 +5,7 @@ title: "The Measure of the Wound: A Sovereign Empirical Record of Black American
 version: "1.4"
 date-released: 2026-09-03
 license: CC0-1.0
+doi: "10.5281/zenodo.22270905"
 repository-code: "https://github.com/IAMGODIAM/measure-of-the-wound"
 url: "https://github.com/IAMGODIAM/measure-of-the-wound"
 abstract: >-
@@ -33,6 +34,12 @@ authors:
     email: israel@e5enclave.com
     orcid: "https://orcid.org/0009-0001-2505-5863"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22270905"
+    description: "Concept DOI — always resolves to the current edition"
+  - type: doi
+    value: "10.5281/zenodo.22270906"
+    description: "Version DOI — Corrected Print Edition v1.4"
   - type: url
     value: "https://github.com/IAMGODIAM/bdi-black-paper"
     description: "Working manuscript repository (Layer 4 of the BDI stack)"

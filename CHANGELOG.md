@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.4.1 — DOI edition (2026-09-03)
+- Deposited to Zenodo. **Concept DOI `10.5281/zenodo.22270905`** (always resolves to the current edition); v1.4 carries version DOI `10.5281/zenodo.22270906`.
+- The concept DOI is now printed on the paper's copyright page, in the suggested citation and in the data-availability statement, so the record cites itself. Added to `CITATION.cff` (as `doi` plus both version identifiers) and to both repository READMEs.
+- No change to any text or finding. 91 pages.
+
 ## v1.4 — Submission Edition (2026-09-03)
 The edition prepared for deposit. A dedication, and three changes about stating things exactly.
 
