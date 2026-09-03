@@ -6,7 +6,8 @@
   "creators": [
     {
       "name": "Armstead, Israel Lee",
-      "affiliation": "E5 Enclave Incorporated"
+      "affiliation": "E5 Enclave Incorporated",
+      "orcid": "0009-0001-2505-5863"
     }
   ],
   "contributors": [
@@ -16,21 +17,53 @@
     }
   ],
   "keywords": [
-    "racial inequality", "wealth gap", "structural racism", "Black Americans",
-    "longitudinal federal data", "composite index", "maternal mortality",
-    "incarceration", "homeownership", "open data", "CC0"
+    "racial inequality",
+    "wealth gap",
+    "structural racism",
+    "Black Americans",
+    "longitudinal federal data",
+    "composite index",
+    "maternal mortality",
+    "incarceration",
+    "homeownership",
+    "open data",
+    "CC0"
   ],
   "license": "CC0-1.0",
   "access_right": "open",
   "language": "eng",
   "version": "1.4",
   "related_identifiers": [
-    { "identifier": "https://github.com/IAMGODIAM/bdi-black-paper", "relation": "isDerivedFrom", "resource_type": "publication-report" },
-    { "identifier": "https://github.com/IAMGODIAM/bdi-raw-data-vault", "relation": "isSupplementedBy", "resource_type": "dataset" },
-    { "identifier": "https://github.com/IAMGODIAM/bdi-sovereign-dataset", "relation": "isSupplementedBy", "resource_type": "dataset" },
-    { "identifier": "https://github.com/IAMGODIAM/farmblock-data", "relation": "isSupplementedBy", "resource_type": "dataset" },
-    { "identifier": "https://github.com/IAMGODIAM/farmblock-dataset", "relation": "isSupplementedBy", "resource_type": "dataset" },
-    { "identifier": "https://dc.e5enclave.com", "relation": "isReferencedBy", "resource_type": "publication-other" }
+    {
+      "identifier": "https://github.com/IAMGODIAM/bdi-black-paper",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://github.com/IAMGODIAM/bdi-raw-data-vault",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/IAMGODIAM/bdi-sovereign-dataset",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/IAMGODIAM/farmblock-data",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/IAMGODIAM/farmblock-dataset",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://dc.e5enclave.com",
+      "relation": "isReferencedBy",
+      "resource_type": "publication-other"
+    }
   ],
   "notes": "Publisher: E5 Enclave Incorporated, a Florida 501(c)(3) public charity, EIN 99-3822441, UEI H8NGXEYE2HH8. Liberty City, Miami, Florida."
 }

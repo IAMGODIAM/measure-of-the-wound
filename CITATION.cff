@@ -31,6 +31,7 @@ authors:
     given-names: Israel Lee
     affiliation: "E5 Enclave Incorporated"
     email: israel@e5enclave.com
+    orcid: "https://orcid.org/0009-0001-2505-5863"
 identifiers:
   - type: url
     value: "https://github.com/IAMGODIAM/bdi-black-paper"
