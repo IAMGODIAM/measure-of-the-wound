@@ -5,6 +5,7 @@
 - Added consolidated References section (38 entries, author-date, hanging indent)
 - Build made deterministic and containerised (`build/Dockerfile`, pinned fonts and wheels, fixed metadata dates, `SOURCE_DATE_EPOCH`); two runs on the same commit are byte-identical and the PDF's SHA-256 is shipped beside it. Answers the independent review's request for a deterministic rebuild command.
 - Publication package `IAMGODIAM/measure-of-the-wound` created: paper, sources, build, frozen data snapshot with SHA-256 manifest, errata, review.
+- Chapter 7 now states the FarmBlock reproducibility status at §7.1, where the index is introduced, instead of only in Appendix E.4a sixty pages later — a reader meets the limitation before the scores rather than after them. The chapter is retained on that footing rather than withdrawn.
 - No substantive change to any finding. 90 pages.
 
 ## v1.2 — Second-wave corrections (2026-09-01)
