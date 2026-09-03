@@ -1,11 +1,23 @@
 # Changelog
 
+## v1.4 — Submission Edition (2026-09-03)
+The edition prepared for deposit. A dedication, and three changes about stating things exactly.
+
+- **A dedication page is added**, after the copyright page and before the abstract. It names the tradition the author writes from — the love warriors, wounded healers and freedom fighters who went before; Professor Cornel West; the author's late grand-uncle Ralph C. McCartney of Overtown, whose 1997 oral testimony about the construction of I-95 through that neighborhood is quoted in the Preface as primary-source evidence; the author's wife, who edited the manuscript by hand; and the descendants of chattel-enslaved persons for whom the record is assembled. The Preface now also states the kinship to McCartney plainly, which changes how a reader meets his testimony.
+
+- **The AI-assistance disclosure is rewritten to describe the division of labor exactly.** The v1.3 wording — "used substantially… to draft and revise prose, recompute derived statistics" — overstated the machine's role and understated the author's, which is an accuracy problem before it is a compliance one. What happened: the author wrote the prose; a human editor read the draft and returned handwritten notes; the model applied line edits against those notes, did the arithmetic on sources the author had chosen, compiled the corrections ledger and built the typesetting pipeline. It originated no research question, selected no source, drew no conclusion and made no claim.
+- **Chapter 7 carries the FarmBlock reproducibility limit at §7.1**, where the index is introduced, instead of leaving it to Appendix E.4a sixty pages later. A reader now meets the limitation before the scores rather than after them. The chapter is retained on that footing rather than withdrawn: what is missing is the pre-scoring pipeline, not the outputs, formulas, weights or normalization method, all of which are public — and §7.3 already prints this project's own failed reproduction (79.7) beside the published score (87.25).
+- **The abstract no longer claims the independent review is printed as an appendix.** It is not; it is published alongside the release. Appendix H is the corrections ledger, as stated.
+
+Also corrected: the printed edition date now reads September 2026 rather than August, which is when this edition was actually set; the suggested citation names the author rather than the organization and points at the publication package, as does the data-availability statement; the working repository's README still carried a v1.1 version line and a superseded tract count (15,578).
+
+No change to any finding. 91 pages — the dedication adds one.
+
 ## v1.3 — Submission Edition (2026-09-02; build 2026-09-03)
 - Added abstract, keywords, JEL codes, author of record, AI-assistance disclosure, data availability statement
 - Added consolidated References section (38 entries, author-date, hanging indent)
 - Build made deterministic and containerised (`build/Dockerfile`, pinned fonts and wheels, fixed metadata dates, `SOURCE_DATE_EPOCH`); two runs on the same commit are byte-identical and the PDF's SHA-256 is shipped beside it. Answers the independent review's request for a deterministic rebuild command.
 - Publication package `IAMGODIAM/measure-of-the-wound` created: paper, sources, build, frozen data snapshot with SHA-256 manifest, errata, review.
-- Chapter 7 now states the FarmBlock reproducibility status at §7.1, where the index is introduced, instead of only in Appendix E.4a sixty pages later — a reader meets the limitation before the scores rather than after them. The chapter is retained on that footing rather than withdrawn.
 - No substantive change to any finding. 90 pages.
 
 ## v1.2 — Second-wave corrections (2026-09-01)

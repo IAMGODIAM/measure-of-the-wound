@@ -2,7 +2,7 @@
 ### A Sovereign Empirical Record of Black American Structural Distress, 1991–2024
 
 **Israel Lee Armstead** · E5 Enclave Incorporated · Liberty City, Miami, Florida
-**Corrected Print Edition v1.3 — Submission Edition** · September 2026
+**Corrected Print Edition v1.4 — Submission Edition** · September 2026
 **License: CC0 1.0 Universal** — public domain. No permission, attribution or fee required.
 
 > This is the **publication package** — the frozen, citable release of the paper together with everything needed to check it. The living manuscript repository is [`IAMGODIAM/bdi-black-paper`](https://github.com/IAMGODIAM/bdi-black-paper).
@@ -11,7 +11,7 @@
 
 ## Read the paper
 
-**[`The_Measure_of_the_Wound.pdf`](The_Measure_of_the_Wound.pdf)** — 90 pages, print-ready, US Letter.
+**[`The_Measure_of_the_Wound.pdf`](The_Measure_of_the_Wound.pdf)** — 91 pages, print-ready, US Letter.
 
 Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure are on page 3. A consolidated References list follows Chapter 8. Appendix H is the complete corrections ledger.
 
@@ -21,7 +21,7 @@ Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure
 
 | Path | Contents |
 |---|---|
-| `The_Measure_of_the_Wound.pdf` · `.pdf.sha256` | The paper, v1.3, and the SHA-256 of the deterministic build |
+| `The_Measure_of_the_Wound.pdf` · `.pdf.sha256` | The paper, v1.4, and the SHA-256 of the deterministic build |
 | `manuscript/` | The 12 markdown sources the PDF is built from, in reading order |
 | `build/` | The typesetting pipeline (`build.py`, `print.css`) and a pinned container (`Dockerfile`, `requirements.txt`, `rebuild.sh`/`rebuild.ps1`, `REPRODUCING.md`). `./build/rebuild.sh` regenerates the PDF **byte-for-byte**; compare with `The_Measure_of_the_Wound.pdf.sha256` |
 | `data/` | **Frozen snapshot** of every raw federal source file the paper's tables are computed from, copied verbatim from `bdi-raw-data-vault` and the FarmBlock repositories at release time, with a SHA-256 manifest |
@@ -29,11 +29,11 @@ Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure
 | `errata/RECOMPUTATION_LOG.md` | The unedited output of recalculating every derived statistic from the raw series |
 | `review/` | The independent verification review (Manus AI, Sept 1 2026), its evidence notes, and the author's point-by-point response |
 | `CITATION.cff` · `.zenodo.json` | Machine-readable citation and archive metadata |
-| `CHANGELOG.md` | v1.0 → v1.3 |
+| `CHANGELOG.md` | v1.0 → v1.4 |
 
 ## How to cite
 
-> Armstead, Israel Lee. 2026. *The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024.* Corrected Print Edition v1.3. E5 Enclave Incorporated. CC0 1.0. https://github.com/IAMGODIAM/measure-of-the-wound
+> Armstead, Israel Lee. 2026. *The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991–2024.* Corrected Print Edition v1.4. E5 Enclave Incorporated. CC0 1.0. https://github.com/IAMGODIAM/measure-of-the-wound
 
 A DOI will be added to this README when the Zenodo archive of the first release is minted.
 
@@ -45,7 +45,7 @@ Across eight pillars and up to 122 years of federal data, the same shape recurs:
 
 Stated up front, not buried. See Appendix H §E and Appendix E.4a.
 
-- **The FarmBlock Distress Index outputs are not independently reproducible from this package.** The scored CSVs, formulas and weights are public; the pre-scoring raw inputs, normalization bounds and transformation code are not yet released. The 87.25 Humphreys County score should be cited as this organization's published output, not as an independently verified result.
+- **The FarmBlock Distress Index outputs are not independently reproducible from this package.** The scored CSVs, formulas, weights and normalization method are public; the pre-scoring raw inputs, normalization bounds and transformation code are not yet released. The 87.25 Humphreys County score should be cited as this organization's published output, not as an independently verified result. Stated in the paper at §7.1 where the index is introduced, and in Appendix E.4a. The chapter is kept on that footing rather than withdrawn; §7.3 prints this project's own failed reproduction (79.7) beside it.
 - The county-level index includes Black population share at 15% weight as a structural-exposure proxy; the tract-level index deliberately excludes it. Compare the two.
 - The incarceration series' denominator is probably male rates; the BJS all-adults ratio (5.22) is printed beside it (6.31).
 - Pre-1933 maternal mortality figures rest on the birth-registration states only.
