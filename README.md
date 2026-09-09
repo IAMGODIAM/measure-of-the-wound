@@ -73,3 +73,16 @@ Generative AI (Claude, Anthropic) was used substantially to draft and revise pro
 
 *E5 Enclave Incorporated · 820 NW 64th Street, Miami, FL 33150 · EIN 99-3822441 · UEI H8NGXEYE2HH8*
 *Nil satis nisi optimum. By Grace, perfect ways.*
+
+---
+
+## Related repositories — the BDI / FarmBlock stack
+
+Part of one body of work. The map:
+
+- [bdi-black-paper](https://github.com/IAMGODIAM/bdi-black-paper) — the publication (narrative + corrected print edition)
+- [measure-of-the-wound](https://github.com/IAMGODIAM/measure-of-the-wound) — the flagship book repository — **(this repository)**
+- [bdi-sovereign-dataset](https://github.com/IAMGODIAM/bdi-sovereign-dataset) — the synthesized flagship dataset (v1.0-SEALED)
+- [bdi-raw-data-vault](https://github.com/IAMGODIAM/bdi-raw-data-vault) — raw evidence vault (source documents, data lineage)
+
+*Cross-linked per UNIVERSE.md (DAG `universe-map-2026-0909`), Phase 0 — ratified Board Law.*
