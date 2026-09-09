@@ -7,10 +7,10 @@ Every series used in this paper, with the agency, instrument, coverage and vault
 | # | Series | Agency &amp; instrument | Years | Vault file |
 |---|---|---|---|---|
 | 1 | Unemployment by race | Bureau of Labor Statistics<br/>CPS, series LNS14000006 / LNS14000003 | 1972–2025 | `economic/bls_unemployment_by_race_1972-2025_FULL_RAW.json` |
-| 2 | State unemployment | Bureau of Labor Statistics<br/>LAUS | 2010–2024 | `economic/tier1_state_bls_unemployment_2010-2024_RAW.json` |
+| 2 | State unemployment (total rate) | Bureau of Labor Statistics<br/>LAUS, series LASST — not race-disaggregated | 2010–2024 | `economic/tier1_state_bls_unemployment_2010-2024_RAW.json` |
 | 3 | Homeownership, income | Census Bureau<br/>ACS 1-year, B25003B/H, B19013B/H | 2005–2022 | `economic/census_acs_homeownership_income_RAW.json` |
 | 4 | Poverty | Census Bureau<br/>ACS 1-year, B17001B/H | 2005–2022 | `economic/census_acs_poverty_RAW.json` |
-| 5 | Family wealth | Federal Reserve Board<br/>Survey of Consumer Finances, triennial | 1989–2022 | `economic/fed_reserve_scf_wealth_usda_land_RAW.json` |
+| 5 | Family wealth | Federal Reserve Board<br/>Survey of Consumer Finances, triennial — as presented in the Board's FEDS Notes, constant 2022 dollars | 1989–2022 | `economic/fed_reserve_scf_wealth_usda_land_RAW.json`, key `scf_wealth_gap_1989_2022_FEDS2023_constant2022` |
 | 6 | Black farmland | USDA NASS<br/>Census of Agriculture | 1910–2022 | `economic/fed_reserve_scf_wealth_usda_land_RAW.json` |
 | 7 | State economics | Census Bureau<br/>ACS 5-year, all states | 2010–2022 | `economic/tier1_state_economics_ACS_2010-2022_RAW.json` |
 | 8 | Metro economics | Census Bureau<br/>ACS 5-year, 516+ MSAs | 2015–2022 | `economic/tier2_metro_msa_economics_ACS_2015-2022_RAW.json` |
@@ -59,7 +59,7 @@ Every series used in this paper, with the agency, instrument, coverage and vault
 |---|---|---|---|
 | Economic | 20% | Real wealth gap widened $154,830 → $240,120 (widest on record) while the ratio nearly tripled, 0.056 → 0.158 | 1972–2025 |
 | Health | 20% | Maternal mortality ratio 1.48 (1930) → 2.61 (2022); Black life expectancy −4.0 years, 2019–2021 | 1900–2022 |
-| Criminal justice | 20% | Imprisonment ratio 6.45 (1925) → 6.31 (2022); moved 0.14 points in 97 years | 1925–2023 |
+| Criminal justice | 20% | Imprisonment ratio, Black males vs white males, 6.45 (1926) → 6.31 (2022); BJS all-adults ratio 5.22 — denominator under review | 1926–2023 |
 | Education | 15% | Grade 8 reading gap 29.6 → 24.5 points; ~144 years to parity at observed rate | 1992–2022 |
 | Housing | 10% | Homeownership gap 28.9 pp in 2022 vs ~24 pp when the Fair Housing Act passed | 1940–2023 |
 | Environmental | 10% | Fence-line tracts, St. James Parish Districts 4–5: 65–94% Black vs ~44% parish-wide | 2015–2022 |
@@ -110,6 +110,8 @@ FDI_tract = (D1_poverty + D2_income_deficit + D3_food_access
            + D4_health + D5_vacancy + D6_digital) / 6 × 100
 ```
 where `normalize(x) = (x − corpus_min) / (corpus_max − corpus_min)`, and the tract formula contains **no racial composition variable**.
+
+**Effective weights — disclosure correction (v1.4.2).** The six dimensions enter the tract formula at nominal 1/6 weights, but the D3 and D6 definitions each embed `pct_no_internet` (D3 = food_desert_proxy × 0.60 + pct_no_internet × 0.40; D6 = pct_no_internet), so the digital-exclusion signal carries an effective weight of (1/6 × 0.40) + (1/6 × 1.00) = **0.233** — nearly one-quarter, not the nominal one-sixth. No published score changes: this is a disclosure correction, not a formula change. Readers comparing "equal weighting" claims against the definitions should use 0.233 for the digital signal.
 
 ### E.2 The `% Black` variable, and the objection to it
 
@@ -328,6 +330,46 @@ Disclosed, not concealed. A sovereign record that hides its soft edges is promot
 9. **The FDI computation is not independently reproducible** from the published package (see Appendix E.4a). The reviewer's characterisation is adopted verbatim.
 10. **The pre-1933 maternal mortality figures** rest on the birth-registration states only and are not nationally representative (W-4).
 11. **Table 5.1 now depends on a single secondary presentation** of the SCF — the Federal Reserve's own FEDS Note — rather than on an extraction from SCF microdata performed by this project. That is an improvement in provenance and a reduction in independence. A microdata extraction with published code is owed.
+
+## F. THIRD-WAVE CORRECTIONS — SECOND INDEPENDENT REVIEW (v1.4.2)
+
+A second independent review (September 2026), conducted with full repository access, returned five findings. Two concerned the archived data snapshot and were corrected in the data layer; three concerned the manuscript text and are corrected here. No empirical finding changes.
+
+| # | Finding | Resolution | Location |
+|---|---|---|---|
+| P-1 | The raw vault still served the withdrawn SCF splice as the operative wealth series, with no deprecation marker | The withdrawn key is retained byte-identical for audit history; a dated deprecation notice was added; the corrected 12-wave FEDS-Notes series (constant 2022 dollars) was added under `scf_wealth_gap_1989_2022_FEDS2023_constant2022`. Table 5.1 recomputed from the vault reproduces the printed figures exactly. | Vault JSON; Appendix A, item 5 |
+| P-2 | The manuscript omitted the project's existing 17-state BDI ranking | The full ranking is now printed as Appendix I. | Appendix I |
+| P-3 | The tract FDI's effective weights did not match the "equal weighting" description | Appendix E now discloses the effective digital-exclusion weight of 0.233 (nominal 1/6). No score changes. | Appendix E, §E.1 |
+| P-4 | The sealed dataset's validation string still showed the stale Humphreys compound score of 83.5 | Dataset resealed as v1.1-RESEALED; the validation string now reads FDI 87.25 / compound 83.53. The two stale in-text figures (FarmBlock methodology chapter, claim-triage matrix) were corrected. | Sovereign dataset; Appendix A |
+| P-5 | The narrowed incarceration population basis was not propagated consistently | The Conclusion and Appendix C now state the male-rates basis and BJS's 1926 series start; the all-adults ratio of 5.22 is printed alongside the series ratio of 6.31. | Conclusion; Appendix C |
+
+On the withdrawn series: it was replaced because the 1989 wave is not comparable to later waves for this purpose (the published ratio jumps from 0.056 to 0.142 in the single step to 1992) and because the series as stored was in mixed current-year dollars across waves. The replacement is the Federal Reserve's own constant-dollar presentation. This improves provenance at the cost of independence — see item 11 of Section E.
+
+## APPENDIX I — THE 17-STATE BDI RANKING
+
+The BDI composite index ranks seventeen states with sufficient Black-population data density for the full eight-pillar computation. The ranking is computed in the sealed sovereign dataset (`bdi-sovereign-dataset/bdi_sovereign_dataset_v1.json`, `data.bdi_composite_index.ranked`) and was previously cited in the text without being printed. It is printed here in full.
+
+| Rank | State | BDI composite | Black share of state population |
+|---|---|---|---|
+| 1 | Michigan | 86.54 | 14.0% |
+| 2 | Louisiana | 84.85 | 32.7% |
+| 3 | Illinois | 84.44 | 14.7% |
+| 4 | Ohio | 84.37 | 13.0% |
+| 5 | Mississippi | 79.82 | 37.8% |
+| 6 | Arkansas | 78.36 | 15.7% |
+| 7 | Missouri | 76.91 | 11.8% |
+| 8 | Alabama | 75.68 | 26.8% |
+| 9 | New York | 75.29 | 17.6% |
+| 10 | South Carolina | 73.46 | 26.5% |
+| 11 | Tennessee | 72.91 | 17.1% |
+| 12 | North Carolina | 67.45 | 21.5% |
+| 13 | Texas | 66.97 | 12.9% |
+| 14 | Georgia | 65.78 | 32.6% |
+| 15 | Florida | 61.29 | 16.9% |
+| 16 | Virginia | 58.70 | 19.9% |
+| 17 | Maryland | 58.28 | 31.1% |
+
+Read the ranking as the instrument reads it: Michigan's first-place score does not mean Michigan is "worse for Black people" in every dimension — it means the eight-pillar composite, as weighted, concentrates most severely there. The Deep South states that dominate the historical narrative (Mississippi 5th, Alabama 8th, Georgia 14th) rank below the industrial Midwest on the contemporary composite, which is itself a finding: the geography of structural distress has moved with the Great Migration's destinations.
 
 ---
 

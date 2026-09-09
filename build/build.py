@@ -25,7 +25,7 @@ elif (ROOT / 'manuscript').is_dir():
 else:
     DRAFTS, OUT = HERE, HERE
 EDITION_DATE = "September 2026"
-BUILD_STAMP  = "2026-09-03T00:00:00Z"   # fixed for reproducible PDF metadata
+BUILD_STAMP  = "2026-09-09T00:00:00Z"   # fixed for reproducible PDF metadata
 # fontTools stamps every subset font with the current time unless SOURCE_DATE_EPOCH is set;
 # pin it to BUILD_STAMP so the embedded fonts, and therefore the PDF, are byte-identical across runs.
 os.environ.setdefault("SOURCE_DATE_EPOCH", str(int(datetime.datetime.fromisoformat(BUILD_STAMP.replace("Z","+00:00")).timestamp())))
@@ -42,18 +42,18 @@ FRONT = """
   <div class="tp-rule"></div>
   <p class="tp-author">Israel Lee Armstead</p>
   <p class="tp-affil">E5 Enclave Incorporated &middot; Liberty City, Miami, Florida</p>
-  <p class="tp-ed">Corrected Print Edition &middot; Black Paper v1.4 &middot; Submission Edition</p>
+  <p class="tp-ed">Corrected Print Edition &middot; Black Paper v1.4.2 &middot; Submission Edition</p>
 </section>
 
 <section class="copyright">
   <p><strong>The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991&ndash;2024</strong></p>
-  <p>Corrected Print Edition &middot; Black Paper v1.4 &middot; Submission Edition<br/>Published {date}</p>
+  <p>Corrected Print Edition &middot; Black Paper v1.4.2 &middot; Submission Edition<br/>Published {date}</p>
   <p>E5 Enclave Incorporated<br/>820 NW 64th Street, Liberty City, Miami, Florida 33150<br/>EIN 99-3822441 &middot; UEI H8NGXEYE2HH8 &middot; CAGE 07E88<br/>e5enclave.com</p>
   <p class="cc"><strong>CC0 1.0 Universal &mdash; Public Domain Dedication.</strong> To the extent possible under law, E5 Enclave Incorporated has waived all copyright and related or neighboring rights to this work. No permission is required to copy, translate, adapt, excerpt or republish it, in whole or in part, for any purpose. No attribution is required, though it is appreciated.</p>
-  <p><strong>Suggested citation.</strong> Armstead, Israel Lee. (2026). <em>The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991&ndash;2024.</em> Corrected Print Edition v1.4. E5 Enclave Incorporated. <span class="mono">doi:10.5281/zenodo.22270905</span>. CC0 1.0 Universal.</p>
+  <p><strong>Suggested citation.</strong> Armstead, Israel Lee. (2026). <em>The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991&ndash;2024.</em> Corrected Print Edition v1.4.2. E5 Enclave Incorporated. <span class="mono">doi:10.5281/zenodo.22270905</span>. CC0 1.0 Universal.</p>
   <p><strong>DOI.</strong> <span class="mono">10.5281/zenodo.22270905</span> is the concept DOI: it always resolves to the current edition. Each edition also carries its own version DOI, listed on the Zenodo record. ORCID <span class="mono">0009-0001-2505-5863</span>.</p>
   <p><strong>Underlying data.</strong> All source data is public and openly licensed. Layer 1 raw evidence: <span class="mono">IAMGODIAM/bdi-raw-data-vault</span>. Layer 2 synthesized instrument: <span class="mono">IAMGODIAM/bdi-sovereign-dataset</span>, sealed on Base Mainnet, ExodusV4 token #2. Layer 3 place-level application: <span class="mono">IAMGODIAM/farmblock-data</span> and <span class="mono">IAMGODIAM/farmblock-dataset</span>.</p>
-  <p><strong>On this edition.</strong> Every derived statistic was recomputed from the raw source series rather than carried forward from prior drafts, and flagged figures were re-verified against live federal sources in August 2026. Twenty-seven public claims were put through evidentiary triage; ten further arithmetic errors were found by recomputation; three canonical counts in the project&rsquo;s own governance documents were found stale. This edition then incorporates a second wave of corrections arising from an independent review of the v1.1 print edition (September 1, 2026), which identified a defective price basis in the Chapter 5 wealth series and an unverified denominator in the incarceration series. Both are corrected; several claims are withdrawn. All corrections are enumerated in Appendix H, sections A, B and B2. The Submission Edition (v1.3) added an abstract, an author of record, an AI-assistance disclosure, keywords and JEL codes, and a consolidated References section. This edition (v1.4) states the FarmBlock reproducibility limit in Chapter 7 where the index is introduced rather than in the appendix alone, and rewrites the AI disclosure to describe the division of labor exactly rather than approximately. Neither edition changes any finding.</p>
+  <p><strong>On this edition.</strong> Every derived statistic was recomputed from the raw source series rather than carried forward from prior drafts, and flagged figures were re-verified against live federal sources in August 2026. Twenty-seven public claims were put through evidentiary triage; ten further arithmetic errors were found by recomputation; three canonical counts in the project&rsquo;s own governance documents were found stale. This edition then incorporates a second wave of corrections arising from an independent review of the v1.1 print edition (September 1, 2026), which identified a defective price basis in the Chapter 5 wealth series and an unverified denominator in the incarceration series. Both are corrected; several claims are withdrawn. All corrections are enumerated in Appendix H, sections A, B and B2. The Submission Edition (v1.3) added an abstract, an author of record, an AI-assistance disclosure, keywords and JEL codes, and a consolidated References section. This edition (v1.4) states the FarmBlock reproducibility limit in Chapter 7 where the index is introduced rather than in the appendix alone, and rewrites the AI disclosure to describe the division of labor exactly rather than approximately. A third wave of corrections (v1.4.2, September 2026), arising from a second independent review conducted with full repository access, deprecates the vault's withdrawn wealth series and adds the corrected constant-dollar series, reseals the sovereign dataset with the corrected validation string, adds Appendix H Section F and Appendix I (the 17-state BDI ranking), discloses the tract FDI's effective digital-exclusion weight in Appendix E, and qualifies the incarceration language to the male-rates basis. Neither edition changes any finding.</p>
   <p class="motto"><em>Nil satis nisi optimum.</em></p>
 </section>
 
@@ -163,7 +163,7 @@ for kind,a,b,c in ORDER:
 front=FRONT.replace("TOC_ITEMS","\n".join(toc)).replace("{date}", EDITION_DATE)
 head=("<meta charset='utf-8'><title>The Measure of the Wound</title>"
       "<meta name='author' content='Israel Lee Armstead'>"
-      "<meta name='description' content='The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991-2024. Corrected Print Edition, Black Paper v1.4, Submission Edition. E5 Enclave Incorporated. CC0 1.0.'>"
+      "<meta name='description' content='The Measure of the Wound: A Sovereign Empirical Record of Black American Structural Distress, 1991-2024. Corrected Print Edition, Black Paper v1.4.2, Submission Edition. E5 Enclave Incorporated. CC0 1.0.'>"
       "<meta name='keywords' content='racial inequality, wealth gap, structural racism, Black Americans, longitudinal federal data, composite index, maternal mortality, incarceration, homeownership, open data'>"
       "<meta name='generator' content='bdi-black-paper build.py; python-markdown; WeasyPrint'>"
       f"<meta name='dcterms.created' content='{BUILD_STAMP}'>"

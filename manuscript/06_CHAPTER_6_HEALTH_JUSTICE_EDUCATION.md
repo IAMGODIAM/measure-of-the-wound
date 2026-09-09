@@ -112,7 +112,7 @@ The parish-level number does not capture where the burden lands. The tract-level
 | 2020 | 1,882 | 296 | 6.36 |
 | 2022 | 1,862 | 295 | 6.31 |
 
-In 1925, Black Americans were imprisoned at 6.45 times the white rate. In 2022, at 6.31 times.
+In 1925, Black males were imprisoned at 6.45 times the white male rate. In 2022, at 6.31 times.
 
 **The ratio moved 0.14 points in ninety-seven years.**
 

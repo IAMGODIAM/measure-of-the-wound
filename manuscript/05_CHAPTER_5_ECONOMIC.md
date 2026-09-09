@@ -96,7 +96,7 @@ This is the largest systematic asset transfer in American history without a conv
 
 ## 5.2 Unemployment: Fifty-Four Years, and the Ratio Has Never Inverted
 
-The BLS series LNS14000006 and LNS14000003 — Black and white unemployment, seasonally adjusted, monthly — begin in 1972. Fifty-four years of continuous, race-disaggregated federal labor data. Nothing else in the American statistical system runs this long at this frequency.
+The BLS series LNS14000006 and LNS14000003 — Black and white unemployment, seasonally adjusted, monthly — are published from 1972; the 1972–1975 observations are later reconstructions, and the continuous published series begins in 1976. Fifty-plus years of continuous, race-disaggregated federal labor data. Nothing else in the American statistical system runs this long at this frequency.
 
 **Table 5.3 — Black/white unemployment ratio, BLS, selected years**
 
