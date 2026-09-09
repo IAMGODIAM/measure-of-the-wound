@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.4.2 — Archive corrections (2026-09-09)
+
+Adopted from the second independent peer review (2026-09-09), conducted with full repository access. No change to any empirical conclusion.
+
+- **Vault SCF series deprecated and replaced (P-1).** The frozen data snapshot still carried the withdrawn W-1 splice in `scf_wealth_gap_1989_2022` (1989: $12,000/$95,000 nominal) after Table 5.1 was rebuilt from the Fed's constant-2022-dollar series in v1.2 — the printed table could not be derived from the vault. The deprecated series is retained unmodified with a dated deprecation notice; the corrected series is committed as `scf_wealth_gap_1989_2022_FEDS2023_constant2022` (12 waves, 1989–2022; Federal Reserve FEDS Notes, 2023-10-18, Fig. 2; universe: families; constant 2022 dollars). Appendix A item 5 now points to the corrected key.
+- **Sovereign dataset resealed (P-4).** `data.bdi_composite_index.validation_test` read "compound score 83.5" — the figure superseded by the published FDI of 87.25 in v1.1 (CD-9). The string is corrected, the crosswalk's Humphreys entry updated (fdi 87.25; compound recomputed as the mean of the corrected inputs, 83.53), and the dataset resealed as v1.1-RESEALED with a dated reseal note.
+- **Stale Humphreys figures corrected in the snapshot.** The FarmBlock methodology chapter and the vault claim-triage matrix still cited the superseded 83.5; both now read 87.25.
+- **Appendix H gains Section F** with the five third-wave findings (P-1–P-5) and their dispositions; **Appendix E** now prints effective FDI tract weights alongside nominal weights; **new Appendix I** prints the 17-state BDI composite ranking.
+- **Text corrections:** the Conclusion and Appendix C qualify the imprisonment ratio as probably male rates (6.45 in 1926; 6.31 in 2022; BJS all-adults 2022: 5.22); the series start is corrected to 1926; Chapter 4 "50-city" → "49-city"; §5.2 corrects the BLS series dating.
+
+Deposit: new Zenodo version under concept DOI `10.5281/zenodo.22270905`. v1.4.1 remains citable as the historical record.
+
+
 ## v1.4.1 — DOI edition (2026-09-03)
 - Deposited to Zenodo. **Concept DOI `10.5281/zenodo.22270905`** (always resolves to the current edition); v1.4 carries version DOI `10.5281/zenodo.22270906`.
 - The concept DOI is now printed on the paper's copyright page, in the suggested citation and in the data-availability statement, so the record cites itself. Added to `CITATION.cff` (as `doi` plus both version identifiers) and to both repository READMEs.

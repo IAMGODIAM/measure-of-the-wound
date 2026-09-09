@@ -176,5 +176,109 @@
       "black_farmland_acres": 2900000,
       "source": "USDA NASS 2022"
     }
-  ]
+  ],
+  "_deprecation_notice_scf_wealth": {
+    "date": "2026-09-09",
+    "deprecated_key": "scf_wealth_gap_1989_2022",
+    "status": "DEPRECATED \u2014 do not use for new derivations",
+    "reason": "Price-basis splice. The 1989 endpoint ($12,000 Black / $95,000 white) is nominal while the 2022 endpoint ($44,900 / $285,000) is the Federal Reserve's constant-2022-dollar figure; the 1989 values reconcile with the Fed's published race-specific medians under neither basis (deflated to 2022 dollars: $28,321 / $224,211 vs. Fed $9,200 / $164,030), and their provenance was never documented. See Appendix H, W-1.",
+    "replacement_key": "scf_wealth_gap_1989_2022_FEDS2023_constant2022",
+    "replacement_source": "Board of Governors of the Federal Reserve System, FEDS Notes, 'Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances,' October 18, 2023, Figure 2. Constant 2022 dollars; universe: families.",
+    "action": "The deprecated series is retained unmodified for audit trail. All print-edition figures derive from the replacement key."
+  },
+  "scf_wealth_gap_1989_2022_FEDS2023_constant2022": {
+    "source": "Board of Governors of the Federal Reserve System, FEDS Notes, 'Greater Wealth, Greater Uncertainty: Changes in Racial Inequality in the Survey of Consumer Finances,' October 18, 2023, Figure 2",
+    "price_basis": "constant 2022 dollars",
+    "universe": "families",
+    "unit": "dollars",
+    "committed": "2026-09-09",
+    "supersedes": "scf_wealth_gap_1989_2022 (deprecated; see _deprecation_notice_scf_wealth)",
+    "note": "Rebuild of Table 5.1 from the Federal Reserve's published series. Ratios computed from the Fed's unrounded values.",
+    "rows": [
+      {
+        "year": 1989,
+        "black_median_wealth": 9200,
+        "white_median_wealth": 164030,
+        "absolute_gap": 154830,
+        "ratio": 0.056
+      },
+      {
+        "year": 1992,
+        "black_median_wealth": 20510,
+        "white_median_wealth": 144420,
+        "absolute_gap": 123910,
+        "ratio": 0.142
+      },
+      {
+        "year": 1995,
+        "black_median_wealth": 21130,
+        "white_median_wealth": 148330,
+        "absolute_gap": 127200,
+        "ratio": 0.143
+      },
+      {
+        "year": 1998,
+        "black_median_wealth": 28260,
+        "white_median_wealth": 174750,
+        "absolute_gap": 146490,
+        "ratio": 0.162
+      },
+      {
+        "year": 2001,
+        "black_median_wealth": 32450,
+        "white_median_wealth": 205530,
+        "absolute_gap": 173080,
+        "ratio": 0.158
+      },
+      {
+        "year": 2004,
+        "black_median_wealth": 32090,
+        "white_median_wealth": 221470,
+        "absolute_gap": 189380,
+        "ratio": 0.145
+      },
+      {
+        "year": 2007,
+        "black_median_wealth": 30140,
+        "white_median_wealth": 245110,
+        "absolute_gap": 214970,
+        "ratio": 0.123
+      },
+      {
+        "year": 2010,
+        "black_median_wealth": 21800,
+        "white_median_wealth": 178280,
+        "absolute_gap": 156480,
+        "ratio": 0.122
+      },
+      {
+        "year": 2013,
+        "black_median_wealth": 16780,
+        "white_median_wealth": 180680,
+        "absolute_gap": 163900,
+        "ratio": 0.093
+      },
+      {
+        "year": 2016,
+        "black_median_wealth": 21090,
+        "white_median_wealth": 210940,
+        "absolute_gap": 189850,
+        "ratio": 0.1
+      },
+      {
+        "year": 2019,
+        "black_median_wealth": 27970,
+        "white_median_wealth": 218140,
+        "absolute_gap": 190170,
+        "ratio": 0.128
+      },
+      {
+        "year": 2022,
+        "black_median_wealth": 44890,
+        "white_median_wealth": 285010,
+        "absolute_gap": 240120,
+        "ratio": 0.158
+      }
+    ]
+  }
 }

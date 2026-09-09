@@ -1,7 +1,7 @@
 {
   "dataset": "BDI Sovereign Dataset \u2014 Complete",
-  "version": "v1.0-SEALED",
-  "dag": "bdi-sovereign-dataset-v1-sealed-2026-0417",
+  "version": "v1.1-RESEALED",
+  "dag": "bdi-sovereign-dataset-v1.1-resealed-2026-0909",
   "generated": "2026-04-17T17:24:03.006319Z",
   "license": "CC0 1.0 Universal \u2014 Public Domain",
   "publisher": "E5 Enclave Incorporated",
@@ -2308,15 +2308,15 @@
         }
       ],
       "top_state": "Michigan (86.54) \u2014 compounded by Flint water crisis, highest homeownership gap, extreme incarceration ratio",
-      "validation_test": "Humphreys County, MS: FDI 87.2 (FarmBlock) + MS BDI 79.82 = compound score 83.5 \u2014 confirms as the nation's most structurally oppressed geography",
+      "validation_test": "Humphreys County, MS: FDI 87.25 (FarmBlock); Mississippi BDI composite 79.82 \u2014 confirms as the highest-distress county in the published corpus.",
       "farmblock_crosswalk": {
         "description": "Where FDI (food/economic distress) and BDI (structural oppression) scores both exceed 75, the compound burden is catastrophic.",
         "high_compound_geographies": [
           {
             "location": "Humphreys County, MS",
-            "fdi": 87.2,
+            "fdi": 87.25,
             "state_bdi": 79.82,
-            "compound": 83.5,
+            "compound": 83.53,
             "black_pop_pct": 72,
             "note": "Nation's highest compound score. No hospital. 37% poverty. Complete structural abandonment."
           },
@@ -2383,5 +2383,7 @@
   },
   "total_data_points_corrected": 1574,
   "total_data_points_original_claim": 1855,
-  "count_correction_note": "Original claim of 1,855 included JSON metadata keys counted as data points \u2014 incorrect. Corrected to 1,574 per explicit counting rule in BDI_QUANT_SPEC.md (one row in a time series = one data point)."
+  "count_correction_note": "Original claim of 1,855 included JSON metadata keys counted as data points \u2014 incorrect. Corrected to 1,574 per explicit counting rule in BDI_QUANT_SPEC.md (one row in a time series = one data point).",
+  "resealed": "2026-09-09",
+  "reseal_note": "validation_test string corrected (superseded 83.5 figure replaced); farmblock_crosswalk fdi updated to the published 87.25 and compound recomputed as the mean of the two corrected inputs, (87.25 + 79.82)/2 = 83.535, stored as 83.53. See Appendix H, P-4."
 }

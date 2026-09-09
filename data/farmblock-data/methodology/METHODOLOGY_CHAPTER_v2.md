@@ -260,7 +260,7 @@ The two products share geography but operate at different resolutions. Reconcili
 6. **ACS 5-year rolling window:** ACS 5-year estimates represent rolling averages, not point-in-time snapshots. Temporal precision is limited compared to administrative records.
 7. **Correlation only:** Both the BDI and FDI identify co-occurrence of structural conditions. Neither instrument models causation. All analytical language uses co-occurrence framing.
 8. **EPA EJScreen access disruption:** EJScreen was removed from EPA.gov on February 5, 2025. Current access is via Public Environmental Data Partners (screening-tools.com/epa-ejscreen). Environmental pillar data should be reverified using this updated source before final publication.
-9. **Internally-derived compound distress scores:** Compound distress scores for flagship counties (e.g., Humphreys County composite 83.5) are derived from E5 Enclave methodology. The component decomposition has not yet been published externally. Before external sharing, the full component breakdown (formula, weights, normalization method, and component scores) must be published for these flagship examples.
+9. **Internally-derived compound distress scores:** Compound distress scores for flagship counties (e.g., Humphreys County composite 87.25) are derived from E5 Enclave methodology. The component decomposition has not yet been published externally. Before external sharing, the full component breakdown (formula, weights, normalization method, and component scores) must be published for these flagship examples.
 
 ---
 
