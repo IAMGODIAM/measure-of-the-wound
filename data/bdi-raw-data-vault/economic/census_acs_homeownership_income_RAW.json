@@ -1,8 +1,8 @@
 {
-  "source": "U.S. Census Bureau \u2014 American Community Survey 1-Year Estimates",
+  "source": "U.S. Census Bureau — American Community Survey 1-Year Estimates",
   "tables": "B25003B (Black housing tenure), B25003H (White non-Hispanic housing tenure), B19013B/H (median household income)",
   "pulled_date": "2026-04-18",
-  "pillar": "1 \u2014 Economic Justice + 5 \u2014 Housing",
+  "pillar": "1 — Economic Justice + 5 — Housing",
   "homeownership_series": [
     {
       "year": 2005,
@@ -105,6 +105,13 @@
       "black_homeownership_pct": 44.1,
       "white_homeownership_pct": 73.0,
       "gap_percentage_points": 28.9
+    },
+    {
+      "year": 2023,
+      "black_homeownership_pct": 44.7,
+      "white_homeownership_pct": 73.1,
+      "gap_percentage_points": 28.4,
+      "provenance": "Independent verification pull 2026-09-11 from the ACS 2023 1-year table-based summary file (acsdt1y2023-b25003b.dat / acsdt1y2023-b25003h.dat, www2.census.gov); national GEO_ID 0100000US; rate = owner-occupied / total occupied units. This corrects the 2023 white rate previously carried (72.4%), which had been drawn from B25003A (White alone, includes Hispanic) — a table-definition break against this file's B25003H (White non-Hispanic) series. Consistent-series 2023: Black 44.71%, White NH 73.13%, gap 28.42 pp."
     }
   ],
   "income_series": [
@@ -209,6 +216,13 @@
       "black_median_household_income": 51374,
       "white_median_household_income": 80404,
       "ratio": 0.639
+    }
+  ],
+  "revisions": [
+    {
+      "date": "2026-09-11",
+      "change": "Appended verified 2023 homeownership row; corrected the 2023 white-rate table-definition break (B25003A -> B25003H).",
+      "by": "Reckoning Protocol follow-up, RBPE derivative track"
     }
   ]
 }

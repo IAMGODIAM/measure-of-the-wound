@@ -175,13 +175,13 @@ Homeownership is where the previous three sections converge. It is the primary m
 | 2000 | 46.3% | 73.8% | 27.5 | Census of Housing |
 | 2010 | 44.3% | 73.0% | 28.7 | Census of Housing |
 | 2022 | 44.1% | 73.0% | **28.9** | ACS |
-| 2023 | 44.7% | 72.4% | 27.7 | ACS |
+| 2023 | 44.7% | 73.1% | 28.4 | ACS |
 
 **The Fair Housing Act was signed in April 1968. The gap that year was approximately twenty-four percentage points. Fifty-four years later it was 28.9.**
 
 The law did not close the gap. The gap is wider than when the law was passed. This is the single most important finding in the housing pillar, and it is not a claim about intent — it is a claim about outcome, which is the only thing a dataset can adjudicate.
 
-An earlier draft placed the current gap at 30.1 points. The verified ACS 2022 figure is 28.9, and the 2023 release puts it at 27.7. The corrected figures are used throughout.
+An earlier draft placed the current gap at 30.1 points. The verified ACS 2022 figure is 28.9, and the 2023 release puts it at 28.4. A prior version of the 2023 row had drawn the white rate from B25003A (White alone, 72.4%) against this chapter's B25003H (White non-Hispanic) series — a table-definition break, corrected here to the consistent series. The corrected figures are used throughout.
 
 ### Access to the mechanism
 
