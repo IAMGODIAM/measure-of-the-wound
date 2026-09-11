@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.4.5 — Line-205 correction (unreleased; 2026-09-11)
+
+Caught by the RBPE derivative's Reckoning Protocol audit (2026-09-11), which scored the draft 7/10 and traced two stale figures to this line.
+
+- **Chapter 5 §2008 line corrected.** The crisis paragraph still carried two superseded figures: Black median wealth "$11,200 in 2013, its lowest point in the entire SCF series" (the withdrawn nominal-series figure; corrected Table 5.1 reads $16.78k for 2013 in constant 2022 dollars, series minimum 1989 at $9.20k) and homeownership "peaked around 2004 … trough in 2013" (the vault's ACS 1-year series, tables B25003B/B25003H, shows peak 2007 at 46.5% and post-2000 trough 2016 at 40.7%). The line now reads the vault-verified figures, and the causal verb is softened ("the 2007–2016 window coincided with a reversal of …"). No empirical conclusion changes.
+- **Print-edition PDF rebuild pending.** The pinned-container build (Docker) is unavailable in this environment and the PDF toolchain is not installed locally; `The_Measure_of_the_Wound.pdf` still reflects v1.4.4 until the PDF is rebuilt from these sources. Rebuild with `build/rebuild.sh` before any v1.4.5 Zenodo deposit.
+
 ## v1.4.4 — "Road to 10" forensic pass (2026-09-11)
 
 A strict-gate audit scored v1.4.3 at 7/10 and named four deductions. This edition resolves what can be resolved and writes down what cannot. No reconciliation is fabricated.

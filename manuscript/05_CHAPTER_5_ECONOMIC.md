@@ -202,7 +202,7 @@ Thirty years of Home Mortgage Disclosure Act reporting. The denial ratio ranged 
 
 The subprime crisis is the clearest case in this dataset in which a turning point in the series coincides with a documented external mechanism.
 
-Black homeownership peaked around 2004 and reached its trough in 2013 — a decline of roughly nine years, not the eighteen months an earlier draft asserted. The 18-month framing is withdrawn; the correct statement is that **the crisis reversed nearly a decade of accumulated homeownership gains across the 2007–2013 window**, and that Black median wealth fell to $11,200 in 2013, its lowest point in the entire SCF series.
+Black homeownership peaked in 2007 at 46.5 percent and reached its post-2000 trough in 2016 at 40.7 percent — a decline of roughly nine years, not the eighteen months an earlier draft asserted. The 18-month framing is withdrawn; the correct statement is that **the 2007–2016 window coincided with a reversal of nearly a decade of accumulated homeownership gains**, and that Black median wealth fell to $16,780 in 2013 (constant 2022 dollars) before recovering; the series minimum remains 1989 at $9,200.
 
 The loans that produced it were not distributed randomly. They were marketed, and the marketing was documented at the time by the regulators who did not stop it.
 
