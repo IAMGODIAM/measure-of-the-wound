@@ -13,12 +13,11 @@ Chapter 5 measured what is extracted. This chapter measures what cannot be given
 
 This is the single most disturbing series in the dataset, and it must be read in order.
 
-**Table 6.1 — Maternal mortality per 100,000 live births, NCHS, 1915–2022**
+**Table 6.1 — Maternal mortality per 100,000 live births, 1933–2022**
 
 | Year | Black | White | Ratio |
 |---|---|---|---|
-| 1915 | 1,050.0 | 600.0 | 1.75 |
-| **1930** | **900.0** | **609.0** | **1.48** |
+| **1933** | **1,000.0** | **564.0** | **1.77** |
 | 1940 | 773.5 | 319.8 | 2.42 |
 | 1950 | 221.6 | 61.1 | 3.63 |
 | 1960 | 97.9 | 22.4 | 4.37 |
@@ -31,19 +30,21 @@ This is the single most disturbing series in the dataset, and it must be read in
 | **2021** | **69.9** | 26.6 | 2.63 |
 | **2022** | 49.5 | 19.0 | **2.61** |
 
-American medicine made childbirth dramatically safer. In 1930, roughly nine women in a thousand died giving birth if they were Black; by 2022 the figure was one in two thousand. That is a genuine and enormous achievement of the twentieth century.
+*1933: first year of complete national reporting; national vital statistics via MacDorman et al. (2021). The 1915 and 1930 rows printed in earlier editions are withdrawn — see the correction note below.*
+
+American medicine made childbirth dramatically safer. In 1933 — the first year every state reported maternal deaths — ten women in a thousand died giving birth if they were Black; by 2022 the figure was one in two thousand. That is a genuine and enormous achievement of the twentieth century.
 
 Now read the ratio column.
 
-**In 1930 — under legal Jim Crow, in segregated hospitals, with the explicit denial of equivalent care — a Black woman died in childbirth 1.48 times as often as a white woman. In 2022, she died 2.61 times as often.**
+**In 1933 — under legal Jim Crow, in segregated hospitals, with the explicit denial of equivalent care — a Black woman died in childbirth 1.77 times as often as a white woman. In 2022, she died 2.61 times as often.**
 
-The ratio did not narrow across ninety-two years of modern medicine. It widened by a factor of 1.76.
+The ratio did not narrow across eighty-nine years of modern medicine. It widened by a factor of 1.47.
 
 The mechanism is differential improvement. Medicine got better for everyone and better for white women faster, and it did so continuously enough that the disparity ratio is now higher than it was under a healthcare system that did not pretend to serve Black women equally.
 
-**A necessary caveat on the 1930 comparator.** Before 1933 the United States had no complete national birth registration area; the figures for 1915 and 1930 derive from the registration states only, and the racial composition of those states was not representative of the country. The 1930 ratio of 1.48 is therefore a weaker measurement than the 2022 ratio of 2.61, and the two are not strictly commensurable. The 2022 figures are confirmed directly against NCHS: 49.5 per 100,000 for Black women and 19.0 for white women, a ratio of 2.605, conventionally rounded to 2.61.
+**A correction on the historical comparator.** Earlier editions anchored this series in 1915 and 1930. Both rows are withdrawn in this edition. The 1930 ratio of 1.48 cannot be verified as a maternal-mortality figure: the project's verification review traced it to the neonatal-mortality literature — 1.48 is the documented nonwhite/white neonatal mortality ratio for 1939–41 (Shin 1975, Table I) — and complete national maternal reporting by race begins in 1933, not 1930 (MacDorman et al. 2021). The series now opens in 1933, the first year every state reported maternal deaths: Black 1,000.0 and White 564.0 per 100,000 live births, a ratio of 1.77 (national vital statistics, via MacDorman et al. 2021; the 1933 classification is the period "negro" category). The 2022 figures are confirmed directly against NCHS: 49.5 per 100,000 for Black women and 19.0 for white women, a ratio of 2.605, conventionally rounded to 2.61.
 
-The cross-era comparison is offered because the direction is robust across every intermediate decade in the table — the ratio is higher in 2022 than in 1930, 1940, 1980, 2000 and 2010 alike — not because the 1930 datum is precise. Readers who reject the pre-1933 figures entirely still face a ratio that rose from 2.24 in 2010 to 2.61 in 2022, within a fully registered national system.
+The cross-era comparison is offered because the direction is robust across every decade in the table — the ratio is higher in 2022 than in 1933, 1940, 1980, 2000 and 2010 alike. Readers who reject even the 1933 anchor still face a ratio that rose from 2.24 in 2010 to 2.61 in 2022, within the modern registration system.
 
 The 2021 peak — **69.9 deaths per 100,000** — is the highest Black maternal mortality rate recorded in the United States since 1968. The World Health Organization associates rates in that range with low-income countries. It occurred in the wealthiest nation in human history, in the twenty-first century, three years ago.
 

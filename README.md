@@ -40,7 +40,7 @@ Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure
 
 ## The finding in one paragraph
 
-Across eight pillars and up to 122 years of federal data, the same shape recurs: **absolute conditions improve while the ratio between Black and white outcomes holds or widens.** In constant 2022 dollars Black median family wealth rose 388 percent since 1989 and the absolute wealth gap is nonetheless at its widest point in the survey's history. The Black/white unemployment ratio has never inverted in fifty-four years. The maternal mortality ratio is higher in 2022 than it was under legal segregation in 1930. The imprisonment ratio moved 0.14 points in ninety-seven years. The homeownership gap is wider than when the Fair Housing Act was signed.
+Across eight pillars and up to 122 years of federal data, the same shape recurs: **absolute conditions improve while the ratio between Black and white outcomes holds or widens.** In constant 2022 dollars Black median family wealth rose 388 percent since 1989 and the absolute wealth gap is nonetheless at its widest point in the survey's history. The Black/white unemployment ratio has never inverted in fifty-four years. The maternal mortality ratio is higher in 2022 than it was under legal segregation in 1933, the first year of complete national reporting. The imprisonment ratio moved 0.14 points in ninety-seven years. The homeownership gap is wider than when the Fair Housing Act was signed.
 
 ## What a reviewer should still contest
 

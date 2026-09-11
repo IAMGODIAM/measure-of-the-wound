@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.4.3 — Maternal mortality baseline correction (2026-09-11)
+
+An independent verification review found that the 1930 maternal mortality ratio of 1.48, carried since the first edition, could not be verified as a maternal-mortality figure. Primary-source research confirmed the 1.48 ratio as the documented nonwhite/white **neonatal** mortality ratio for 1939–41 (Shin 1975, Table I) and confirmed that complete national maternal mortality reporting by race begins in **1933**, not 1930 — the first year every state reported maternal deaths (Black 1,000 / White 564 per 100,000 live births, ratio 1.8; MacDorman et al. 2021).
+
+- **1915 and 1930 maternal rows withdrawn** (definitional error, not a precision caveat). Table 6.1 now opens at 1933 (Black 1,000.0 / White 564.0 = 1.77; period classification "negro"). The vault file retains the withdrawn rows with dated withdrawal notices.
+- **Cross-era widening restated:** 1.77 → 2.61, a factor of 1.47 over eighty-nine years (replacing the 1.76-fold / ninety-two-year formulation in §6.1, the Conclusion, §8, Appendix C and the abstract). Absolute improvement restated as a factor of twenty (1,000 → 49.5).
+- **Appendix H gains Section G** with the full correction record; the W-4 disposition is updated from caveat to withdrawal-and-replacement.
+- **1926 series start corrected back to 1925.** v1.4.2 had adopted the reviewer's "BJS dates its series to 1926" in the Conclusion and Appendix C. Verification established the distinction: 1926 begins BJS's *Prisoners report series*; the BJS Historical Corrections Statistics *data* covers yearend 1925. The manuscript is restored to 1925 / ninety-seven years throughout (the pre-1980 Cahalan crosswalk and denominator remain under review per W-3).
+- New references: MacDorman et al. 2021 (AJPH); Shin 1975 (Demography).
+
+No change to any empirical conclusion: the ratio is higher in 2022 than in every earlier decade of the table, and the fully-registered 2010→2022 rise (2.24 → 2.61) is unaffected.
+
+Deposit: new Zenodo version under concept DOI `10.5281/zenodo.22270905`. v1.4.2 remains citable as the historical record.
+
+
 ## v1.4.2 — Archive corrections (2026-09-09)
 
 Adopted from the second independent peer review (2026-09-09), conducted with full repository access. No change to any empirical conclusion.

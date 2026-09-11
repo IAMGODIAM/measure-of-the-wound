@@ -15,7 +15,7 @@ That is the point. A gap that closes when the law changes is a gap the law was c
 
 But the thirty-three-year window does not explain itself. So where federal data permits, the series run longer, and each longer series is nested inside the argument rather than appended to it:
 
-- **Health to 1900** — 122 years of life expectancy by race, and maternal mortality to 1915.
+- **Health to 1900** — 122 years of life expectancy by race, and maternal mortality to 1933.
 - **Criminal justice to 1925** — 97 years of incarceration rates by race.
 - **Housing to 1940** — 82 years of decennial homeownership.
 - **Labor to 1972** — 54 years of monthly BLS unemployment, the longest continuous race-disaggregated federal labor series in American public data.

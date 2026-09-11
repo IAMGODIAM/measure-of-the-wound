@@ -42,6 +42,8 @@ Hoyert, Donna L. 2024. *Maternal Mortality Rates in the United States, 2022*. NC
 
 Manus AI. 2026. *Verification Report — The Measure of the Wound*. Independent review of the v1.1 print edition, September 1. Filed with the author response in github.com/IAMGODIAM/bdi-black-paper, peer-review/.
 
+MacDorman, Marian F., Marie Thoma, Eugene Declercq, and Elizabeth A. Howell. 2021. "Racial and Ethnic Disparities in Maternal Mortality in the United States Using Enhanced Vital Records, 2016–2017." *American Journal of Public Health* 111 (9): 1673–1681. https://doi.org/10.2105/AJPH.2021.306375.
+
 Mapping Police Violence. 2024. *Mapping Police Violence Database*, 2013–2023 snapshot. mappingpoliceviolence.org. *Non-federal source.*
 
 McCartney, Ralph. 1997. Oral history interview, August 14. Samuel Proctor Oral History Program, University of Florida, in cooperation with the Black Archives History and Research Foundation of South Florida.
@@ -73,5 +75,7 @@ U.S. Department of Agriculture, Economic Research Service. 2019. *Food Access Re
 U.S. Department of Agriculture, National Agricultural Statistics Service. 1910–2022. *Census of Agriculture*. Farm operators and land in farms by race of operator. Washington.
 
 U.S. Department of Housing and Urban Development, Office of Inspector General. 2013. *HUD Did Not Adequately Ensure Compliance with Section 3 of the Housing and Urban Development Act of 1968*. Audit Report 2013-AT-0003, March 28. Washington.
+
+Shin, Eui Hang. 1975. "Black-White Differentials in Infant Mortality in the South, 1940–1970." *Demography* 12 (1): 1–19.
 
 Wells, Ida B. 1895. *A Red Record: Tabulated Statistics and Alleged Causes of Lynchings in the United States, 1892–1893–1894*. Chicago: Donohue & Henneberry.

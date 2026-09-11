@@ -69,7 +69,7 @@ The pattern in Chapter 5 is not an absence of law. The Fair Housing Act (1968), 
 
 Every pillar in this paper shows absolute improvement. Poverty fell. Denial rates fell. Imprisonment fell 46 percent from its peak. Maternal deaths fell from 900 per 100,000 to 49.5. Life expectancy rose 39 years.
 
-And in every pillar the ratio held, or widened. A program evaluated on absolute improvement will report success in every one of these domains while the disparity it was created to address is unchanged or worse. **The maternal mortality series is the decisive case: absolute performance improved by a factor of eighteen while the disparity ratio grew by a factor of 1.76.**
+And in every pillar the ratio held, or widened. A program evaluated on absolute improvement will report success in every one of these domains while the disparity it was created to address is unchanged or worse. **The maternal mortality series is the decisive case: absolute performance improved by a factor of twenty while the disparity ratio grew by a factor of 1.47.**
 
 Any intervention derived from this data must be measured on the gap, not on the level. This is a methodological demand, and it is the one most often refused, because level metrics are easier to achieve and easier to report.
 
