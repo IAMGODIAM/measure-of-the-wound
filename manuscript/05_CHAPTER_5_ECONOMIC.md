@@ -3,7 +3,7 @@
 > *"The problem of the twentieth century is the problem of the color line."*
 > — W.E.B. Du Bois, *The Souls of Black Folk* (1903)
 
-The wealth gap between Black and white American families has not closed. Not in 1991. Not in 2008. Not in 2024. Not in any year in between. This chapter documents that statement with four instruments — wealth, unemployment, income and homeownership — and one finding that runs through all four: the ratios move, sometimes substantially, while the absolute distance grows.
+The wealth gap between Black and white American families has not closed. Not in 1991. Not in 2008. Not in 2024. Not in any year in between. This chapter documents that statement with four instruments — wealth, unemployment, income and homeownership — and one finding that runs through all four: improvement in a group's level does not imply convergence between groups. Level-improvement, gap-narrowing, and ratio-convergence are logically independent, and across these series they disagree — the ratios move, sometimes substantially, while the absolute distance grows.
 
 ---
 
@@ -96,7 +96,7 @@ This is the largest systematic asset transfer in American history without a conv
 
 ## 5.2 Unemployment: Fifty-Four Years, and the Ratio Has Never Inverted
 
-The BLS series LNS14000006 and LNS14000003 — Black and white unemployment, seasonally adjusted, monthly — are published from 1972; the 1972–1975 observations are later reconstructions, and the continuous published series begins in 1976. Fifty-plus years of continuous, race-disaggregated federal labor data. Nothing else in the American statistical system runs this long at this frequency.
+The BLS series LNS14000006 and LNS14000003 — Black and white unemployment, seasonally adjusted, monthly — are published from January 1972. Fifty-plus years of continuous, race-disaggregated federal labor data. Nothing else in the American statistical system runs this long at this frequency.
 
 **Table 5.3 — Black/white unemployment ratio, BLS, selected years**
 
@@ -111,12 +111,12 @@ The BLS series LNS14000006 and LNS14000003 — Black and white unemployment, sea
 | 2019 | 6.07% | 3.27% | 1.856 | |
 | 2020 | 11.57% | 7.34% | **1.576** | minimum |
 | 2022 | 6.11% | 3.19% | 1.915 | |
-| 2024 | — | — | 1.666 | |
-| 2025 | 6.90% | 3.73% | 1.850 | |
+| 2024 | 5.98% | 3.59% | 1.666 | |
+| 2025* | 6.90% | 3.73% | 1.850 | partial year |
 
 **Fifty-four-year distribution:** minimum 1.576 (2020), maximum 2.560 (1989), mean 2.115, median 2.130, standard deviation 0.230. The ratio equalled or exceeded 2.0 in 37 of 54 years.
 
-*Aggregation rule.* Each annual ratio is computed from the twelve unrounded monthly seasonally-adjusted rates, not from the rounded annual averages displayed in the table. The two methods differ in the second decimal place: 2023's monthly averages are 5.5167 and 3.2750, giving 1.685, whereas dividing the displayed 5.5 by 3.3 gives 1.667. The unrounded method is used throughout, and readers reproducing these figures from published annual averages should expect small differences on that account. Figures are also subject to BLS vintage revision.
+*Aggregation rule.* Each annual ratio is computed from the twelve unrounded monthly seasonally-adjusted rates (2025: eleven months, October missing in the archived pull), not from the rounded annual averages displayed in the table. The two methods differ in the second decimal place: 2023's monthly averages are 5.5167 and 3.2750, giving 1.685, whereas dividing the displayed 5.5 by 3.3 gives 1.667. The unrounded method is used throughout, and readers reproducing these figures from published annual averages should expect small differences on that account. Figures are also subject to BLS vintage revision. * 2025 is a partial-year average.
 
 Two claims that appeared in earlier drafts do not survive this table, and both are withdrawn here.
 
@@ -124,7 +124,11 @@ The first was that Black unemployment "has never fallen below twice the white ra
 
 What survives is stronger for being exact. Across fifty-four years, four recessions, one pandemic, nine presidencies and every configuration of American economic policy in the modern era, **the ratio has never inverted.** Not for one year. Not for one month. Black unemployment has never once been lower than white unemployment in the entire history of the federal government measuring both.
 
+The percentage-point gap tells the same history in a different key. In 1972 it stood at 5.35 points (10.40 − 5.05); it peaked at 6.99 in 1989 (11.47 − 4.48); by 2024 it had narrowed to 2.39 (5.98 − 3.59) — a roughly two-thirds decline from its 1989 peak, against the ratio's roughly one-third decline from its maximum. The ratio and the gap disagree on magnitude while neither reaches parity, which is precisely why both must be reported.
+
 A ratio that oscillates between 1.58 and 2.56 and never crosses 1.0 is not noise around a fair baseline. It is a bounded quantity — and bounded quantities invite, without in themselves establishing, a search for mechanisms. These data document the persistence; they do not identify the mechanisms.
+
+Economics has a formal convergence literature from which this paper's descriptive usage must be distinguished. Smith and Welch (1989) documented substantial Black–white convergence in schooling, occupational standing, and earnings between 1940 and 1980; Bayer and Charles (2018) showed the median Black–white earnings gap narrowing through the mid-1970s and then growing as large as it had been in 1950 — convergence followed by stall, measured by a single relational statistic. This paper uses "convergence" in a descriptive measurement sense: a relational statistic moving toward equality. Its claim is the metric-dependence point that single-metric convergence studies tend to obscure: level-improvement, gap-narrowing, and ratio-convergence are logically independent, and the choice among them determines whether the record reads as convergence.
 
 Note also the shape of the minimum. The lowest ratio on record, 1.576, occurs in 2020 — and it occurs because *white* unemployment surged to 7.34%, not because Black unemployment fell. The ratio narrowed in the worst labor market in eighty years. Convergence toward the mean is not always good news; sometimes it means everyone is drowning and the distance between swimmers has shrunk.
 
@@ -158,7 +162,7 @@ The Black poverty rate fell 4.3 points across the series — real improvement, a
 
 ---
 
-## 5.4 Homeownership, and What the Fair Housing Act Did Not Do
+## 5.4 Homeownership Since the Fair Housing Act
 
 Homeownership is where the previous three sections converge. It is the primary mechanism by which American families without inherited capital accumulate wealth, and it is the mechanism most directly governed by a specific federal civil rights statute.
 
@@ -190,13 +194,21 @@ An earlier draft placed the current gap at 30.1 points. The verified ACS 2022 fi
 | Year | Black | White | Ratio |
 |---|---|---|---|
 | 1993 | 34.3% | 15.3% | 2.24 |
+| 1995 | 30.2% | 13.5% | 2.24 |
+| 1997 | 26.0% | 11.1% | 2.34 |
 | 2000 | 24.5% | 10.4% | 2.36 |
 | 2003 | 20.3% | 10.1% | **2.01** |
+| 2006 | 18.2% | 8.2% | 2.22 |
 | 2010 | 26.1% | 12.4% | 2.11 |
+| 2014 | 27.0% | 11.5% | 2.35 |
+| 2017 | 22.9% | 10.1% | 2.27 |
 | 2019 | 17.4% | 8.5% | 2.05 |
+| 2021 | 18.1% | 8.3% | 2.18 |
 | 2022 | 19.8% | 9.1% | 2.18 |
 
-Thirty years of Home Mortgage Disclosure Act reporting. The denial ratio ranged from 2.01 to 2.36 and **did not fall below 2.0 in any year**. Denial rates for both groups fell substantially — 34.3% to 19.8% for Black applicants — while the ratio between them held almost perfectly flat.
+Thirty years of Home Mortgage Disclosure Act reporting. The table shows the twelve years for which the vault holds a published-summary estimate; intervening years are not in the archive. Across them the denial ratio ranged from 2.01 to 2.36 and **did not fall below 2.0 in any year** — though the 2003 reading of 2.01 shows how narrow that margin is; one hundredth lower would have crossed it. Denial rates for both groups fell substantially — 34.3% to 19.8% for Black applicants — while the ratio between them held almost perfectly flat.
+
+The percentage-point gap nearly halved across the same span: 19.0 points in 1993 (34.3 − 15.3) to 10.7 in 2022 (19.8 − 9.1). The denial ratio stayed flat while the absolute gap converged — the ratio and the gap disagree, which is precisely why both must be reported.
 
 ### 2008
 
@@ -218,7 +230,7 @@ A 2013 audit by HUD's own Office of Inspector General found that **53 percent of
 
 ## 5.5 What the Economic Pillar Establishes
 
-Four instruments, one pattern. In every case the rate improves and the distance grows. In every case the ratio between Black and white outcomes proves more durable across the series than the policies written, in its own era, to narrow it. In no case does a legal remedy — the Fair Housing Act, HMDA disclosure, the Section 3 mandate — produce convergence in the measure it was written to address.
+Four instruments, one pattern — but the pattern is not a single pattern. In every case the rate improves. Whether the distance shrank depends on which distance is measured: the wealth ratio nearly tripled toward equality while the 2022 dollar gap was the widest on record; the unemployment ratio fell by roughly a third from its maximum while never inverting; the homeownership gap widened past its 1968 level; the denial ratio held flat while the denial gap nearly halved. Level-improvement, gap-narrowing, and ratio-convergence are logically independent, and in these series they empirically disagree. No legal remedy — the Fair Housing Act, HMDA disclosure, the Section 3 mandate — produced parity in the measure it was written to address, and that is the statement the data support. The disagreement among the measures is the finding.
 
 The economy is not failing to deliver equity. It is delivering, reliably, across fifty-four years, a distribution this paper reads as the output of the documented architecture — the persistence is the finding; the ratios do not say whether the architecture was designed or accumulated.
 

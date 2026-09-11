@@ -4,6 +4,8 @@ Aladangady, Aditya, Andrew C. Chang, and Jacob Krimmel. 2023. "Greater Wealth, G
 
 Baldwin, James. 1962. "As Much Truth As One Can Bear." *New York Times Book Review*, January 14.
 
+Bayer, Patrick, and Kerwin Kofi Charles. 2018. "Divergent Paths: A New Perspective on Earnings Differences Between Black and White Men Since 1940." *Quarterly Journal of Economics* 133 (3): 1459–1501.
+
 Board of Governors of the Federal Reserve System. 2023. *Survey of Consumer Finances, 1989–2022*. Triennial series. Washington: Federal Reserve Board.
 
 Bureau of Justice Statistics. 2023. *Prisoners in 2022 — Statistical Tables*. NCJ 307149. Washington: U.S. Department of Justice, Office of Justice Programs.
@@ -77,5 +79,7 @@ U.S. Department of Agriculture, National Agricultural Statistics Service. 1910�
 U.S. Department of Housing and Urban Development, Office of Inspector General. 2013. *HUD Did Not Adequately Ensure Compliance with Section 3 of the Housing and Urban Development Act of 1968*. Audit Report 2013-AT-0003, March 28. Washington.
 
 Shin, Eui Hang. 1975. "Black-White Differentials in Infant Mortality in the South, 1940–1970." *Demography* 12 (1): 1–19.
+
+Smith, James P., and Finis R. Welch. 1989. "Black Economic Progress After Myrdal." *Journal of Economic Literature* 27 (2): 519–564.
 
 Wells, Ida B. 1895. *A Red Record: Tabulated Statistics and Alleged Causes of Lynchings in the United States, 1892–1893–1894*. Chicago: Donohue & Henneberry.
