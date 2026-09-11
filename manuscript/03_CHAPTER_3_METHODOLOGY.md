@@ -6,7 +6,7 @@ This research employs a mixed-method observational design combining longitudinal
 
 **Product A — The Black Distress Index (BDI):** A national longitudinal structural record documenting eight dimensions of Black community disparity from 1991 through 2024, with historical framing extending to 1514. The BDI operates as a forensic documentation system — it does not model cause and effect. It records what happened and when, across verifiable federal and institutional data series.
 
-**Product B — The FarmBlock Food Distress Index (FDI):** A place-based intervention prioritization instrument scoring structural co-occurrence at the census tract level (15,507 tracts, 49 cities) and at the county level (24-county published pilot; approximately 3,144 counties in estimated full coverage). The FDI is a correlation instrument. It identifies communities where structural burdens cluster. It does not assert that any one dimension causes another.
+**Product B — The FarmBlock Food Distress Index (FDI):** A place-based intervention prioritization instrument scoring structural co-occurrence at the census tract level (15,507 tracts, 49 cities) and at the county level (24-county published pilot; approximately 3,144 counties in estimated full coverage). The FDI is a correlation instrument. It identifies communities where structural burdens cluster. It does not assert that any one dimension causes another. It is published as the organization's exploratory instrument: its scores are published outputs whose arithmetic is not independently reproducible from the package (see §3.5.3 and Appendix E.4a), and they should be cited as organizational outputs, not as verified findings.
 
 The two instruments share a source architecture and governance protocol but serve different analytical functions. The BDI answers the question: *What has the structural record shown across time?* The FDI answers: *Where do these conditions concentrate now, and in what combination?*
 
@@ -214,6 +214,8 @@ FDI_county = poverty×0.25 + health×0.25 + digital×0.20 + vacancy×0.15 + Blac
 
 **Note on racial composition variable:** The county-level formula includes `Black_pct` at 15% weight as a structural exposure proxy — not as a demographic descriptor or outcome variable. The theoretical basis is that communities with higher Black population concentration have historically been subjected to greater disinvestment, redlining, and structural exclusion. The variable captures exposure to systemic risk, not any intrinsic characteristic of race. This choice is documented in `methodology/race_variable_note.md`. The tract-level formula does not include this variable; the tract formula uses structural dimensions only.
 
+**Reproducibility status:** The county scores are the organization's published outputs, not independently verified results. A recomputation of the flagship Humphreys County score against the bounds of the published Phase 3 corpus does not reproduce the published 87.25 (80.69 against full-corpus bounds; 79.7 against the decomposition's endpoints) — see Chapter 7, §7.3 and Appendix E.4a. FDI scores should be cited as this organization's published outputs, not as findings.
+
 ---
 
 ## 3.6 Cross-Dataset Reconciliation
@@ -252,7 +254,7 @@ The two products share geography but operate at different resolutions. Reconcili
 6. **ACS 5-year rolling window:** ACS 5-year estimates represent rolling averages, not point-in-time snapshots. Temporal precision is limited compared to administrative records.
 7. **Correlation only:** Both the BDI and FDI identify co-occurrence of structural conditions. Neither instrument models causation. All analytical language uses co-occurrence framing.
 8. **EPA EJScreen access disruption:** EJScreen was removed from EPA.gov on February 5, 2025. Current access is via Public Environmental Data Partners (screening-tools.com/epa-ejscreen). Environmental pillar data should be reverified using this updated source before final publication.
-9. **Internally-derived compound distress scores:** Compound distress scores for flagship counties are derived from E5 Enclave methodology rather than from a federal instrument. *Status resolved for this edition:* the published Humphreys County score is **87.25** (an earlier draft figure of 83.5 was superseded), and the full component breakdown — formula, weights, normalization method, component scores, and the 7.5-point discrepancy between the published and hand-calculated values — is printed in Appendix E.
+9. **Internally-derived compound distress scores:** Compound distress scores for flagship counties are derived from E5 Enclave methodology rather than from a federal instrument. *Status for this edition:* the organization's published Humphreys County score is **87.25** (an earlier draft figure of 83.5 was superseded), and the full component breakdown — formula, weights, normalization method and component scores — is printed in Appendix E. The published score cannot be reproduced from the published inputs: recomputation against the full Phase 3 corpus bounds yields 80.69, not 87.25, so the gap is not attributable to approximate endpoints (see Chapter 7, §7.3). FDI scores are published outputs, not verified findings.
 
 ---
 
@@ -272,7 +274,7 @@ The two products share geography but operate at different resolutions. Reconcili
 
 ## 3.10 Summary
 
-This research produces two architecturally linked instruments built on a four-layer sovereign data stack. The BDI National Structural Record documents 1,574 verified empirical observations across eight pillars and 33 years. The FDI Place Distress Instrument scores 15,507 census tracts across 49 cities and 24 counties in a published pilot release.
+This research produces two architecturally linked instruments built on a four-layer sovereign data stack. The BDI National Structural Record documents 1,574 verified empirical observations across eight pillars and 33 years. The FDI Place Distress Instrument reports the organization's exploratory composite scores for 15,507 census tracts across 49 cities and 24 counties in a published pilot release; its arithmetic is not independently reproducible from the package (see Appendix E.4a), and its scores are published outputs, not verified findings.
 
 Both instruments are correlation tools, not causal models. Both are released CC0 into the public domain. Both are governed by a Stack Truth Table and Claim Triage Matrix that enforce numerical consistency across all repositories and research outputs.
 

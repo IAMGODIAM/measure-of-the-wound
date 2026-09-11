@@ -9,9 +9,9 @@ That sentence is the whole argument, and everything that follows is its document
 
 ## The Window, and What Is Nested Inside It
 
-The core empirical window of this paper is 1991 to 2024 — thirty-three years, chosen deliberately. It is the era of formal legal equality. The Civil Rights Act is twenty-seven years old when the window opens. The Voting Rights Act is fully extended. The Fair Housing Act has been law for a generation. Whatever is measured inside this window cannot be attributed to explicit legal segregation, because explicit legal segregation had already been abolished. The disparities documented here exist *within* the framework of equal protection, produced by systems that operate lawfully.
+The core empirical window of this paper is 1991 to 2024 — thirty-three years, chosen deliberately. It is the era of formal legal equality. The Civil Rights Act is twenty-seven years old when the window opens. The Voting Rights Act is fully extended. The Fair Housing Act has been law for a generation. Whatever is measured inside this window cannot be attributed to explicit legal segregation, because explicit legal segregation had already been abolished. The disparities documented here exist *within* the framework of equal protection. The paper reads them as the outputs of systems that operate lawfully — that is the paper's interpretive frame; the ratios document the persistence, not the mechanism.
 
-That is the point. A gap that closes when the law changes is a gap the law was causing. A gap that does not close when the law changes is a gap something else is causing — and the something else is what this paper measures.
+That is the point. A gap that closes when the law changes is evidence the law was producing it. A gap that does not close when the law changes cannot be laid at the law's door alone — and the something else behind it is not what these ratios identify. The persistence is the finding; the mechanisms behind it are the paper's interpretation, not its measurement.
 
 But the thirty-three-year window does not explain itself. So where federal data permits, the series run longer, and each longer series is nested inside the argument rather than appended to it:
 
@@ -22,7 +22,7 @@ But the thirty-three-year window does not explain itself. So where federal data 
 - **Political participation to 1964** — 56 years of Census voting supplements.
 - **The historical architecture to 1514** — 352 years of documented transatlantic voyages.
 
-These extensions are not context. They are causation — the documented mechanism that produced the conditions the thirty-three-year window measures. A wealth gap measured in 2022 is the present-tense reading of an instrument that was calibrated in 1866, and again in 1934, and again in 1968.
+These extensions are not context. They document the antecedent conditions — and the recorded mechanisms of dispossession that produced them — which the thirty-three-year window inherits. That causal inheritance is this paper's interpretive frame; the series themselves document the sequence, not the causal chain. A wealth gap measured in 2022 is the present-tense reading of an instrument that was calibrated in 1866, and again in 1934, and again in 1968.
 
 ## What Has Been Measured
 
@@ -38,11 +38,11 @@ The middle figure was once published as 1,855. It was wrong — the count had in
 
 ## The Compound Catastrophe Zones
 
-Eight pillars measured separately produce eight findings. Measured together, they produce something different: a small number of places where every pillar has failed at once, and where the failures reinforce each other faster than any single-pillar intervention can address them.
+Eight pillars measured separately produce eight findings. Measured together, they produce something different: a small number of places where every pillar has failed at once, and where the paper's compound reading treats the failures as reinforcing each other faster than any single-pillar intervention could address them — asserted as interpretation, not tested as fact.
 
-The instrument's five highest-scoring counties are Humphreys, Claiborne, Sunflower and Amite in Mississippi, and Alexander County, Illinois. These are not the poorest places in America by any single measure. They are the places where poverty, health burden, housing abandonment, digital exclusion and structural exposure arrive simultaneously and compound.
+The organization's exploratory instrument ranks five counties highest: Humphreys, Claiborne, Sunflower and Amite in Mississippi, and Alexander County, Illinois. These are its published outputs — not independently verified findings, and not to be cited as findings. Within the instrument's own terms, these are not the poorest places in America by any single measure. They are the places where poverty, health burden, housing abandonment, digital exclusion and structural exposure arrive simultaneously and compound.
 
-Readers of earlier drafts will notice that this is not the list those drafts named. They named Humphreys, Detroit, East St. Louis, Claiborne and the Louisiana petrochemical corridor — a selection made for documentary depth rather than by score. Detroit ranks eleventh. East St. Louis is not in the published corpus at all. That list is withdrawn, and Chapter 7 sets out both the corrected ranking and the reason a composite index must name the places its own composite produced.
+Readers of earlier drafts will notice that this is not the list those drafts named. They named Humphreys, Detroit, East St. Louis, Claiborne and the Louisiana petrochemical corridor — a selection made for documentary depth rather than by score. Detroit ranks eleventh. East St. Louis is not in the published corpus at all. That list is withdrawn, and Chapter 7 sets out both the ranking the instrument's published outputs produce and the reason a composite index must name the places its own composite produced.
 
 ## What This Paper Is, and Is Not
 

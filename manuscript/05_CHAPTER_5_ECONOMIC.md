@@ -37,7 +37,7 @@ Three findings, and they do not point the same way.
 
 Both statements are true, from the same twelve rows. Faster percentage growth on a base one-eighteenth the size does not close a distance; it widens it. A family starting at $9,200 that quintuples its wealth ends at $44,890. A family starting at $164,030 that grows 74 percent ends at $285,010. The first family did far better proportionally and finished $85,000 further behind in absolute terms than it started.
 
-That is the arithmetic of compounding inequality, and it is the central mechanism of this chapter. It recurs in every pillar that follows: the rate improves, sometimes dramatically, and the distance grows.
+That is the arithmetic of compounding inequality, and it is the central pattern this chapter documents. It recurs in every pillar that follows: the rate improves, sometimes dramatically, and the distance grows.
 
 ### A correction to this table, and what it cost
 
@@ -124,7 +124,7 @@ The first was that Black unemployment "has never fallen below twice the white ra
 
 What survives is stronger for being exact. Across fifty-four years, four recessions, one pandemic, nine presidencies and every configuration of American economic policy in the modern era, **the ratio has never inverted.** Not for one year. Not for one month. Black unemployment has never once been lower than white unemployment in the entire history of the federal government measuring both.
 
-A ratio that oscillates between 1.58 and 2.56 and never crosses 1.0 is not noise around a fair baseline. It is a bounded quantity — and bounded quantities have mechanisms.
+A ratio that oscillates between 1.58 and 2.56 and never crosses 1.0 is not noise around a fair baseline. It is a bounded quantity — and bounded quantities invite, without in themselves establishing, a search for mechanisms. These data document the persistence; they do not identify the mechanisms.
 
 Note also the shape of the minimum. The lowest ratio on record, 1.576, occurs in 2020 — and it occurs because *white* unemployment surged to 7.34%, not because Black unemployment fell. The ratio narrowed in the worst labor market in eighty years. Convergence toward the mean is not always good news; sometimes it means everyone is drowning and the distance between swimmers has shrunk.
 
@@ -200,7 +200,7 @@ Thirty years of Home Mortgage Disclosure Act reporting. The denial ratio ranged 
 
 ### 2008
 
-The subprime crisis is the clearest case in this dataset of a mechanism operating in plain sight.
+The subprime crisis is the clearest case in this dataset in which a turning point in the series coincides with a documented external mechanism.
 
 Black homeownership peaked around 2004 and reached its trough in 2013 — a decline of roughly nine years, not the eighteen months an earlier draft asserted. The 18-month framing is withdrawn; the correct statement is that **the crisis reversed nearly a decade of accumulated homeownership gains across the 2007–2013 window**, and that Black median wealth fell to $11,200 in 2013, its lowest point in the entire SCF series.
 
@@ -218,8 +218,8 @@ A 2013 audit by HUD's own Office of Inspector General found that **53 percent of
 
 ## 5.5 What the Economic Pillar Establishes
 
-Four instruments, one pattern. In every case the rate improves and the distance grows. In every case the ratio between Black and white outcomes proves more stable than any policy intervention aimed at it. In no case does a legal remedy — the Fair Housing Act, HMDA disclosure, the Section 3 mandate — produce convergence in the measure it was written to address.
+Four instruments, one pattern. In every case the rate improves and the distance grows. In every case the ratio between Black and white outcomes proves more durable across the series than the policies written, in its own era, to narrow it. In no case does a legal remedy — the Fair Housing Act, HMDA disclosure, the Section 3 mandate — produce convergence in the measure it was written to address.
 
-The economy is not failing to deliver equity. It is delivering, reliably, across fifty-four years, a distribution it was built to deliver.
+The economy is not failing to deliver equity. It is delivering, reliably, across fifty-four years, a distribution this paper reads as the output of the documented architecture — the persistence is the finding; the ratios do not say whether the architecture was designed or accumulated.
 
-Chapter 6 turns to the body, the cell block and the classroom, where the same architecture produces outcomes that cannot be recovered.
+Chapter 6 turns to the body, the cell block and the classroom, where the same architecture coincides with outcomes that cannot be recovered.

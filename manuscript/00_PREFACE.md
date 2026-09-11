@@ -12,7 +12,7 @@ This paper is that record.
 
 What did not exist before this paper is specific: a single, freely available, empirically comprehensive instrument measuring all major dimensions of Black American structural distress — economic, health, criminal justice, education, housing, political, environmental and historical — in one place, dual-source verified, licensed for unrestricted public use.
 
-The federal government produces fragments of this record. The Bureau of Labor Statistics measures unemployment. The National Center for Health Statistics tracks maternal mortality. The Census Bureau publishes wealth, income and poverty data. The Bureau of Justice Statistics documents incarceration. Each source is rigorous. None of them synthesize. None are designed to tell a unified story across eight dimensions of the same life.
+The federal government produces fragments of this record. The Bureau of Labor Statistics measures unemployment. The National Center for Health Statistics tracks maternal mortality. The Census Bureau publishes wealth, income and poverty data. The Bureau of Justice Statistics documents incarceration. Each source is rigorous. None of them synthesize. None of them tells a unified story across eight dimensions of the same life.
 
 Academic institutions have produced that synthesis — in peer-reviewed journals accessible to researchers with institutional affiliations and subscription budgets. The communities at the center of the data have not been among the primary beneficiaries of that work.
 

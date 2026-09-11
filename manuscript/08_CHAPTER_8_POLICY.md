@@ -9,7 +9,7 @@ This is not a call for sympathy. It is a demand for accounting. The preceding ch
 
 ## 8.1 The Political Pillar, and the Inflection of 2013
 
-One series has been held back until now, because it is the pillar that governs whether any of the others can be addressed.
+One series has been held back until now, because it is the pillar the paper treats as governing whether any of the others can be addressed.
 
 **Table 8.1 — Voter turnout by race, Census CPS November supplement**
 
@@ -51,7 +51,7 @@ Three figures anchor the record that precedes the empirical window. Each is stat
 
 To these three, a fourth from Chapter 5: **13,500,000 acres** of Black-owned farmland lost between 1910 and 1997 — ninety percent of the peak.
 
-The wealth gap measured at $240,100 in 2022 is the present-tense reading of an instrument calibrated by these figures. No economic model in existence contains them.
+On this paper's interpretive frame, the wealth gap measured at $240,120 in 2022 is the present-tense reading of an instrument the paper reads as calibrated by these figures — the historical figures are documented; the calibration chain between them and the 2022 gap is asserted as interpretation, not demonstrated as mechanism. No economic model in existence contains them.
 
 ---
 
@@ -63,11 +63,11 @@ The findings do not translate into a single policy. They translate into a standa
 
 The pattern in Chapter 5 is not an absence of law. The Fair Housing Act (1968), the Home Mortgage Disclosure Act (1975), Section 3 of the HUD Act (1968) and the Voting Rights Act (1965) are all on the books. The homeownership gap is wider than when the Fair Housing Act passed. The mortgage denial ratio has not dropped below 2.0 in thirty years of mandatory disclosure. Fifty-three percent of public housing authorities did not file the Section 3 reports that would show whether the statute was being honored.
 
-**The measurable variable is not whether a remedy exists but whether anyone is required to demonstrate compliance with it.** Any intervention proposed on the basis of this data should be evaluated first on its enforcement architecture and reporting requirement, because the historical record shows that a mandate without a filing obligation produces an unmeasurable and therefore unaccountable program.
+**The measurable variable is not whether a remedy exists but whether anyone is required to demonstrate compliance with it.** Any intervention proposed on the basis of this data should be evaluated first on its enforcement architecture and reporting requirement, because the record this paper assembles shows that, in the Section 3 case, a mandate without a filing obligation produced an unmeasurable and therefore unaccountable program — whether that generalizes to other mandates is a claim about other statutes, not a finding of this dataset.
 
 ### Ratios are the metric, not rates
 
-Every pillar in this paper shows absolute improvement. Poverty fell. Denial rates fell. Imprisonment fell 46 percent from its peak. Maternal deaths fell from 900 per 100,000 to 49.5. Life expectancy rose 39 years.
+Every pillar in this paper shows absolute improvement. Poverty fell. Denial rates fell. Imprisonment fell 47 percent from its peak. Maternal deaths fell from 1,000 per 100,000 to 49.5. Life expectancy rose 39 years.
 
 And in every pillar the ratio held, or widened. A program evaluated on absolute improvement will report success in every one of these domains while the disparity it was created to address is unchanged or worse. **The maternal mortality series is the decisive case: absolute performance improved by a factor of twenty while the disparity ratio grew by a factor of 1.47.**
 
@@ -81,7 +81,7 @@ The tract instrument exists for this reason, and its limitation is disclosed: it
 
 ### Interaction effects require simultaneous intervention
 
-Humphreys County has no hospital and thirty percent of households without internet. Addressing either alone yields little: telehealth without connectivity is unavailable, and connectivity without a care endpoint is a browser. The compound structure means sequential single-pillar programs — a broadband grant this year, a clinic study next year — can each succeed on their own metrics while the compound burden does not move.
+Humphreys County has no hospital and thirty percent of households without internet. On the compound reading, addressing either alone would yield little: telehealth without connectivity is unavailable, and connectivity without a care endpoint is a browser. That is an operational inference from the co-occurrence — no intervention variation is studied here. The compound structure is consistent with the risk that sequential single-pillar programs — a broadband grant this year, a clinic study next year — could each succeed on their own metrics while the compound burden does not move.
 
 This is the operational case for place-based, multi-dimensional intervention, and it is the design premise of the FarmBlock program.
 

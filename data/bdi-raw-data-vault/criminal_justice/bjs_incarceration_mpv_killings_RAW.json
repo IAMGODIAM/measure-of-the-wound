@@ -2,6 +2,15 @@
   "source": "BJS Historical Corrections Statistics (Cahalan 1986) + BJS Prisoners Annual Publications + Mapping Police Violence",
   "pulled_date": "2026-04-18",
   "pillar": "3 \u2014 Criminal Justice",
+  "population_basis": {
+    "basis": "male_residents",
+    "definition": "Imprisonment rate of sentenced state and federal prisoners per 100,000 same-race male U.S. residents (all ages).",
+    "established": "2026-09-11",
+    "edition": "v1.4.4",
+    "evidence": "Vault rows for 2000, 2008, 2010 match BJS Prisoners in 2010 Appendix Table 14 male columns exactly (white 449/487/459; black 3457/3161/3074); 2016 matches Prisoners in 2016 Table 10 (white 401, black 2417); 2018 matches Prisoners in 2018 published male rates (white 392, black 2272, ratio 5.8); 2022 corrected to Prisoners in 2022 (NCJ-307149) Table 13 male totals (white 337, black 1826). BJS table notes define rates per 100,000 residents in each reference group.",
+    "boundary": "Pre-1980 rows (1925-1970) are carried from the compiler's Cahalan 1986 sourcing; their sex-scope documentation was not independently re-verified in the v1.4.4 pass. The 1925 series start is retained as compiled."
+  },
+  "v1_4_4_note": "2026-09-11 denominator forensics. Series basis pinned as male imprisonment rates (see population_basis). Corrected 2022 row to BJS-published male rates (black 1826, white 337, ratio 5.42; was 1862/295/6.31, which matched neither BJS Table 13 male rates nor Table 6 all-adult rates 1196/229/5.22). Corrected 2020 white rate to BJS-published 332 (was 296); black 1882 retained as consistent with BJS-published black-male-to-white-male ratio 5.7 (1882/332 = 5.67); 2020 ratio recomputed 5.67 (was 6.36). Exact BJS Prisoners in 2020 Table 11 black-male cell not re-verified in this pass.",
   "incarceration_rate_per_100k_1925_2022": [
     {
       "year": 1925,
@@ -112,15 +121,17 @@
     {
       "year": 2020,
       "black_incarceration_rate_per100k": 1882,
-      "white_rate": 296,
-      "ratio": 6.36,
+      "white_rate": 332,
+      "ratio": 5.67,
+      "note": "v1.4.4: white rate corrected to BJS-published 332 (Prisoners in 2020 highlights); black 1882 retained, consistent with BJS-published 5.7x ratio",
       "source": "BJS Prisoners 2020 NCJ-303593 \u2014 COVID releases"
     },
     {
       "year": 2022,
-      "black_incarceration_rate_per100k": 1862,
-      "white_rate": 295,
-      "ratio": 6.31,
+      "black_incarceration_rate_per100k": 1826,
+      "white_rate": 337,
+      "ratio": 5.42,
+      "note": "v1.4.4: corrected to BJS-published male rates, Prisoners in 2022 (NCJ-307149) Table 13 totals (revised 2025-08-29); previous 1862/295/6.31 matched no BJS table",
       "source": "BJS Prisoners 2022 NCJ-307149"
     }
   ],

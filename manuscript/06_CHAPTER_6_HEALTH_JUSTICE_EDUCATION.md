@@ -40,7 +40,7 @@ Now read the ratio column.
 
 The ratio did not narrow across eighty-nine years of modern medicine. It widened by a factor of 1.47.
 
-The mechanism is differential improvement. Medicine got better for everyone and better for white women faster, and it did so continuously enough that the disparity ratio is now higher than it was under a healthcare system that did not pretend to serve Black women equally.
+The arithmetic behind the widening is differential improvement: medicine got better for everyone, and better for white women faster, continuously enough that the disparity ratio is now higher than it was under a healthcare system that did not pretend to serve Black women equally. The series document that pattern of improvement; what produced it is a separate causal question these data do not adjudicate.
 
 **A correction on the historical comparator.** Earlier editions anchored this series in 1915 and 1930. Both rows are withdrawn in this edition. The 1930 ratio of 1.48 cannot be verified as a maternal-mortality figure: the project's verification review traced it to the neonatal-mortality literature — 1.48 is the documented nonwhite/white neonatal mortality ratio for 1939–41 (Shin 1975, Table I) — and complete national maternal reporting by race begins in 1933, not 1930 (MacDorman et al. 2021). The series now opens in 1933, the first year every state reported maternal deaths: Black 1,000.0 and White 564.0 per 100,000 live births, a ratio of 1.77 (national vital statistics, via MacDorman et al. 2021; the 1933 classification is the period "negro" category). The 2022 figures are confirmed directly against NCHS: 49.5 per 100,000 for Black women and 19.0 for white women, a ratio of 2.605, conventionally rounded to 2.61.
 
@@ -75,7 +75,9 @@ Then read 2010 to 2021. Nine years of effort moved the gap by one-tenth of one y
 
 Earlier drafts described this as "twenty years of gains erased in eighteen months." The direction is right and the arithmetic was not: the decline occurred across two calendar years, and it returned Black life expectancy to roughly its mid-1990s level — approximately two decades of accumulated gains, lost over two years. That is the corrected formulation and it is used throughout.
 
-A pandemic is a stress test. It does not create the structure it exposes; it loads it until the weakest joins fail first. The 2022 recovery to a 3.7-year gap — the narrowest on record — indicates the system can move when it is forced to. It moved 1.8 years in the wrong direction in twelve months and 1.9 in the right direction in twelve more. Nine years of ordinary policy moved it one-tenth of a year.
+On this paper's reading, a pandemic is a stress test: it does not by itself create the structure it exposes; it loads it until the weakest joins fail first. That is an interpretive frame.
+
+The 2022 recovery to a 3.7-year gap — the narrowest on record — is consistent with the reading that the system can move when it is forced to; the ratios record the movement, not the force. It moved 1.8 years in the wrong direction in twelve months and 1.9 in the right direction in twelve more. Nine years of ordinary policy moved it one-tenth of a year.
 
 ### 6.3 The Fence Line
 
@@ -87,7 +89,7 @@ The Louisiana petrochemical corridor along the Mississippi between Baton Rouge a
 
 The 85-percent figure describes something narrower and more damning: the **fence-line census tracts**, the communities immediately adjacent to the facilities themselves. At that resolution, in St. James Parish Districts 4 and 5, **Black population share ranges from 65 to 94 percent** (ACS 2022).
 
-The parish-level number does not capture where the burden lands. The tract-level number does. The distinction matters because it is exactly the distinction industrial siting decisions operate on — and because a reviewer who checks the parish figure and finds 44 percent will discard the entire chapter. The corrected geography is stated everywhere this claim appears.
+The parish-level number does not capture where the burden lands. The tract-level number does. The distinction matters because it is exactly the distinction at which the burden lands — and, on this paper's reading, the siting decisions that produced it operate — — and because a reviewer who checks the parish figure and finds 44 percent will discard the entire chapter. The corrected geography is stated everywhere this claim appears.
 
 *Source note: EPA's EJScreen tool was removed from EPA.gov on February 5, 2025. It remains publicly accessible via the Public Environmental Data Partners archive, which is the citation used here. The removal of a federal environmental justice screening tool during the period this paper documents is itself a data point about the durability of public records — and part of why this dataset is sealed on-chain.*
 
@@ -110,32 +112,32 @@ The parish-level number does not capture where the burden lands. The tract-level
 | 2010 | 3,074 | 459 | 6.70 |
 | 2014 | 2,724 | 466 | 5.85 |
 | 2018 | 2,272 | 392 | 5.80 |
-| 2020 | 1,882 | 296 | 6.36 |
-| 2022 | 1,862 | 295 | 6.31 |
+| 2020 | 1,882 | 332 | 5.67 |
+| 2022 | 1,826 | 337 | 5.42 |
 
-In 1925, Black males were imprisoned at 6.45 times the white male rate. In 2022, at 6.31 times.
+In 1925, Black males were imprisoned at 6.45 times the white male rate. In 2022, at 5.42 times.
 
-**The ratio moved 0.14 points in ninety-seven years.**
+**The ratio moved 1.03 points in ninety-seven years.**
 
 Between those two readings: two world wars, the Great Migration, the New Deal, *Brown v. Board*, the Civil Rights Act, the Voting Rights Act, Thurgood Marshall on the Supreme Court, the entire NAACP legal campaign, the War on Drugs, mass incarceration's rise and partial retreat, the First Step Act, and *The New Jim Crow* becoming required reading in every progressive institution in the country.
 
-The absolute rates tell a second story. Black imprisonment rose from 142 to a peak of 3,457 per 100,000 and has since fallen to 1,862 — a genuine and substantial decarceration since 2000, roughly 46 percent off the peak. White imprisonment followed nearly the same arc. The decline is real; the ratio between the two is what refused to move.
+The absolute rates tell a second story. Black imprisonment rose from 142 to a peak of 3,457 per 100,000 and has since fallen to 1,826 — a genuine and substantial decarceration since 2000, roughly 47 percent off the peak. White imprisonment followed nearly the same arc. The decline is real; the ratio between the two is what refused to move.
 
-**Two corrections, and one of them is unresolved.**
+**Two corrections, both now settled.**
 
-Earlier drafts stated the ratio "has never fallen below 5.7." Within this table the minimum is **5.80, in 2018**, and the full-series range is **5.44 to 7.70**. Those are the corrected bounds.
+Earlier drafts stated the ratio "has never fallen below 5.7." Within this table the minimum is **5.42, in 2022**, and the full-series range is **5.42 to 7.70**. Those are the corrected bounds.
 
-The second correction is more serious and is disclosed here rather than settled. **The series above does not match the Bureau of Justice Statistics' published all-adults imprisonment rates.** BJS reports, for 2022, an imprisonment rate of **1,196 per 100,000 Black adult U.S. residents and 229 per 100,000 white adult residents — a ratio of 5.22**, not 6.31. The table's 1,862 and 295 sit far above those figures and correspond closely to BJS's *male* imprisonment rates (approximately 1,826 and 279 per 100,000 same-race male residents).
+The second correction was more serious. **The series above does not match the Bureau of Justice Statistics' published all-adults imprisonment rates — because it is not an all-adults series.** Denominator forensics for this edition (v1.4.4) established that these are **male imprisonment rates**: sentenced state and federal prisoners per 100,000 same-race male U.S. residents. The vault's 2000, 2008, and 2010 rows match BJS *Prisoners in 2010* Appendix Table 14's male columns exactly; 2016 matches *Prisoners in 2016* Table 10; 2018 matches *Prisoners in 2018*'s published male rates (2,272 Black, 392 white, ratio 5.8). BJS reports, for 2022, an imprisonment rate of **1,196 per 100,000 Black adult U.S. residents and 229 per 100,000 white adult residents — a ratio of 5.22** on the all-adults basis. On the male basis this series uses, BJS's 2022 rates are **1,826 Black and 337 white males per 100,000 — a ratio of 5.42** (*Prisoners in 2022*, NCJ-307149, Table 13). The table's 2022 row has been corrected to those published figures; the values it previously carried (1,862 and 295) matched neither BJS table and are struck. The 2020 white rate is likewise corrected to BJS's published 332 (the vault's 296 matched no BJS table), making the 2020 ratio 5.67.
 
-The likely explanation is that this series measures male imprisonment rates, or uses a total-population rather than adult-population denominator. The vault does not record which, and the pre-1980 figures come from a separate historical compilation (Cahalan 1986) whose crosswalk to the modern BJS series is not documented. Until that crosswalk is published, the correct statement of scope is narrower than earlier editions claimed:
+The pre-1980 figures come from a separate historical compilation (Cahalan 1986) whose crosswalk to the modern BJS series is not documented; that crosswalk remains open. The correct statement of scope is therefore:
 
-> On the all-adults basis that BJS publishes, Black adults were imprisoned at **5.22 times** the white rate in 2022. On the basis used in the series above — which appears to be male rates — the 2022 ratio is 6.31. Both exceed five. The paper does not assert which basis its historical series uses, because that has not been established.
+> On the all-adults basis that BJS publishes, Black adults were imprisoned at **5.22 times** the white rate in 2022. On the male basis this series uses, the 2022 ratio is **5.42**. Both exceed five. The series basis — male imprisonment rates per 100,000 same-race male residents — is established in the data vault's v1.4.4 provenance note.
 
-The finding that survives either reading is the **stability**: a ratio between roughly five and eight for as long as the United States has measured it, moving 0.14 points across the ninety-seven years of the compiled series. That stability is what the chapter argues from, and it does not depend on the denominator. But a paper that prints "Black Americans" where its source may say "Black males" is overstating its scope, and this edition stops doing so.
+The finding that survives either reading is the **stability**: a ratio between roughly five and eight for as long as the United States has measured it, moving 1.03 points across the ninety-seven years of the compiled series. That stability is what the chapter argues from, and it does not depend on the denominator. The series measures Black and white *males* throughout, and the text states that scope everywhere the claim appears.
 
-*Required for the next edition: the exact BJS table identifiers, numerator and denominator definitions, and sex and age restrictions for every endpoint in this series, plus the Cahalan-to-BJS crosswalk.*
+*Remaining for a future edition: the Cahalan-to-BJS crosswalk documenting the pre-1980 rows' exact table provenance, and the exact BJS Prisoners in 2020 Table 11 black-male cell (the vault retains 1,882 as consistent with BJS's published 5.7× ratio; the white rate is the published 332).*
 
-When a system produces the same ratio across a century of legal, political and cultural transformation, that ratio is not a byproduct. It is an output specification.
+A ratio this stable across a century of legal, political and cultural transformation is the finding — and this paper's interpretive frame reads it not as byproduct but as output specification. The ratios document the persistence; they do not test the interpretation.
 
 ### 6.5 Police Killings
 
@@ -195,6 +197,6 @@ Note also the 2022 anomaly: Grade 4 reading widened from 26 points in 2019 to 28
 
 Health, justice and education measure three different institutions with three different funding structures, three different governing statutes and three different professional cultures.
 
-They produce the same shape. A ratio that proves more durable than the reforms aimed at it. Absolute improvement that is real and that does not close the distance. And in the maternal mortality series, the clearest case in the dataset of a disparity that is *worse* under formal equality than it was under formal segregation.
+They produce the same shape. A ratio that proves more durable than the reforms written, in its own era, to narrow it. Absolute improvement that is real and that does not close the distance. And in the maternal mortality series, the clearest case in the dataset of a disparity that is *worse* under formal equality than it was under formal segregation.
 
 Chapter 7 stops measuring pillars separately and asks what happens in the places where all of them fail at once.

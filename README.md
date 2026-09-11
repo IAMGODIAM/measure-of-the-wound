@@ -40,7 +40,7 @@ Abstract, keywords, JEL codes, author of record and the AI-assistance disclosure
 
 ## The finding in one paragraph
 
-Across eight pillars and up to 122 years of federal data, the same shape recurs: **absolute conditions improve while the ratio between Black and white outcomes holds or widens.** In constant 2022 dollars Black median family wealth rose 388 percent since 1989 and the absolute wealth gap is nonetheless at its widest point in the survey's history. The Black/white unemployment ratio has never inverted in fifty-four years. The maternal mortality ratio is higher in 2022 than it was under legal segregation in 1933, the first year of complete national reporting. The imprisonment ratio moved 0.14 points in ninety-seven years. The homeownership gap is wider than when the Fair Housing Act was signed.
+Across eight pillars and up to 122 years of federal data, the same shape recurs: **absolute conditions improve while the ratio between Black and white outcomes holds or widens.** In constant 2022 dollars Black median family wealth rose 388 percent since 1989 and the absolute wealth gap is nonetheless at its widest point in the survey's history. The Black/white unemployment ratio has never inverted in fifty-four years. The maternal mortality ratio is higher in 2022 than it was under legal segregation in 1933, the first year of complete national reporting. The imprisonment ratio moved 1.03 points in ninety-seven years. The homeownership gap is wider than when the Fair Housing Act was signed.
 
 ## What a reviewer should still contest
 
@@ -48,7 +48,7 @@ Stated up front, not buried. See Appendix H §E and Appendix E.4a.
 
 - **The FarmBlock Distress Index outputs are not independently reproducible from this package.** The scored CSVs, formulas, weights and normalization method are public; the pre-scoring raw inputs, normalization bounds and transformation code are not yet released. The 87.25 Humphreys County score should be cited as this organization's published output, not as an independently verified result. Stated in the paper at §7.1 where the index is introduced, and in Appendix E.4a. The chapter is kept on that footing rather than withdrawn; §7.3 prints this project's own failed reproduction (79.7) beside it.
 - The county-level index includes Black population share at 15% weight as a structural-exposure proxy; the tract-level index deliberately excludes it. Compare the two.
-- The incarceration series' denominator is probably male rates; the BJS all-adults ratio (5.22) is printed beside it (6.31).
+- The incarceration series measures male imprisonment rates (basis established v1.4.4); the BJS all-adults 2022 ratio (5.22) is printed beside the series ratio (5.42).
 - Pre-1933 maternal mortality figures rest on the birth-registration states only.
 - Eight tracts in the published FDI file carry imputation artifacts, including the top-ranked tract; enumerated in Appendix E.
 

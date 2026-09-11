@@ -3,9 +3,9 @@
 > *"They have their plans set decades and scores in advance... 50 to 60 years ago these plans were on the books and it's coming to pass every day."*
 > — Ralph McCartney, Overtown, Miami, 1997
 
-Eight pillars measured separately produce eight findings. Measured together, they produce something the separate measurements cannot see: places where every pillar has failed simultaneously, and where the failures feed each other faster than any single-pillar remedy can reach them.
+Eight pillars measured separately produce eight findings. Measured together, they produce something the separate measurements cannot see: places where every pillar has failed simultaneously, and where, on the paper's compound reading, the failures feed each other faster than any single-pillar remedy can reach them. The data document the co-occurrence; the interaction is the paper's interpretation, not a measured mechanism.
 
-A county with high poverty is a poor county. A county with high poverty, the highest hypertension prevalence in its comparison universe, no acute-care hospital, twenty-eight percent of its housing stock vacant and thirty percent of its residents without home internet is not a poor county. It is a county in which each condition forecloses the escape route from the others. No hospital means telehealth; no internet means no telehealth. Vacancy means no property tax base; no tax base means no hospital.
+A county with high poverty is a poor county. A county with high poverty, the highest hypertension prevalence in its comparison universe, no acute-care hospital, twenty-eight percent of its housing stock vacant and thirty percent of its residents without home internet is not a poor county. It is a county in which each condition, on the paper's compound reading, forecloses the escape route from the others. No hospital means telehealth; no internet means no telehealth. Vacancy means no property tax base; no tax base means no hospital. That chain is the paper's interpretation of the co-occurrence these data document — asserted as the logic of the compound reading, not established as a tested causal chain.
 
 This chapter measures that interaction. It is also the chapter in which this paper's own instrument is subjected to the same scrutiny the instrument applies to everyone else.
 
@@ -13,7 +13,7 @@ This chapter measures that interaction. It is also the chapter in which this pap
 
 ## 7.1 The FarmBlock Distress Index
 
-The FDI is a place-level composite operating at two resolutions.
+The FDI is the organization's exploratory place-level composite, reported here at two resolutions. Its scores are published outputs whose arithmetic cannot be independently audited from the package — they are not verified findings and should not be cited as such.
 
 **County layer** (24-county published pilot):
 
@@ -33,7 +33,7 @@ All dimensions are min–max normalized across the corpus before compositing. Th
 
 The rationale for the county proxy is set out in full in Appendix E, along with the strongest objection to it — that including racial composition in an instrument used to demonstrate racial disparity risks circularity. The tract instrument exists partly as the answer to that objection.
 
-**Reproducibility status, stated before the scores rather than after them.** The FDI outputs in this chapter are **not independently reproducible from the published package.** Public: the scored files, the formulas above, the weights, the normalization method, the Humphreys decomposition and the enumerated defects. Not yet public: the raw pre-scoring inputs with their ACS table identifiers and vintages, the full Phase 3 corpus that supplies the normalization bounds, and the transformation code with a dependency lockfile. A reader can therefore audit the *logic* of everything that follows and cannot yet audit its *arithmetic*. Every score in this chapter — 87.25 for Humphreys County, the 15,507 tract scores, the 49 city rankings — should be cited as this organization's published output, not as an independently verified result. This is the finding of the September 2026 independent review, accepted without qualification; the full statement is Appendix E.4a, and closing the gap is the first deliverable of FDI v3.0.
+**Reproducibility status, stated before the scores rather than after them.** The FDI outputs in this chapter are **not independently reproducible from the published package.** Public: the scored files, the formulas above, the weights, the normalization method, the Humphreys decomposition and the enumerated defects. Not yet public: the raw pre-scoring inputs with their ACS table identifiers and vintages, and the transformation code with a dependency lockfile. The 42-county Phase 3 corpus that supplies the normalization bounds does ship in the package — and recomputation against it still does not reproduce the published scores (see §7.3). A reader can therefore audit the *logic* of everything that follows; the *arithmetic*, checked against the published corpus, does not reproduce the published scores. Every score in this chapter — 87.25 for Humphreys County, the 15,507 tract scores, the 49 city rankings — should be cited as this organization's published output, not as an independently verified result. This is the finding of the September 2026 independent review, accepted without qualification; the full statement is Appendix E.4a, and closing the gap is the first deliverable of FDI v3.0.
 
 The chapter is retained on that footing rather than withdrawn, because a disclosed limitation a reader can navigate is worth more than a silence. What follows is offered as a published instrument with its audit trail attached and its weakest joint named — including, in §7.3, this project's own failed attempt to reproduce its flagship score.
 
@@ -60,15 +60,15 @@ The chapter is retained on that footing rather than withdrawn, because a disclos
 
 **A correction to this paper's own framing.** Earlier drafts named five "compound catastrophe zones": Humphreys County, Detroit, East St. Louis, Claiborne County, and the Louisiana petrochemical corridor. That list does not match the instrument's output and is withdrawn.
 
-The instrument's actual top five are **Humphreys, Claiborne, Sunflower, Alexander and Amite** — four Mississippi Delta counties and one Illinois river county. Wayne County (Detroit) ranks eleventh at 56.79, thirty points below Humphreys. East St. Louis sits in St. Clair County, Illinois, which is not in the published corpus at all; Alexander County, Illinois — rank four — is Cairo, a different place with a different history.
+The instrument's published outputs rank five counties highest — **Humphreys, Claiborne, Sunflower, Alexander and Amite** — four Mississippi Delta counties and one Illinois river county. Wayne County (Detroit) ranks eleventh at 56.79, thirty points below Humphreys. East St. Louis sits in St. Clair County, Illinois, which is not in the published corpus at all; Alexander County, Illinois — rank four — is Cairo, a different place with a different history.
 
-The five originally named were selected for documentary depth, not by score. Detroit and Cancer Alley belong in this paper, and they appear below as case studies with their actual standing disclosed. But a composite index that names a top five must name the top five the composite produced. Substituting the more familiar cities would have been the exact failure this instrument exists to prevent.
+The five originally named were selected for documentary depth, not by score. Detroit and Cancer Alley belong in this paper, and they appear below as case studies with their actual standing disclosed. But a composite index that names a top five must name the top five its own published outputs produced — reported as the organization's outputs, not as independently verified findings. Substituting the more familiar cities would have been the exact failure this instrument exists to prevent.
 
 ---
 
 ## 7.3 Humphreys County, Mississippi
 
-FIPS 28053. Population approximately 7,400 and falling. FDI 87.25 — the highest score in the corpus.
+FIPS 28053. Population approximately 7,400 and falling. Published FDI 87.25 — the highest published score in the corpus.
 
 **Table 7.2 — Humphreys County score decomposition**
 
@@ -86,7 +86,7 @@ The county qualifies as low-income, low-access under USDA Food Access Research A
 
 **On poverty, three figures and why all three appear.** ACS 2015–2019 recorded 36.4 percent all-persons poverty; ACS 2022 recorded 32.1 percent, with **55.0 percent of children** below the line; the most recent ACS five-year release reports approximately 27 percent, with a margin of error of ±6.3 points. Earlier drafts used "37 percent" without a vintage lock. All three vintages are printed here because in a county of 7,400 the survey margin is wide enough that a single figure asserted without its interval is not a finding — it is a rounding decision presented as one. The decline is also not straightforwardly good news: Humphreys has lost roughly a third of its population since 1980, and a poverty rate calculated on a shrinking denominator measures departure as much as improvement.
 
-**On the score itself.** The published FDI is 87.25. Recomputing the five components by hand against approximate corpus bounds yields **79.7** — a gap of roughly 7.5 points, arising because the published score normalizes against the full Phase 3 corpus while a hand calculation uses approximate range endpoints. The published figure stands as the citation of record. The discrepancy is printed rather than smoothed because Humphreys is this paper's flagship example, and a flagship example that cannot be audited is a slogan.
+**On the score itself.** The organization's published FDI for Humphreys is 87.25. Recomputing the five components by hand against the decomposition's range endpoints yields **79.7** — a gap of roughly 7.5 points. The decomposition document attributes the gap to approximate endpoints, stating that the published score normalizes against the full Phase 3 corpus. That explanation did not survive checking: recomputing the same five components against the corpus bounds actually present in the published Phase 3 file (42 counties — poverty 9.6→35.0, health burden 18.35→36.15, no-internet 8.1→49.8, vacancy 4.1→66.7, Black share 0.0→83.0) yields **80.69**, still 6.6 points below the published figure. No documented normalization of the published inputs reproduces 87.25. The score therefore stands only as the organization's published output — it is not a verified finding, and it should not be cited as one. The discrepancy is printed rather than smoothed because Humphreys is this paper's flagship example, and a flagship example that cannot be audited is a slogan.
 
 ---
 
@@ -96,7 +96,7 @@ The county qualifies as low-income, low-access under USDA Food Access Research A
 
 Wayne County's composite is thirty points below Humphreys, and the reason is instructive rather than exculpatory. Detroit has infrastructure: hospitals, broadband, a tax base, transit. Its distress is concentrated and internal rather than county-wide. The tract layer shows this directly — across **587 Detroit tracts** the median FDI is 33.9 while the maximum reaches **68.8**. The county average conceals a distribution in which specific neighborhoods score in Delta territory while others do not.
 
-This is the strongest argument for the tract instrument. County-level analysis of a large metropolitan county will systematically understate concentrated urban distress, because the affluent tracts and the abandoned tracts are averaged into a single unremarkable number. Detroit's problem is not that the county is uniformly distressed. It is that the distressed parts are as distressed as rural Mississippi and are politically invisible inside a county average.
+This is the strongest argument for the tract instrument. County-level analysis of a large metropolitan county will systematically understate concentrated urban distress, because the affluent tracts and the abandoned tracts are averaged into a single unremarkable number. Detroit's problem is not that the county is uniformly distressed. It is that the distressed parts are as distressed as rural Mississippi and are not visible inside a county average.
 
 ### The Louisiana corridor
 
@@ -159,10 +159,10 @@ Neither defect changes the county rankings or any finding in Chapters 5 or 6. Bo
 
 The FarmBlock instrument exists to answer an operational question: given finite capacity, where does intervention go first?
 
-The answer the data gives is not the answer political attention gives. The highest-distress places in this corpus are small Delta counties with declining populations and no organized constituency — Humphreys, Claiborne, Sunflower, Amite — and one Illinois river county, Alexander, whose profile is driven by 42.4 percent housing vacancy and 38.2 percent digital exclusion rather than by poverty alone.
+The answer the organization's exploratory instrument gives is not the answer political attention gives. The places its published outputs rank highest are small Delta counties with declining populations and no organized constituency — Humphreys, Claiborne, Sunflower, Amite — and one Illinois river county, Alexander, whose profile is driven by 42.4 percent housing vacancy and 38.2 percent digital exclusion rather than by poverty alone. Those rankings are published outputs, not verified findings; they report what the instrument says, not what has been independently established.
 
-These places are not where cameras go. They are where the composite says the compound burden is heaviest.
+These places are not where cameras go. They are where the organization's composite places the heaviest compound burden.
 
-That is the entire argument for building the instrument. A ranked, auditable, publicly available composite makes it possible to direct resources by measured burden rather than by visibility — and to be held accountable when the direction chosen does not match what the measurement says.
+That is the entire argument for building the instrument. A ranked, publicly available composite makes it possible to direct resources by measured burden rather than by visibility — and to be held accountable when the direction chosen does not match what the measurement says. The accountability runs both ways: until the arithmetic behind the scores can be rebuilt from published inputs, the instrument's outputs are the organization's own, and the gap between published and reproducible is named here rather than hidden.
 
 Chapter 8 turns to what the full record demands.

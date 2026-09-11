@@ -19,7 +19,7 @@ The federal government measures Black unemployment (BLS). It measures Black inca
 
 The academic literature on racial inequality has produced powerful multi-dimensional analyses — Robert Sampson's work on neighborhood effects, Patrick Sharkey's research on urban poverty, Keeanga-Yamahtta Taylor on predatory inclusion in housing markets. But this scholarship is paywalled, time-bounded by research funding cycles, and produced for academic audiences, not for the communities it describes.
 
-The BDI synthesizes across eight dimensions simultaneously because the lived experience of structural distress is not single-pillar. A family in one of the highest-distress counties ranked in Chapter 7 is not experiencing poverty or health burden or carceral threat — they are experiencing all of these simultaneously, interacting with each other, compounding each other, foreclosing paths out of each other. An instrument that cannot see the compound cannot measure the catastrophe.
+The BDI synthesizes across eight dimensions simultaneously because the lived experience of structural distress is not single-pillar. A family in one of the highest-distress counties ranked in Chapter 7 is not experiencing poverty or health burden or carceral threat — they are experiencing all of these simultaneously, and on this paper's functional reading, interacting with each other, compounding each other, foreclosing paths out of each other. These data document the co-occurrence; the interaction is asserted as interpretation, not measured as mechanism. An instrument that cannot see the compound cannot measure the catastrophe.
 
 ---
 
@@ -37,7 +37,7 @@ The BDI synthesizes across eight dimensions simultaneously because the lived exp
 
 **What it measures:** Maternal mortality rate, life expectancy gap, COVID excess mortality, environmental health burden.
 
-**Why 20%:** The body is the final ledger of everything the built environment, the economic environment, and the political environment produce. Maternal mortality is not a health failure — it is a system failure. The 69.9 per 100,000 maternal mortality rate for Black women in 2021 — the highest recorded since 1968, documented by NCHS — is a metric that encodes discriminatory clinical treatment, under-resourced prenatal care, environmental stressors, economic precarity, and the cumulative physical burden of navigating anti-Black institutions across a lifetime. Life expectancy encodes the same compound burden in a single number at the population level.
+**Why 20%:** The body is the final ledger of everything the built environment, the economic environment, and the political environment produce. Maternal mortality is read in this paper not as a health failure alone but as a system failure. The 69.9 per 100,000 maternal mortality rate for Black women in 2021 — the highest recorded since 1968, documented by NCHS — is treated here as a metric that encodes discriminatory clinical treatment, under-resourced prenatal care, environmental stressors, economic precarity, and the cumulative physical burden of navigating anti-Black institutions across a lifetime. Life expectancy encodes the same compound burden in a single number at the population level.
 
 **Key sources:** NCHS WONDER (maternal mortality, 1999–2021), NCHS vital statistics (life expectancy by race, 1999–2021), CDC PLACES (health burden at tract level for FarmBlock layer).
 
@@ -45,7 +45,7 @@ The BDI synthesizes across eight dimensions simultaneously because the lived exp
 
 **What it measures:** Incarceration rate by race, police killing rate by race, unarmed killing rate.
 
-**Why 20%:** The carceral system is an economic system. Incarceration removes labor from families, destroys wealth-building capacity, removes voting rights in most states, restricts housing access, restricts employment access, and generates lifetime economic penalties that compound across generations. The incarceration ratio — which has moved 0.14 points in ninety-seven years of data, and has not fallen below 5.8 within the empirical window — is not a public safety metric. It is a structural extraction metric. The BJS Prisoners series measures it with the same methodological rigor as any other federal statistical program.
+**Why 20%:** The carceral system is an economic system. Incarceration removes labor from families, destroys wealth-building capacity, removes voting rights in most states, restricts housing access, restricts employment access, and generates lifetime economic penalties that compound across generations. The incarceration ratio — which has moved 1.03 points in ninety-seven years of data, and has not fallen below 5.42 within the empirical window — is read in this paper not as a public safety metric but as a structural extraction metric. The BJS Prisoners series measures it with the same methodological rigor as any other federal statistical program.
 
 **Key sources:** BJS Prisoners series (incarceration rate by race, 1991–2023), Mapping Police Violence database (police killings by race, 2013–2023, DOJ-confirmed methodology).
 

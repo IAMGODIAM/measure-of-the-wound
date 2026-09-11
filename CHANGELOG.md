@@ -1,5 +1,15 @@
 # Changelog
 
+## v1.4.4 — "Road to 10" forensic pass (2026-09-11)
+
+A strict-gate audit scored v1.4.3 at 7/10 and named four deductions. This edition resolves what can be resolved and writes down what cannot. No reconciliation is fabricated.
+
+- **FDI: honestly unreproducible → demoted (−1.5 resolved by demotion).** Four documented recomputation attempts on the Humphreys 87.25 score (true Phase 3 corpus bounds: 80.69; with obesity: 80.69; Phase 2 bounds: 82.97; decomposition hand calc: 79.7) all fail; no computation code exists in the package (the referenced `farmblock_pipeline_v2.py` is absent). The Appendix E §E.3 "full-corpus normalization" explanation is falsified and replaced. The FDI is demoted from headline contribution to the organization's exploratory instrument throughout Chapter 7, Chapter 3, the Introduction, the Conclusion, and the abstract — scores are published outputs, not verified findings, not to be cited as findings. New sub-finding: the "corpus mean" no-internet fill (5.879) does not match the corpus mean (7.863); label withdrawn (§E.4).
+- **Incarceration denominator established; 2022 endpoint corrected (−0.5 resolved).** Cell-for-cell BJS comparison definitively pins the series as male imprisonment rates (vault `population_basis` field added). The 2022 row (1,862/295/6.31) matched no BJS table — corrected to BJS-published 1,826/337/5.42; 2020 white rate corrected to 332 (ratio 5.67). Cross-era movement restated: 6.45 → 5.42, 1.03 points; range 5.42–7.70; decarceration 47%. Propagated through Chapters 4, 6, 8, Conclusion, README, abstract, Appendix C; W-3 and P-5 annotated as superseded; §E item 8 updated. Pre-1980 Cahalan rows remain carried as compiled.
+- **Provenance: new §E.6 (−0.5 partially resolved).** ACS table IDs, vintages, and geography codes recovered from the package's own methodology files (tracts ACS 5-Year 2023; counties ACS 5-Year 2022; health components CDC PLACES 2023). Six-item owed inventory printed for FDI v3.0 (cell definitions, county table audit, query strings, pull/transform code, raw inputs, PLACES attribution).
+- **Causal language** swept in a dedicated pass; every edited passage logged (see report).
+- **Appendix H gains Section H** with the full fifth-wave record. `errata/` and `review/` are read-only by project constraint and retain superseded figures; documented as frozen-stale in §H.4.
+
 ## v1.4.3 — Maternal mortality baseline correction (2026-09-11)
 
 An independent verification review found that the 1930 maternal mortality ratio of 1.48, carried since the first edition, could not be verified as a maternal-mortality figure. Primary-source research confirmed the 1.48 ratio as the documented nonwhite/white **neonatal** mortality ratio for 1939–41 (Shin 1975, Table I) and confirmed that complete national maternal mortality reporting by race begins in **1933**, not 1930 — the first year every state reported maternal deaths (Black 1,000 / White 564 per 100,000 live births, ratio 1.8; MacDorman et al. 2021).
