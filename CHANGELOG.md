@@ -91,3 +91,8 @@ Adopted from the independent verification review (Manus AI, 2026-09-01).
 
 ## v1.0 — Black Paper drafts (2026-04)
 - Preface, Part One (Ch. 1–2), Methodology, Measure, Conclusion drafted; other chapters stubs.
+
+## 2026-09-11 — BLS monthly unemployment series archived (unreleased; on main, no version bump)
+- Added `data/bdi-raw-data-vault/economic/bls_unemployment_monthly_1972-2025_RAW.json`: 647 months (1972-01–2025-11) of LNS14000006/LNS14000003 pulled live from the BLS Public Data API v2 (unregistered) on 2026-09-11 to document the monthly no-inversion claim used by the RBPE derivative.
+- Verification: zero months with Black unemployment below white unemployment; all 54 annual values in the existing annual vault file recompute as means of these monthly observations (2025 from 11 months); closest approach to parity April 2020 (ratio 1.190).
+- Note: the BLS API key recorded in the annual vault file (`b01f97f6`) is no longer valid as of 2026-09-11 (BLS returns "key invalid"); unregistered access was used for this pull.

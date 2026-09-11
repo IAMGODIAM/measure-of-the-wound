@@ -1,0 +1,3900 @@
+{
+ "source": "U.S. Bureau of Labor Statistics \u2014 Public Data API v2 (unregistered access, pulled 2026-09-11)",
+ "series_black": "LNS14000006 \u2014 Black/African American Unemployment Rate (seasonally adjusted, monthly)",
+ "series_white": "LNS14000003 \u2014 White Unemployment Rate (seasonally adjusted, monthly)",
+ "pulled_date": "2026-09-11",
+ "pillar": "1 \u2014 Economic Justice",
+ "coverage": "1972-01 through 2025-11 (647 months; December 2025 not yet published at pull time)",
+ "key_findings": {
+  "months": 647,
+  "inversions_black_below_white": 0,
+  "min_monthly_ratio": 1.19,
+  "min_monthly_ratio_month": "2020-M04",
+  "summary": "Black monthly unemployment was never below white monthly unemployment in any of the 647 months. Closest approach: 2020-04, ratio 1.190."
+ },
+ "note": "Ingested 2026-09-11 to document the monthly no-inversion claim. All 54 annual values in bls_unemployment_by_race_1972-2025_FULL_RAW.json recompute as means of these monthly observations (2025 from 11 months).",
+ "monthly": [
+  {
+   "month": "1972-M01",
+   "black_unemployment_pct": 11.2,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.154
+  },
+  {
+   "month": "1972-M02",
+   "black_unemployment_pct": 11.2,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.196
+  },
+  {
+   "month": "1972-M03",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.058
+  },
+  {
+   "month": "1972-M04",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 1.849
+  },
+  {
+   "month": "1972-M05",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1972-M06",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1972-M07",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.059
+  },
+  {
+   "month": "1972-M08",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.078
+  },
+  {
+   "month": "1972-M09",
+   "black_unemployment_pct": 10.4,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.08
+  },
+  {
+   "month": "1972-M10",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.078
+  },
+  {
+   "month": "1972-M11",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.128
+  },
+  {
+   "month": "1972-M12",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.043
+  },
+  {
+   "month": "1973-M01",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.022
+  },
+  {
+   "month": "1973-M02",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.111
+  },
+  {
+   "month": "1973-M03",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.136
+  },
+  {
+   "month": "1973-M04",
+   "black_unemployment_pct": 9.9,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.2
+  },
+  {
+   "month": "1973-M05",
+   "black_unemployment_pct": 9.6,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.233
+  },
+  {
+   "month": "1973-M06",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.279
+  },
+  {
+   "month": "1973-M07",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.333
+  },
+  {
+   "month": "1973-M08",
+   "black_unemployment_pct": 9.2,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.14
+  },
+  {
+   "month": "1973-M09",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.256
+  },
+  {
+   "month": "1973-M10",
+   "black_unemployment_pct": 8.8,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.146
+  },
+  {
+   "month": "1973-M11",
+   "black_unemployment_pct": 9.3,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.163
+  },
+  {
+   "month": "1973-M12",
+   "black_unemployment_pct": 9.0,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.045
+  },
+  {
+   "month": "1974-M01",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.065
+  },
+  {
+   "month": "1974-M02",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.13
+  },
+  {
+   "month": "1974-M03",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.178
+  },
+  {
+   "month": "1974-M04",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.111
+  },
+  {
+   "month": "1974-M05",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.109
+  },
+  {
+   "month": "1974-M06",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.104
+  },
+  {
+   "month": "1974-M07",
+   "black_unemployment_pct": 10.4,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.122
+  },
+  {
+   "month": "1974-M08",
+   "black_unemployment_pct": 9.9,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.98
+  },
+  {
+   "month": "1974-M09",
+   "black_unemployment_pct": 10.8,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1974-M10",
+   "black_unemployment_pct": 11.5,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.13
+  },
+  {
+   "month": "1974-M11",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.067
+  },
+  {
+   "month": "1974-M12",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.047
+  },
+  {
+   "month": "1975-M01",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.905
+  },
+  {
+   "month": "1975-M02",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.946
+  },
+  {
+   "month": "1975-M03",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 7.8,
+   "black_white_ratio": 1.936
+  },
+  {
+   "month": "1975-M04",
+   "black_unemployment_pct": 15.3,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 1.913
+  },
+  {
+   "month": "1975-M05",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 8.4,
+   "black_white_ratio": 1.798
+  },
+  {
+   "month": "1975-M06",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 1.852
+  },
+  {
+   "month": "1975-M07",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 1.762
+  },
+  {
+   "month": "1975-M08",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 7.7,
+   "black_white_ratio": 1.974
+  },
+  {
+   "month": "1975-M09",
+   "black_unemployment_pct": 15.4,
+   "white_unemployment_pct": 7.7,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1975-M10",
+   "black_unemployment_pct": 14.9,
+   "white_unemployment_pct": 7.7,
+   "black_white_ratio": 1.935
+  },
+  {
+   "month": "1975-M11",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 7.6,
+   "black_white_ratio": 1.921
+  },
+  {
+   "month": "1975-M12",
+   "black_unemployment_pct": 14.5,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.959
+  },
+  {
+   "month": "1976-M01",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 7.2,
+   "black_white_ratio": 1.986
+  },
+  {
+   "month": "1976-M02",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.087
+  },
+  {
+   "month": "1976-M03",
+   "black_unemployment_pct": 13.5,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 1.957
+  },
+  {
+   "month": "1976-M04",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1976-M05",
+   "black_unemployment_pct": 13.2,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 1.97
+  },
+  {
+   "month": "1976-M06",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.072
+  },
+  {
+   "month": "1976-M07",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 1.958
+  },
+  {
+   "month": "1976-M08",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 2.014
+  },
+  {
+   "month": "1976-M09",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 7.0,
+   "black_white_ratio": 1.957
+  },
+  {
+   "month": "1976-M10",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 7.0,
+   "black_white_ratio": 1.986
+  },
+  {
+   "month": "1976-M11",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 1.972
+  },
+  {
+   "month": "1976-M12",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 7.0,
+   "black_white_ratio": 2.014
+  },
+  {
+   "month": "1977-M01",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 6.8,
+   "black_white_ratio": 2.029
+  },
+  {
+   "month": "1977-M02",
+   "black_unemployment_pct": 14.2,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.058
+  },
+  {
+   "month": "1977-M03",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.075
+  },
+  {
+   "month": "1977-M04",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1977-M05",
+   "black_unemployment_pct": 13.5,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.143
+  },
+  {
+   "month": "1977-M06",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.172
+  },
+  {
+   "month": "1977-M07",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.317
+  },
+  {
+   "month": "1977-M08",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.517
+  },
+  {
+   "month": "1977-M09",
+   "black_unemployment_pct": 14.5,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.417
+  },
+  {
+   "month": "1977-M10",
+   "black_unemployment_pct": 14.5,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.458
+  },
+  {
+   "month": "1977-M11",
+   "black_unemployment_pct": 14.7,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.534
+  },
+  {
+   "month": "1977-M12",
+   "black_unemployment_pct": 13.6,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.473
+  },
+  {
+   "month": "1978-M01",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.527
+  },
+  {
+   "month": "1978-M02",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.382
+  },
+  {
+   "month": "1978-M03",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.426
+  },
+  {
+   "month": "1978-M04",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.434
+  },
+  {
+   "month": "1978-M05",
+   "black_unemployment_pct": 13.0,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.5
+  },
+  {
+   "month": "1978-M06",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.56
+  },
+  {
+   "month": "1978-M07",
+   "black_unemployment_pct": 13.0,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.453
+  },
+  {
+   "month": "1978-M08",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.412
+  },
+  {
+   "month": "1978-M09",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.288
+  },
+  {
+   "month": "1978-M10",
+   "black_unemployment_pct": 11.8,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.36
+  },
+  {
+   "month": "1978-M11",
+   "black_unemployment_pct": 12.7,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.54
+  },
+  {
+   "month": "1978-M12",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.385
+  },
+  {
+   "month": "1979-M01",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.431
+  },
+  {
+   "month": "1979-M02",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.569
+  },
+  {
+   "month": "1979-M03",
+   "black_unemployment_pct": 12.5,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.451
+  },
+  {
+   "month": "1979-M04",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.58
+  },
+  {
+   "month": "1979-M05",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.583
+  },
+  {
+   "month": "1979-M06",
+   "black_unemployment_pct": 12.2,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.49
+  },
+  {
+   "month": "1979-M07",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.469
+  },
+  {
+   "month": "1979-M08",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.34
+  },
+  {
+   "month": "1979-M09",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.25
+  },
+  {
+   "month": "1979-M10",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.365
+  },
+  {
+   "month": "1979-M11",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.288
+  },
+  {
+   "month": "1979-M12",
+   "black_unemployment_pct": 12.2,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.346
+  },
+  {
+   "month": "1980-M01",
+   "black_unemployment_pct": 13.0,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.364
+  },
+  {
+   "month": "1980-M02",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.345
+  },
+  {
+   "month": "1980-M03",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.6,
+   "black_white_ratio": 2.304
+  },
+  {
+   "month": "1980-M04",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.262
+  },
+  {
+   "month": "1980-M05",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.182
+  },
+  {
+   "month": "1980-M06",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.179
+  },
+  {
+   "month": "1980-M07",
+   "black_unemployment_pct": 15.3,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.217
+  },
+  {
+   "month": "1980-M08",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.116
+  },
+  {
+   "month": "1980-M09",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.242
+  },
+  {
+   "month": "1980-M10",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.288
+  },
+  {
+   "month": "1980-M11",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.323
+  },
+  {
+   "month": "1980-M12",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.381
+  },
+  {
+   "month": "1981-M01",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.179
+  },
+  {
+   "month": "1981-M02",
+   "black_unemployment_pct": 14.7,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.227
+  },
+  {
+   "month": "1981-M03",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.323
+  },
+  {
+   "month": "1981-M04",
+   "black_unemployment_pct": 14.7,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.297
+  },
+  {
+   "month": "1981-M05",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.242
+  },
+  {
+   "month": "1981-M06",
+   "black_unemployment_pct": 15.7,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.415
+  },
+  {
+   "month": "1981-M07",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.381
+  },
+  {
+   "month": "1981-M08",
+   "black_unemployment_pct": 16.3,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.587
+  },
+  {
+   "month": "1981-M09",
+   "black_unemployment_pct": 15.9,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.409
+  },
+  {
+   "month": "1981-M10",
+   "black_unemployment_pct": 16.7,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.42
+  },
+  {
+   "month": "1981-M11",
+   "black_unemployment_pct": 16.8,
+   "white_unemployment_pct": 7.3,
+   "black_white_ratio": 2.301
+  },
+  {
+   "month": "1981-M12",
+   "black_unemployment_pct": 17.2,
+   "white_unemployment_pct": 7.5,
+   "black_white_ratio": 2.293
+  },
+  {
+   "month": "1982-M01",
+   "black_unemployment_pct": 17.3,
+   "white_unemployment_pct": 7.6,
+   "black_white_ratio": 2.276
+  },
+  {
+   "month": "1982-M02",
+   "black_unemployment_pct": 17.7,
+   "white_unemployment_pct": 7.8,
+   "black_white_ratio": 2.269
+  },
+  {
+   "month": "1982-M03",
+   "black_unemployment_pct": 18.1,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 2.263
+  },
+  {
+   "month": "1982-M04",
+   "black_unemployment_pct": 18.2,
+   "white_unemployment_pct": 8.3,
+   "black_white_ratio": 2.193
+  },
+  {
+   "month": "1982-M05",
+   "black_unemployment_pct": 18.5,
+   "white_unemployment_pct": 8.2,
+   "black_white_ratio": 2.256
+  },
+  {
+   "month": "1982-M06",
+   "black_unemployment_pct": 18.5,
+   "white_unemployment_pct": 8.5,
+   "black_white_ratio": 2.176
+  },
+  {
+   "month": "1982-M07",
+   "black_unemployment_pct": 18.8,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 2.161
+  },
+  {
+   "month": "1982-M08",
+   "black_unemployment_pct": 18.9,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 2.172
+  },
+  {
+   "month": "1982-M09",
+   "black_unemployment_pct": 19.7,
+   "white_unemployment_pct": 9.0,
+   "black_white_ratio": 2.189
+  },
+  {
+   "month": "1982-M10",
+   "black_unemployment_pct": 20.1,
+   "white_unemployment_pct": 9.2,
+   "black_white_ratio": 2.185
+  },
+  {
+   "month": "1982-M11",
+   "black_unemployment_pct": 20.2,
+   "white_unemployment_pct": 9.6,
+   "black_white_ratio": 2.104
+  },
+  {
+   "month": "1982-M12",
+   "black_unemployment_pct": 20.9,
+   "white_unemployment_pct": 9.7,
+   "black_white_ratio": 2.155
+  },
+  {
+   "month": "1983-M01",
+   "black_unemployment_pct": 21.2,
+   "white_unemployment_pct": 9.1,
+   "black_white_ratio": 2.33
+  },
+  {
+   "month": "1983-M02",
+   "black_unemployment_pct": 19.9,
+   "white_unemployment_pct": 9.3,
+   "black_white_ratio": 2.14
+  },
+  {
+   "month": "1983-M03",
+   "black_unemployment_pct": 20.1,
+   "white_unemployment_pct": 9.1,
+   "black_white_ratio": 2.209
+  },
+  {
+   "month": "1983-M04",
+   "black_unemployment_pct": 20.4,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 2.292
+  },
+  {
+   "month": "1983-M05",
+   "black_unemployment_pct": 20.3,
+   "white_unemployment_pct": 8.8,
+   "black_white_ratio": 2.307
+  },
+  {
+   "month": "1983-M06",
+   "black_unemployment_pct": 20.7,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 2.379
+  },
+  {
+   "month": "1983-M07",
+   "black_unemployment_pct": 19.4,
+   "white_unemployment_pct": 8.2,
+   "black_white_ratio": 2.366
+  },
+  {
+   "month": "1983-M08",
+   "black_unemployment_pct": 19.7,
+   "white_unemployment_pct": 8.2,
+   "black_white_ratio": 2.402
+  },
+  {
+   "month": "1983-M09",
+   "black_unemployment_pct": 18.8,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 2.35
+  },
+  {
+   "month": "1983-M10",
+   "black_unemployment_pct": 18.2,
+   "white_unemployment_pct": 7.7,
+   "black_white_ratio": 2.364
+  },
+  {
+   "month": "1983-M11",
+   "black_unemployment_pct": 17.5,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 2.365
+  },
+  {
+   "month": "1983-M12",
+   "black_unemployment_pct": 17.8,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 2.507
+  },
+  {
+   "month": "1984-M01",
+   "black_unemployment_pct": 17.3,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.507
+  },
+  {
+   "month": "1984-M02",
+   "black_unemployment_pct": 16.2,
+   "white_unemployment_pct": 6.8,
+   "black_white_ratio": 2.382
+  },
+  {
+   "month": "1984-M03",
+   "black_unemployment_pct": 16.6,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.478
+  },
+  {
+   "month": "1984-M04",
+   "black_unemployment_pct": 16.5,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.463
+  },
+  {
+   "month": "1984-M05",
+   "black_unemployment_pct": 15.7,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.453
+  },
+  {
+   "month": "1984-M06",
+   "black_unemployment_pct": 15.6,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.516
+  },
+  {
+   "month": "1984-M07",
+   "black_unemployment_pct": 16.7,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.651
+  },
+  {
+   "month": "1984-M08",
+   "black_unemployment_pct": 16.0,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.5
+  },
+  {
+   "month": "1984-M09",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.344
+  },
+  {
+   "month": "1984-M10",
+   "black_unemployment_pct": 15.3,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.429
+  },
+  {
+   "month": "1984-M11",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.419
+  },
+  {
+   "month": "1984-M12",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.413
+  },
+  {
+   "month": "1985-M01",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.413
+  },
+  {
+   "month": "1985-M02",
+   "black_unemployment_pct": 15.8,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.548
+  },
+  {
+   "month": "1985-M03",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.435
+  },
+  {
+   "month": "1985-M04",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.397
+  },
+  {
+   "month": "1985-M05",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.452
+  },
+  {
+   "month": "1985-M06",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.215
+  },
+  {
+   "month": "1985-M07",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.375
+  },
+  {
+   "month": "1985-M08",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.306
+  },
+  {
+   "month": "1985-M09",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.492
+  },
+  {
+   "month": "1985-M10",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.459
+  },
+  {
+   "month": "1985-M11",
+   "black_unemployment_pct": 15.6,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.644
+  },
+  {
+   "month": "1985-M12",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.5
+  },
+  {
+   "month": "1986-M01",
+   "black_unemployment_pct": 14.5,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.544
+  },
+  {
+   "month": "1986-M02",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.286
+  },
+  {
+   "month": "1986-M03",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.355
+  },
+  {
+   "month": "1986-M04",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.426
+  },
+  {
+   "month": "1986-M05",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.355
+  },
+  {
+   "month": "1986-M06",
+   "black_unemployment_pct": 15.1,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.435
+  },
+  {
+   "month": "1986-M07",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.361
+  },
+  {
+   "month": "1986-M08",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.508
+  },
+  {
+   "month": "1986-M09",
+   "black_unemployment_pct": 14.9,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.483
+  },
+  {
+   "month": "1986-M10",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.433
+  },
+  {
+   "month": "1986-M11",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.383
+  },
+  {
+   "month": "1986-M12",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.362
+  },
+  {
+   "month": "1987-M01",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.456
+  },
+  {
+   "month": "1987-M02",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.421
+  },
+  {
+   "month": "1987-M03",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.421
+  },
+  {
+   "month": "1987-M04",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.389
+  },
+  {
+   "month": "1987-M05",
+   "black_unemployment_pct": 13.6,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.519
+  },
+  {
+   "month": "1987-M06",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.389
+  },
+  {
+   "month": "1987-M07",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.481
+  },
+  {
+   "month": "1987-M08",
+   "black_unemployment_pct": 12.6,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.471
+  },
+  {
+   "month": "1987-M09",
+   "black_unemployment_pct": 12.6,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.471
+  },
+  {
+   "month": "1987-M10",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.365
+  },
+  {
+   "month": "1987-M11",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.42
+  },
+  {
+   "month": "1987-M12",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.469
+  },
+  {
+   "month": "1988-M01",
+   "black_unemployment_pct": 12.0,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.4
+  },
+  {
+   "month": "1988-M02",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.531
+  },
+  {
+   "month": "1988-M03",
+   "black_unemployment_pct": 12.7,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.646
+  },
+  {
+   "month": "1988-M04",
+   "black_unemployment_pct": 12.2,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.652
+  },
+  {
+   "month": "1988-M05",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.617
+  },
+  {
+   "month": "1988-M06",
+   "black_unemployment_pct": 11.5,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.5
+  },
+  {
+   "month": "1988-M07",
+   "black_unemployment_pct": 11.6,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.468
+  },
+  {
+   "month": "1988-M08",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.375
+  },
+  {
+   "month": "1988-M09",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.292
+  },
+  {
+   "month": "1988-M10",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.362
+  },
+  {
+   "month": "1988-M11",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.391
+  },
+  {
+   "month": "1988-M12",
+   "black_unemployment_pct": 11.3,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.457
+  },
+  {
+   "month": "1989-M01",
+   "black_unemployment_pct": 11.8,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.565
+  },
+  {
+   "month": "1989-M02",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.767
+  },
+  {
+   "month": "1989-M03",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.643
+  },
+  {
+   "month": "1989-M04",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.467
+  },
+  {
+   "month": "1989-M05",
+   "black_unemployment_pct": 11.2,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.545
+  },
+  {
+   "month": "1989-M06",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.6
+  },
+  {
+   "month": "1989-M07",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.444
+  },
+  {
+   "month": "1989-M08",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.467
+  },
+  {
+   "month": "1989-M09",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.6
+  },
+  {
+   "month": "1989-M10",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.6
+  },
+  {
+   "month": "1989-M11",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.543
+  },
+  {
+   "month": "1989-M12",
+   "black_unemployment_pct": 11.6,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.522
+  },
+  {
+   "month": "1990-M01",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.413
+  },
+  {
+   "month": "1990-M02",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.391
+  },
+  {
+   "month": "1990-M03",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.422
+  },
+  {
+   "month": "1990-M04",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.277
+  },
+  {
+   "month": "1990-M05",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.304
+  },
+  {
+   "month": "1990-M06",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.333
+  },
+  {
+   "month": "1990-M07",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.426
+  },
+  {
+   "month": "1990-M08",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.388
+  },
+  {
+   "month": "1990-M09",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.42
+  },
+  {
+   "month": "1990-M10",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.373
+  },
+  {
+   "month": "1990-M11",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.34
+  },
+  {
+   "month": "1990-M12",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.296
+  },
+  {
+   "month": "1991-M01",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 5.6,
+   "black_white_ratio": 2.125
+  },
+  {
+   "month": "1991-M02",
+   "black_unemployment_pct": 12.2,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.103
+  },
+  {
+   "month": "1991-M03",
+   "black_unemployment_pct": 12.5,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.083
+  },
+  {
+   "month": "1991-M04",
+   "black_unemployment_pct": 12.7,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.153
+  },
+  {
+   "month": "1991-M05",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.098
+  },
+  {
+   "month": "1991-M06",
+   "black_unemployment_pct": 12.5,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.016
+  },
+  {
+   "month": "1991-M07",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 1.919
+  },
+  {
+   "month": "1991-M08",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1991-M09",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 1.984
+  },
+  {
+   "month": "1991-M10",
+   "black_unemployment_pct": 13.3,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.145
+  },
+  {
+   "month": "1991-M11",
+   "black_unemployment_pct": 12.5,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 1.984
+  },
+  {
+   "month": "1991-M12",
+   "black_unemployment_pct": 12.9,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 1.985
+  },
+  {
+   "month": "1992-M01",
+   "black_unemployment_pct": 13.5,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.109
+  },
+  {
+   "month": "1992-M02",
+   "black_unemployment_pct": 14.2,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.185
+  },
+  {
+   "month": "1992-M03",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.169
+  },
+  {
+   "month": "1992-M04",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.169
+  },
+  {
+   "month": "1992-M05",
+   "black_unemployment_pct": 14.7,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.227
+  },
+  {
+   "month": "1992-M06",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.116
+  },
+  {
+   "month": "1992-M07",
+   "black_unemployment_pct": 14.4,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.149
+  },
+  {
+   "month": "1992-M08",
+   "black_unemployment_pct": 14.2,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.119
+  },
+  {
+   "month": "1992-M09",
+   "black_unemployment_pct": 13.9,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.075
+  },
+  {
+   "month": "1992-M10",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.2
+  },
+  {
+   "month": "1992-M11",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.169
+  },
+  {
+   "month": "1992-M12",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 2.2
+  },
+  {
+   "month": "1993-M01",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.238
+  },
+  {
+   "month": "1993-M02",
+   "black_unemployment_pct": 13.5,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.177
+  },
+  {
+   "month": "1993-M03",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.246
+  },
+  {
+   "month": "1993-M04",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.295
+  },
+  {
+   "month": "1993-M05",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.113
+  },
+  {
+   "month": "1993-M06",
+   "black_unemployment_pct": 13.4,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 2.161
+  },
+  {
+   "month": "1993-M07",
+   "black_unemployment_pct": 12.7,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.082
+  },
+  {
+   "month": "1993-M08",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 2.05
+  },
+  {
+   "month": "1993-M09",
+   "black_unemployment_pct": 12.5,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.119
+  },
+  {
+   "month": "1993-M10",
+   "black_unemployment_pct": 11.8,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 1.903
+  },
+  {
+   "month": "1993-M11",
+   "black_unemployment_pct": 12.6,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.211
+  },
+  {
+   "month": "1993-M12",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.017
+  },
+  {
+   "month": "1994-M01",
+   "black_unemployment_pct": 13.1,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.298
+  },
+  {
+   "month": "1994-M02",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.246
+  },
+  {
+   "month": "1994-M03",
+   "black_unemployment_pct": 12.4,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.175
+  },
+  {
+   "month": "1994-M04",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 5.6,
+   "black_white_ratio": 2.125
+  },
+  {
+   "month": "1994-M05",
+   "black_unemployment_pct": 11.7,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.25
+  },
+  {
+   "month": "1994-M06",
+   "black_unemployment_pct": 11.3,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.132
+  },
+  {
+   "month": "1994-M07",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.057
+  },
+  {
+   "month": "1994-M08",
+   "black_unemployment_pct": 11.2,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.154
+  },
+  {
+   "month": "1994-M09",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.078
+  },
+  {
+   "month": "1994-M10",
+   "black_unemployment_pct": 11.3,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.26
+  },
+  {
+   "month": "1994-M11",
+   "black_unemployment_pct": 10.8,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.25
+  },
+  {
+   "month": "1994-M12",
+   "black_unemployment_pct": 9.9,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.062
+  },
+  {
+   "month": "1995-M01",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.146
+  },
+  {
+   "month": "1995-M02",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.149
+  },
+  {
+   "month": "1995-M03",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.064
+  },
+  {
+   "month": "1995-M04",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.14
+  },
+  {
+   "month": "1995-M05",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1995-M06",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.184
+  },
+  {
+   "month": "1995-M07",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.224
+  },
+  {
+   "month": "1995-M08",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.265
+  },
+  {
+   "month": "1995-M09",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.265
+  },
+  {
+   "month": "1995-M10",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.041
+  },
+  {
+   "month": "1995-M11",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.94
+  },
+  {
+   "month": "1995-M12",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.082
+  },
+  {
+   "month": "1996-M01",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.163
+  },
+  {
+   "month": "1996-M02",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.083
+  },
+  {
+   "month": "1996-M03",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.208
+  },
+  {
+   "month": "1996-M04",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.229
+  },
+  {
+   "month": "1996-M05",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.082
+  },
+  {
+   "month": "1996-M06",
+   "black_unemployment_pct": 10.4,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.261
+  },
+  {
+   "month": "1996-M07",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.255
+  },
+  {
+   "month": "1996-M08",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.409
+  },
+  {
+   "month": "1996-M09",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.356
+  },
+  {
+   "month": "1996-M10",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.378
+  },
+  {
+   "month": "1996-M11",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.304
+  },
+  {
+   "month": "1996-M12",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.283
+  },
+  {
+   "month": "1997-M01",
+   "black_unemployment_pct": 10.8,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.4
+  },
+  {
+   "month": "1997-M02",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.378
+  },
+  {
+   "month": "1997-M03",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.386
+  },
+  {
+   "month": "1997-M04",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.372
+  },
+  {
+   "month": "1997-M05",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.512
+  },
+  {
+   "month": "1997-M06",
+   "black_unemployment_pct": 10.8,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.571
+  },
+  {
+   "month": "1997-M07",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.262
+  },
+  {
+   "month": "1997-M08",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.238
+  },
+  {
+   "month": "1997-M09",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.262
+  },
+  {
+   "month": "1997-M10",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.317
+  },
+  {
+   "month": "1997-M11",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.436
+  },
+  {
+   "month": "1997-M12",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.564
+  },
+  {
+   "month": "1998-M01",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.35
+  },
+  {
+   "month": "1998-M02",
+   "black_unemployment_pct": 9.3,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.385
+  },
+  {
+   "month": "1998-M03",
+   "black_unemployment_pct": 9.2,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.3
+  },
+  {
+   "month": "1998-M04",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.459
+  },
+  {
+   "month": "1998-M05",
+   "black_unemployment_pct": 8.9,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.342
+  },
+  {
+   "month": "1998-M06",
+   "black_unemployment_pct": 8.8,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.256
+  },
+  {
+   "month": "1998-M07",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.5
+  },
+  {
+   "month": "1998-M08",
+   "black_unemployment_pct": 8.8,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.256
+  },
+  {
+   "month": "1998-M09",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.333
+  },
+  {
+   "month": "1998-M10",
+   "black_unemployment_pct": 8.6,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.205
+  },
+  {
+   "month": "1998-M11",
+   "black_unemployment_pct": 8.6,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.263
+  },
+  {
+   "month": "1998-M12",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.026
+  },
+  {
+   "month": "1999-M01",
+   "black_unemployment_pct": 7.8,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.053
+  },
+  {
+   "month": "1999-M02",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.158
+  },
+  {
+   "month": "1999-M03",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.222
+  },
+  {
+   "month": "1999-M04",
+   "black_unemployment_pct": 7.8,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.053
+  },
+  {
+   "month": "1999-M05",
+   "black_unemployment_pct": 7.4,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "1999-M06",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.026
+  },
+  {
+   "month": "1999-M07",
+   "black_unemployment_pct": 8.7,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.351
+  },
+  {
+   "month": "1999-M08",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.081
+  },
+  {
+   "month": "1999-M09",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.361
+  },
+  {
+   "month": "1999-M10",
+   "black_unemployment_pct": 8.4,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.4
+  },
+  {
+   "month": "1999-M11",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.286
+  },
+  {
+   "month": "1999-M12",
+   "black_unemployment_pct": 7.8,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.229
+  },
+  {
+   "month": "2000-M01",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 2.412
+  },
+  {
+   "month": "2000-M02",
+   "black_unemployment_pct": 8.1,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.25
+  },
+  {
+   "month": "2000-M03",
+   "black_unemployment_pct": 7.4,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.114
+  },
+  {
+   "month": "2000-M04",
+   "black_unemployment_pct": 7.0,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 2.059
+  },
+  {
+   "month": "2000-M05",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.2
+  },
+  {
+   "month": "2000-M06",
+   "black_unemployment_pct": 7.8,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 2.294
+  },
+  {
+   "month": "2000-M07",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.2
+  },
+  {
+   "month": "2000-M08",
+   "black_unemployment_pct": 7.9,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.194
+  },
+  {
+   "month": "2000-M09",
+   "black_unemployment_pct": 7.3,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.086
+  },
+  {
+   "month": "2000-M10",
+   "black_unemployment_pct": 7.3,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 2.147
+  },
+  {
+   "month": "2000-M11",
+   "black_unemployment_pct": 7.3,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.086
+  },
+  {
+   "month": "2000-M12",
+   "black_unemployment_pct": 7.4,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.114
+  },
+  {
+   "month": "2001-M01",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.278
+  },
+  {
+   "month": "2001-M02",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.081
+  },
+  {
+   "month": "2001-M03",
+   "black_unemployment_pct": 8.3,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.243
+  },
+  {
+   "month": "2001-M04",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.051
+  },
+  {
+   "month": "2001-M05",
+   "black_unemployment_pct": 7.9,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.079
+  },
+  {
+   "month": "2001-M06",
+   "black_unemployment_pct": 8.3,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.075
+  },
+  {
+   "month": "2001-M07",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2001-M08",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.116
+  },
+  {
+   "month": "2001-M09",
+   "black_unemployment_pct": 8.9,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.07
+  },
+  {
+   "month": "2001-M10",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.021
+  },
+  {
+   "month": "2001-M11",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2001-M12",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 1.98
+  },
+  {
+   "month": "2002-M01",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 1.961
+  },
+  {
+   "month": "2002-M02",
+   "black_unemployment_pct": 9.9,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.98
+  },
+  {
+   "month": "2002-M03",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.1
+  },
+  {
+   "month": "2002-M04",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.058
+  },
+  {
+   "month": "2002-M05",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2002-M06",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.059
+  },
+  {
+   "month": "2002-M07",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 1.885
+  },
+  {
+   "month": "2002-M08",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 1.922
+  },
+  {
+   "month": "2002-M09",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 1.902
+  },
+  {
+   "month": "2002-M10",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 1.922
+  },
+  {
+   "month": "2002-M11",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.098
+  },
+  {
+   "month": "2002-M12",
+   "black_unemployment_pct": 11.3,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.216
+  },
+  {
+   "month": "2003-M01",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 2.019
+  },
+  {
+   "month": "2003-M02",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.098
+  },
+  {
+   "month": "2003-M03",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.02
+  },
+  {
+   "month": "2003-M04",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.057
+  },
+  {
+   "month": "2003-M05",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.019
+  },
+  {
+   "month": "2003-M06",
+   "black_unemployment_pct": 11.5,
+   "white_unemployment_pct": 5.5,
+   "black_white_ratio": 2.091
+  },
+  {
+   "month": "2003-M07",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.019
+  },
+  {
+   "month": "2003-M08",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.019
+  },
+  {
+   "month": "2003-M09",
+   "black_unemployment_pct": 11.1,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.094
+  },
+  {
+   "month": "2003-M10",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.235
+  },
+  {
+   "month": "2003-M11",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 1.962
+  },
+  {
+   "month": "2003-M12",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.02
+  },
+  {
+   "month": "2004-M01",
+   "black_unemployment_pct": 10.4,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.08
+  },
+  {
+   "month": "2004-M02",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 1.98
+  },
+  {
+   "month": "2004-M03",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.02
+  },
+  {
+   "month": "2004-M04",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.96
+  },
+  {
+   "month": "2004-M05",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.061
+  },
+  {
+   "month": "2004-M06",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.04
+  },
+  {
+   "month": "2004-M07",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.34
+  },
+  {
+   "month": "2004-M08",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.234
+  },
+  {
+   "month": "2004-M09",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.239
+  },
+  {
+   "month": "2004-M10",
+   "black_unemployment_pct": 10.8,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.348
+  },
+  {
+   "month": "2004-M11",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.326
+  },
+  {
+   "month": "2004-M12",
+   "black_unemployment_pct": 10.7,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.378
+  },
+  {
+   "month": "2005-M01",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.356
+  },
+  {
+   "month": "2005-M02",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.37
+  },
+  {
+   "month": "2005-M03",
+   "black_unemployment_pct": 10.5,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.333
+  },
+  {
+   "month": "2005-M04",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.341
+  },
+  {
+   "month": "2005-M05",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.295
+  },
+  {
+   "month": "2005-M06",
+   "black_unemployment_pct": 10.2,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.372
+  },
+  {
+   "month": "2005-M07",
+   "black_unemployment_pct": 9.2,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.19
+  },
+  {
+   "month": "2005-M08",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.31
+  },
+  {
+   "month": "2005-M09",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.136
+  },
+  {
+   "month": "2005-M10",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.068
+  },
+  {
+   "month": "2005-M11",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.465
+  },
+  {
+   "month": "2005-M12",
+   "black_unemployment_pct": 9.2,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.19
+  },
+  {
+   "month": "2006-M01",
+   "black_unemployment_pct": 8.9,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.171
+  },
+  {
+   "month": "2006-M02",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.317
+  },
+  {
+   "month": "2006-M03",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.375
+  },
+  {
+   "month": "2006-M04",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.293
+  },
+  {
+   "month": "2006-M05",
+   "black_unemployment_pct": 8.7,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.122
+  },
+  {
+   "month": "2006-M06",
+   "black_unemployment_pct": 8.9,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.171
+  },
+  {
+   "month": "2006-M07",
+   "black_unemployment_pct": 9.5,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.317
+  },
+  {
+   "month": "2006-M08",
+   "black_unemployment_pct": 8.8,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.146
+  },
+  {
+   "month": "2006-M09",
+   "black_unemployment_pct": 9.0,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.308
+  },
+  {
+   "month": "2006-M10",
+   "black_unemployment_pct": 8.4,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.154
+  },
+  {
+   "month": "2006-M11",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.125
+  },
+  {
+   "month": "2006-M12",
+   "black_unemployment_pct": 8.3,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.128
+  },
+  {
+   "month": "2007-M01",
+   "black_unemployment_pct": 7.9,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.881
+  },
+  {
+   "month": "2007-M02",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 1.951
+  },
+  {
+   "month": "2007-M03",
+   "black_unemployment_pct": 8.4,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.211
+  },
+  {
+   "month": "2007-M04",
+   "black_unemployment_pct": 8.3,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.075
+  },
+  {
+   "month": "2007-M05",
+   "black_unemployment_pct": 8.3,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.128
+  },
+  {
+   "month": "2007-M06",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.073
+  },
+  {
+   "month": "2007-M07",
+   "black_unemployment_pct": 8.1,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.929
+  },
+  {
+   "month": "2007-M08",
+   "black_unemployment_pct": 7.6,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.81
+  },
+  {
+   "month": "2007-M09",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.905
+  },
+  {
+   "month": "2007-M10",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.1,
+   "black_white_ratio": 2.073
+  },
+  {
+   "month": "2007-M11",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.024
+  },
+  {
+   "month": "2007-M12",
+   "black_unemployment_pct": 9.0,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.045
+  },
+  {
+   "month": "2008-M01",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.068
+  },
+  {
+   "month": "2008-M02",
+   "black_unemployment_pct": 8.4,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.909
+  },
+  {
+   "month": "2008-M03",
+   "black_unemployment_pct": 9.2,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.044
+  },
+  {
+   "month": "2008-M04",
+   "black_unemployment_pct": 8.6,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.955
+  },
+  {
+   "month": "2008-M05",
+   "black_unemployment_pct": 9.6,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2008-M06",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.88
+  },
+  {
+   "month": "2008-M07",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 5.2,
+   "black_white_ratio": 1.923
+  },
+  {
+   "month": "2008-M08",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 1.963
+  },
+  {
+   "month": "2008-M09",
+   "black_unemployment_pct": 11.3,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.093
+  },
+  {
+   "month": "2008-M10",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 1.932
+  },
+  {
+   "month": "2008-M11",
+   "black_unemployment_pct": 11.5,
+   "white_unemployment_pct": 6.2,
+   "black_white_ratio": 1.855
+  },
+  {
+   "month": "2008-M12",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 1.806
+  },
+  {
+   "month": "2009-M01",
+   "black_unemployment_pct": 12.7,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 1.789
+  },
+  {
+   "month": "2009-M02",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 7.6,
+   "black_white_ratio": 1.803
+  },
+  {
+   "month": "2009-M03",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 1.712
+  },
+  {
+   "month": "2009-M04",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 1.852
+  },
+  {
+   "month": "2009-M05",
+   "black_unemployment_pct": 15.0,
+   "white_unemployment_pct": 8.5,
+   "black_white_ratio": 1.765
+  },
+  {
+   "month": "2009-M06",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 1.701
+  },
+  {
+   "month": "2009-M07",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 1.701
+  },
+  {
+   "month": "2009-M08",
+   "black_unemployment_pct": 14.8,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 1.663
+  },
+  {
+   "month": "2009-M09",
+   "black_unemployment_pct": 15.3,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 1.719
+  },
+  {
+   "month": "2009-M10",
+   "black_unemployment_pct": 15.8,
+   "white_unemployment_pct": 9.2,
+   "black_white_ratio": 1.717
+  },
+  {
+   "month": "2009-M11",
+   "black_unemployment_pct": 15.7,
+   "white_unemployment_pct": 9.2,
+   "black_white_ratio": 1.707
+  },
+  {
+   "month": "2009-M12",
+   "black_unemployment_pct": 16.1,
+   "white_unemployment_pct": 9.0,
+   "black_white_ratio": 1.789
+  },
+  {
+   "month": "2010-M01",
+   "black_unemployment_pct": 16.5,
+   "white_unemployment_pct": 8.8,
+   "black_white_ratio": 1.875
+  },
+  {
+   "month": "2010-M02",
+   "black_unemployment_pct": 16.1,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 1.809
+  },
+  {
+   "month": "2010-M03",
+   "black_unemployment_pct": 16.8,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 1.888
+  },
+  {
+   "month": "2010-M04",
+   "black_unemployment_pct": 16.6,
+   "white_unemployment_pct": 9.0,
+   "black_white_ratio": 1.844
+  },
+  {
+   "month": "2010-M05",
+   "black_unemployment_pct": 15.5,
+   "white_unemployment_pct": 8.7,
+   "black_white_ratio": 1.782
+  },
+  {
+   "month": "2010-M06",
+   "black_unemployment_pct": 15.2,
+   "white_unemployment_pct": 8.6,
+   "black_white_ratio": 1.767
+  },
+  {
+   "month": "2010-M07",
+   "black_unemployment_pct": 15.6,
+   "white_unemployment_pct": 8.5,
+   "black_white_ratio": 1.835
+  },
+  {
+   "month": "2010-M08",
+   "black_unemployment_pct": 15.9,
+   "white_unemployment_pct": 8.6,
+   "black_white_ratio": 1.849
+  },
+  {
+   "month": "2010-M09",
+   "black_unemployment_pct": 16.0,
+   "white_unemployment_pct": 8.6,
+   "black_white_ratio": 1.86
+  },
+  {
+   "month": "2010-M10",
+   "black_unemployment_pct": 15.6,
+   "white_unemployment_pct": 8.6,
+   "black_white_ratio": 1.814
+  },
+  {
+   "month": "2010-M11",
+   "black_unemployment_pct": 16.2,
+   "white_unemployment_pct": 8.9,
+   "black_white_ratio": 1.82
+  },
+  {
+   "month": "2010-M12",
+   "black_unemployment_pct": 15.5,
+   "white_unemployment_pct": 8.5,
+   "black_white_ratio": 1.824
+  },
+  {
+   "month": "2011-M01",
+   "black_unemployment_pct": 15.8,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 1.951
+  },
+  {
+   "month": "2011-M02",
+   "black_unemployment_pct": 15.5,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 1.914
+  },
+  {
+   "month": "2011-M03",
+   "black_unemployment_pct": 15.8,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 1.975
+  },
+  {
+   "month": "2011-M04",
+   "black_unemployment_pct": 16.5,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 2.037
+  },
+  {
+   "month": "2011-M05",
+   "black_unemployment_pct": 16.3,
+   "white_unemployment_pct": 7.9,
+   "black_white_ratio": 2.063
+  },
+  {
+   "month": "2011-M06",
+   "black_unemployment_pct": 16.2,
+   "white_unemployment_pct": 8.1,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2011-M07",
+   "black_unemployment_pct": 15.9,
+   "white_unemployment_pct": 8.0,
+   "black_white_ratio": 1.988
+  },
+  {
+   "month": "2011-M08",
+   "black_unemployment_pct": 16.4,
+   "white_unemployment_pct": 7.9,
+   "black_white_ratio": 2.076
+  },
+  {
+   "month": "2011-M09",
+   "black_unemployment_pct": 15.9,
+   "white_unemployment_pct": 7.9,
+   "black_white_ratio": 2.013
+  },
+  {
+   "month": "2011-M10",
+   "black_unemployment_pct": 14.6,
+   "white_unemployment_pct": 7.9,
+   "black_white_ratio": 1.848
+  },
+  {
+   "month": "2011-M11",
+   "black_unemployment_pct": 15.6,
+   "white_unemployment_pct": 7.7,
+   "black_white_ratio": 2.026
+  },
+  {
+   "month": "2011-M12",
+   "black_unemployment_pct": 15.4,
+   "white_unemployment_pct": 7.5,
+   "black_white_ratio": 2.053
+  },
+  {
+   "month": "2012-M01",
+   "black_unemployment_pct": 13.6,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.838
+  },
+  {
+   "month": "2012-M02",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.892
+  },
+  {
+   "month": "2012-M03",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 7.3,
+   "black_white_ratio": 1.918
+  },
+  {
+   "month": "2012-M04",
+   "black_unemployment_pct": 13.3,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.797
+  },
+  {
+   "month": "2012-M05",
+   "black_unemployment_pct": 13.5,
+   "white_unemployment_pct": 7.4,
+   "black_white_ratio": 1.824
+  },
+  {
+   "month": "2012-M06",
+   "black_unemployment_pct": 14.5,
+   "white_unemployment_pct": 7.3,
+   "black_white_ratio": 1.986
+  },
+  {
+   "month": "2012-M07",
+   "black_unemployment_pct": 14.2,
+   "white_unemployment_pct": 7.3,
+   "black_white_ratio": 1.945
+  },
+  {
+   "month": "2012-M08",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 7.2,
+   "black_white_ratio": 1.917
+  },
+  {
+   "month": "2012-M09",
+   "black_unemployment_pct": 13.6,
+   "white_unemployment_pct": 7.0,
+   "black_white_ratio": 1.943
+  },
+  {
+   "month": "2012-M10",
+   "black_unemployment_pct": 14.1,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.043
+  },
+  {
+   "month": "2012-M11",
+   "black_unemployment_pct": 13.3,
+   "white_unemployment_pct": 6.8,
+   "black_white_ratio": 1.956
+  },
+  {
+   "month": "2012-M12",
+   "black_unemployment_pct": 14.0,
+   "white_unemployment_pct": 6.9,
+   "black_white_ratio": 2.029
+  },
+  {
+   "month": "2013-M01",
+   "black_unemployment_pct": 13.7,
+   "white_unemployment_pct": 7.1,
+   "black_white_ratio": 1.93
+  },
+  {
+   "month": "2013-M02",
+   "black_unemployment_pct": 13.8,
+   "white_unemployment_pct": 6.8,
+   "black_white_ratio": 2.029
+  },
+  {
+   "month": "2013-M03",
+   "black_unemployment_pct": 13.0,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 1.94
+  },
+  {
+   "month": "2013-M04",
+   "black_unemployment_pct": 13.3,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 1.985
+  },
+  {
+   "month": "2013-M05",
+   "black_unemployment_pct": 13.4,
+   "white_unemployment_pct": 6.7,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2013-M06",
+   "black_unemployment_pct": 14.2,
+   "white_unemployment_pct": 6.6,
+   "black_white_ratio": 2.152
+  },
+  {
+   "month": "2013-M07",
+   "black_unemployment_pct": 12.6,
+   "white_unemployment_pct": 6.5,
+   "black_white_ratio": 1.938
+  },
+  {
+   "month": "2013-M08",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 6.4,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2013-M09",
+   "black_unemployment_pct": 13.0,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.063
+  },
+  {
+   "month": "2013-M10",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 6.3,
+   "black_white_ratio": 2.032
+  },
+  {
+   "month": "2013-M11",
+   "black_unemployment_pct": 12.3,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 2.016
+  },
+  {
+   "month": "2013-M12",
+   "black_unemployment_pct": 11.9,
+   "white_unemployment_pct": 5.9,
+   "black_white_ratio": 2.017
+  },
+  {
+   "month": "2014-M01",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 5.7,
+   "black_white_ratio": 2.123
+  },
+  {
+   "month": "2014-M02",
+   "black_unemployment_pct": 11.8,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.034
+  },
+  {
+   "month": "2014-M03",
+   "black_unemployment_pct": 12.1,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 2.086
+  },
+  {
+   "month": "2014-M04",
+   "black_unemployment_pct": 11.6,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.189
+  },
+  {
+   "month": "2014-M05",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 2.111
+  },
+  {
+   "month": "2014-M06",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.075
+  },
+  {
+   "month": "2014-M07",
+   "black_unemployment_pct": 11.6,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.189
+  },
+  {
+   "month": "2014-M08",
+   "black_unemployment_pct": 11.4,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 2.151
+  },
+  {
+   "month": "2014-M09",
+   "black_unemployment_pct": 11.0,
+   "white_unemployment_pct": 5.1,
+   "black_white_ratio": 2.157
+  },
+  {
+   "month": "2014-M10",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.163
+  },
+  {
+   "month": "2014-M11",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 2.18
+  },
+  {
+   "month": "2014-M12",
+   "black_unemployment_pct": 10.6,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.255
+  },
+  {
+   "month": "2015-M01",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.9,
+   "black_white_ratio": 2.102
+  },
+  {
+   "month": "2015-M02",
+   "black_unemployment_pct": 10.1,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.149
+  },
+  {
+   "month": "2015-M03",
+   "black_unemployment_pct": 9.9,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.062
+  },
+  {
+   "month": "2015-M04",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.7,
+   "black_white_ratio": 2.064
+  },
+  {
+   "month": "2015-M05",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 2.146
+  },
+  {
+   "month": "2015-M06",
+   "black_unemployment_pct": 9.7,
+   "white_unemployment_pct": 4.6,
+   "black_white_ratio": 2.109
+  },
+  {
+   "month": "2015-M07",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 2.022
+  },
+  {
+   "month": "2015-M08",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.136
+  },
+  {
+   "month": "2015-M09",
+   "black_unemployment_pct": 9.3,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.114
+  },
+  {
+   "month": "2015-M10",
+   "black_unemployment_pct": 9.0,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.045
+  },
+  {
+   "month": "2015-M11",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.136
+  },
+  {
+   "month": "2015-M12",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.932
+  },
+  {
+   "month": "2016-M01",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.024
+  },
+  {
+   "month": "2016-M02",
+   "black_unemployment_pct": 8.6,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 2.048
+  },
+  {
+   "month": "2016-M03",
+   "black_unemployment_pct": 8.9,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.07
+  },
+  {
+   "month": "2016-M04",
+   "black_unemployment_pct": 8.8,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2016-M05",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.952
+  },
+  {
+   "month": "2016-M06",
+   "black_unemployment_pct": 8.7,
+   "white_unemployment_pct": 4.3,
+   "black_white_ratio": 2.023
+  },
+  {
+   "month": "2016-M07",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.952
+  },
+  {
+   "month": "2016-M08",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.818
+  },
+  {
+   "month": "2016-M09",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.932
+  },
+  {
+   "month": "2016-M10",
+   "black_unemployment_pct": 8.5,
+   "white_unemployment_pct": 4.4,
+   "black_white_ratio": 1.932
+  },
+  {
+   "month": "2016-M11",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.952
+  },
+  {
+   "month": "2016-M12",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.905
+  },
+  {
+   "month": "2017-M01",
+   "black_unemployment_pct": 7.5,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.786
+  },
+  {
+   "month": "2017-M02",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.0,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2017-M03",
+   "black_unemployment_pct": 7.8,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 2.053
+  },
+  {
+   "month": "2017-M04",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 1.974
+  },
+  {
+   "month": "2017-M05",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.081
+  },
+  {
+   "month": "2017-M06",
+   "black_unemployment_pct": 6.9,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.816
+  },
+  {
+   "month": "2017-M07",
+   "black_unemployment_pct": 7.3,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.921
+  },
+  {
+   "month": "2017-M08",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 1.974
+  },
+  {
+   "month": "2017-M09",
+   "black_unemployment_pct": 7.2,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 1.946
+  },
+  {
+   "month": "2017-M10",
+   "black_unemployment_pct": 7.6,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 2.111
+  },
+  {
+   "month": "2017-M11",
+   "black_unemployment_pct": 7.5,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.027
+  },
+  {
+   "month": "2017-M12",
+   "black_unemployment_pct": 6.7,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 1.811
+  },
+  {
+   "month": "2018-M01",
+   "black_unemployment_pct": 7.5,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.143
+  },
+  {
+   "month": "2018-M02",
+   "black_unemployment_pct": 6.8,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 1.889
+  },
+  {
+   "month": "2018-M03",
+   "black_unemployment_pct": 6.7,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.914
+  },
+  {
+   "month": "2018-M04",
+   "black_unemployment_pct": 6.4,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 1.778
+  },
+  {
+   "month": "2018-M05",
+   "black_unemployment_pct": 5.9,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.686
+  },
+  {
+   "month": "2018-M06",
+   "black_unemployment_pct": 6.4,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.829
+  },
+  {
+   "month": "2018-M07",
+   "black_unemployment_pct": 6.5,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.912
+  },
+  {
+   "month": "2018-M08",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.853
+  },
+  {
+   "month": "2018-M09",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.848
+  },
+  {
+   "month": "2018-M10",
+   "black_unemployment_pct": 6.5,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.912
+  },
+  {
+   "month": "2018-M11",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.794
+  },
+  {
+   "month": "2018-M12",
+   "black_unemployment_pct": 6.6,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.886
+  },
+  {
+   "month": "2019-M01",
+   "black_unemployment_pct": 7.0,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 2.0
+  },
+  {
+   "month": "2019-M02",
+   "black_unemployment_pct": 7.2,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 2.25
+  },
+  {
+   "month": "2019-M03",
+   "black_unemployment_pct": 6.7,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 2.03
+  },
+  {
+   "month": "2019-M04",
+   "black_unemployment_pct": 6.7,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 2.094
+  },
+  {
+   "month": "2019-M05",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.906
+  },
+  {
+   "month": "2019-M06",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.758
+  },
+  {
+   "month": "2019-M07",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.676
+  },
+  {
+   "month": "2019-M08",
+   "black_unemployment_pct": 5.3,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.559
+  },
+  {
+   "month": "2019-M09",
+   "black_unemployment_pct": 5.3,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.656
+  },
+  {
+   "month": "2019-M10",
+   "black_unemployment_pct": 5.5,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.719
+  },
+  {
+   "month": "2019-M11",
+   "black_unemployment_pct": 5.5,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.719
+  },
+  {
+   "month": "2019-M12",
+   "black_unemployment_pct": 6.0,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.875
+  },
+  {
+   "month": "2020-M01",
+   "black_unemployment_pct": 6.4,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 2.065
+  },
+  {
+   "month": "2020-M02",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.0,
+   "black_white_ratio": 2.033
+  },
+  {
+   "month": "2020-M03",
+   "black_unemployment_pct": 7.0,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 1.795
+  },
+  {
+   "month": "2020-M04",
+   "black_unemployment_pct": 16.9,
+   "white_unemployment_pct": 14.2,
+   "black_white_ratio": 1.19
+  },
+  {
+   "month": "2020-M05",
+   "black_unemployment_pct": 16.8,
+   "white_unemployment_pct": 12.3,
+   "black_white_ratio": 1.366
+  },
+  {
+   "month": "2020-M06",
+   "black_unemployment_pct": 15.3,
+   "white_unemployment_pct": 10.0,
+   "black_white_ratio": 1.53
+  },
+  {
+   "month": "2020-M07",
+   "black_unemployment_pct": 14.3,
+   "white_unemployment_pct": 9.2,
+   "black_white_ratio": 1.554
+  },
+  {
+   "month": "2020-M08",
+   "black_unemployment_pct": 12.8,
+   "white_unemployment_pct": 7.3,
+   "black_white_ratio": 1.753
+  },
+  {
+   "month": "2020-M09",
+   "black_unemployment_pct": 12.0,
+   "white_unemployment_pct": 7.0,
+   "black_white_ratio": 1.714
+  },
+  {
+   "month": "2020-M10",
+   "black_unemployment_pct": 10.9,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 1.817
+  },
+  {
+   "month": "2020-M11",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 6.0,
+   "black_white_ratio": 1.717
+  },
+  {
+   "month": "2020-M12",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 6.1,
+   "black_white_ratio": 1.639
+  },
+  {
+   "month": "2021-M01",
+   "black_unemployment_pct": 9.4,
+   "white_unemployment_pct": 5.8,
+   "black_white_ratio": 1.621
+  },
+  {
+   "month": "2021-M02",
+   "black_unemployment_pct": 10.0,
+   "white_unemployment_pct": 5.6,
+   "black_white_ratio": 1.786
+  },
+  {
+   "month": "2021-M03",
+   "black_unemployment_pct": 9.8,
+   "white_unemployment_pct": 5.4,
+   "black_white_ratio": 1.815
+  },
+  {
+   "month": "2021-M04",
+   "black_unemployment_pct": 10.3,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 1.943
+  },
+  {
+   "month": "2021-M05",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 5.0,
+   "black_white_ratio": 1.82
+  },
+  {
+   "month": "2021-M06",
+   "black_unemployment_pct": 9.1,
+   "white_unemployment_pct": 5.3,
+   "black_white_ratio": 1.717
+  },
+  {
+   "month": "2021-M07",
+   "black_unemployment_pct": 8.0,
+   "white_unemployment_pct": 4.8,
+   "black_white_ratio": 1.667
+  },
+  {
+   "month": "2021-M08",
+   "black_unemployment_pct": 8.6,
+   "white_unemployment_pct": 4.5,
+   "black_white_ratio": 1.911
+  },
+  {
+   "month": "2021-M09",
+   "black_unemployment_pct": 7.7,
+   "white_unemployment_pct": 4.2,
+   "black_white_ratio": 1.833
+  },
+  {
+   "month": "2021-M10",
+   "black_unemployment_pct": 7.6,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 1.949
+  },
+  {
+   "month": "2021-M11",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 1.703
+  },
+  {
+   "month": "2021-M12",
+   "black_unemployment_pct": 7.0,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 2.121
+  },
+  {
+   "month": "2022-M01",
+   "black_unemployment_pct": 7.0,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 2.059
+  },
+  {
+   "month": "2022-M02",
+   "black_unemployment_pct": 6.7,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 2.03
+  },
+  {
+   "month": "2022-M03",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.969
+  },
+  {
+   "month": "2022-M04",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.906
+  },
+  {
+   "month": "2022-M05",
+   "black_unemployment_pct": 6.2,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.938
+  },
+  {
+   "month": "2022-M06",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.758
+  },
+  {
+   "month": "2022-M07",
+   "black_unemployment_pct": 5.9,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.903
+  },
+  {
+   "month": "2022-M08",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 2.032
+  },
+  {
+   "month": "2022-M09",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.0,
+   "black_white_ratio": 1.933
+  },
+  {
+   "month": "2022-M10",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.812
+  },
+  {
+   "month": "2022-M11",
+   "black_unemployment_pct": 5.6,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.75
+  },
+  {
+   "month": "2022-M12",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.871
+  },
+  {
+   "month": "2023-M01",
+   "black_unemployment_pct": 5.4,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.742
+  },
+  {
+   "month": "2023-M02",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.2,
+   "black_white_ratio": 1.812
+  },
+  {
+   "month": "2023-M03",
+   "black_unemployment_pct": 5.1,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.545
+  },
+  {
+   "month": "2023-M04",
+   "black_unemployment_pct": 4.8,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.548
+  },
+  {
+   "month": "2023-M05",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.727
+  },
+  {
+   "month": "2023-M06",
+   "black_unemployment_pct": 6.0,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.935
+  },
+  {
+   "month": "2023-M07",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.1,
+   "black_white_ratio": 1.839
+  },
+  {
+   "month": "2023-M08",
+   "black_unemployment_pct": 5.3,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.559
+  },
+  {
+   "month": "2023-M09",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.676
+  },
+  {
+   "month": "2023-M10",
+   "black_unemployment_pct": 5.8,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.657
+  },
+  {
+   "month": "2023-M11",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.3,
+   "black_white_ratio": 1.727
+  },
+  {
+   "month": "2023-M12",
+   "black_unemployment_pct": 5.2,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.486
+  },
+  {
+   "month": "2024-M01",
+   "black_unemployment_pct": 5.3,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.559
+  },
+  {
+   "month": "2024-M02",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.676
+  },
+  {
+   "month": "2024-M03",
+   "black_unemployment_pct": 6.5,
+   "white_unemployment_pct": 3.4,
+   "black_white_ratio": 1.912
+  },
+  {
+   "month": "2024-M04",
+   "black_unemployment_pct": 5.6,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.6
+  },
+  {
+   "month": "2024-M05",
+   "black_unemployment_pct": 6.2,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.771
+  },
+  {
+   "month": "2024-M06",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.8
+  },
+  {
+   "month": "2024-M07",
+   "black_unemployment_pct": 6.2,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.632
+  },
+  {
+   "month": "2024-M08",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.605
+  },
+  {
+   "month": "2024-M09",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 1.583
+  },
+  {
+   "month": "2024-M10",
+   "black_unemployment_pct": 5.7,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.5
+  },
+  {
+   "month": "2024-M11",
+   "black_unemployment_pct": 6.3,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.658
+  },
+  {
+   "month": "2024-M12",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 1.694
+  },
+  {
+   "month": "2025-M01",
+   "black_unemployment_pct": 6.2,
+   "white_unemployment_pct": 3.5,
+   "black_white_ratio": 1.771
+  },
+  {
+   "month": "2025-M02",
+   "black_unemployment_pct": 6.0,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.579
+  },
+  {
+   "month": "2025-M03",
+   "black_unemployment_pct": 6.2,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 1.676
+  },
+  {
+   "month": "2025-M04",
+   "black_unemployment_pct": 6.4,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.684
+  },
+  {
+   "month": "2025-M05",
+   "black_unemployment_pct": 6.1,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.605
+  },
+  {
+   "month": "2025-M06",
+   "black_unemployment_pct": 6.9,
+   "white_unemployment_pct": 3.6,
+   "black_white_ratio": 1.917
+  },
+  {
+   "month": "2025-M07",
+   "black_unemployment_pct": 7.2,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 1.946
+  },
+  {
+   "month": "2025-M08",
+   "black_unemployment_pct": 7.6,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.054
+  },
+  {
+   "month": "2025-M09",
+   "black_unemployment_pct": 7.6,
+   "white_unemployment_pct": 3.7,
+   "black_white_ratio": 2.054
+  },
+  {
+   "month": "2025-M11",
+   "black_unemployment_pct": 8.2,
+   "white_unemployment_pct": 3.9,
+   "black_white_ratio": 2.103
+  },
+  {
+   "month": "2025-M12",
+   "black_unemployment_pct": 7.5,
+   "white_unemployment_pct": 3.8,
+   "black_white_ratio": 1.974
+  }
+ ]
+}
